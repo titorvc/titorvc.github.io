@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectos del Pensamiento | IA + CAS</title>
+    <meta name="description" content="Programa de Enriquecimiento Extracurricular con Scratch e IA para estudiantes con Aptitudes Sobresalientes (CAS).">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0F172A',
+                        secondary: '#7C3AED',
+                        accent: '#06B6D4',
+                        highlight: '#FDE047', /* bright yellow */
+                        pop: '#EC4899', /* bright pink */
+                    },
+                    boxShadow: {
+                        'brutal-light': '6px 6px 0px 0px rgba(15, 23, 42, 1)',
+                        'brutal-dark': '6px 6px 0px 0px rgba(6, 182, 212, 1)',
+                        'brutal-hover-light': '2px 2px 0px 0px rgba(15, 23, 42, 1)',
+                        'brutal-hover-dark': '2px 2px 0px 0px rgba(6, 182, 212, 1)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Brutalist Card Transitions */
+        .card-brutal {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-brutal:hover {
+            transform: translate(4px, 4px);
+        }
+
+        /* 3D button */
+        .btn-3d {
+            transition: transform 0.1s, box-shadow 0.1s;
+        }
+        .btn-3d:active {
+            transform: translate(4px, 4px) !important;
+            box-shadow: 0px 0px 0px 0px currentColor !important;
+        }
+
+        .accordion-content {
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 500px;
+        }
+
+        .accordion-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-item.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="bg-[#f0f4f8] text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-highlight selection:text-slate-900">
+    
+    <!-- Theme Toggle Floating Button -->
+    <button id="theme-toggle" class="fixed bottom-6 right-6 z-50 p-4 rounded-full border-2 border-slate-900 bg-highlight text-slate-900 shadow-brutal-light hover:shadow-brutal-hover-light card-brutal flex items-center justify-center focus:outline-none">
+        <svg id="theme-toggle-dark-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        <svg id="theme-toggle-light-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+    </button>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed w-full top-0 z-40 bg-white dark:bg-slate-900 border-b-4 border-slate-900 dark:border-slate-700 transition-colors duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-none border-2 border-slate-900 bg-accent text-slate-900 flex items-center justify-center font-black text-xl shadow-[3px_3px_0px_0px_rgba(15,23,42,1)]">
+                        AP
+                    </div>
+                    <span class="font-black text-xl tracking-tight hidden sm:block">Arquitectos del <span class="text-secondary dark:text-accent">Pensamiento</span></span>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8 font-bold">
+                    <a href="#enfoque" class="hover:text-accent transition-colors">Enfoque</a>
+                    <a href="#tecnocognicion" class="hover:text-accent transition-colors">Tecnocognición</a>
+                    <a href="#plan-estudios" class="hover:text-accent transition-colors">Plan de Estudios</a>
+                    <a href="#impacto" class="hover:text-accent transition-colors">Portafolio CAS</a>
+                    <a href="#instructor" class="hover:text-accent transition-colors">Instructor</a>
+                </nav>
+
+                <div class="hidden md:block">
+                    <a href="#contacto" class="btn-3d inline-block border-2 border-slate-900 bg-secondary text-white dark:bg-accent dark:text-slate-900 font-bold px-6 py-2 shadow-brutal-light dark:shadow-brutal-dark">
+                        Contactar
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="p-2 border-2 border-slate-900 bg-highlight text-slate-900 shadow-[3px_3px_0px_0px_rgba(15,23,42,1)] btn-3d focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white dark:bg-slate-900 border-b-4 border-slate-900">
+            <div class="px-4 pt-2 pb-6 space-y-2 font-bold">
+                <a href="#enfoque" class="block px-3 py-2 border-2 border-transparent hover:border-slate-900 dark:hover:border-slate-700 bg-slate-100 dark:bg-slate-800">Enfoque</a>
+                <a href="#tecnocognicion" class="block px-3 py-2 border-2 border-transparent hover:border-slate-900 dark:hover:border-slate-700 bg-slate-100 dark:bg-slate-800">Tecnocognición</a>
+                <a href="#plan-estudios" class="block px-3 py-2 border-2 border-transparent hover:border-slate-900 dark:hover:border-slate-700 bg-slate-100 dark:bg-slate-800">Plan de Estudios</a>
+                <a href="#impacto" class="block px-3 py-2 border-2 border-transparent hover:border-slate-900 dark:hover:border-slate-700 bg-slate-100 dark:bg-slate-800">Portafolio CAS</a>
+                <a href="#instructor" class="block px-3 py-2 border-2 border-transparent hover:border-slate-900 dark:hover:border-slate-700 bg-slate-100 dark:bg-slate-800">Instructor</a>
+                <a href="#contacto" class="block w-full text-center mt-4 border-2 border-slate-900 bg-pop text-white py-3 shadow-[3px_3px_0px_0px_rgba(15,23,42,1)] btn-3d">Contactar</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="relative pt-40 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] dark:bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:16px_16px] -z-10"></div>
+            
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    <span class="px-4 py-2 border-2 border-slate-900 dark:border-accent bg-highlight text-slate-900 font-bold uppercase tracking-wider text-xs shadow-[3px_3px_0px_0px_rgba(15,23,42,1)] dark:shadow-[3px_3px_0px_0px_rgba(6,182,212,1)]">
+                        Portafolio USAER
+                    </span>
+                    <span class="px-4 py-2 border-2 border-slate-900 dark:border-pop bg-accent text-slate-900 font-bold uppercase tracking-wider text-xs shadow-[3px_3px_0px_0px_rgba(15,23,42,1)] dark:shadow-[3px_3px_0px_0px_rgba(236,72,153,1)]">
+                        Tecnocognición
+                    </span>
+                </div>
+
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-tight mb-8 max-w-5xl mx-auto uppercase">
+                    Formando a los <span class="text-secondary dark:text-accent relative inline-block">
+                        Creadores
+                        <svg class="absolute -bottom-2 left-0 w-full h-4 text-pop" viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 10 Q 50 20 100 10" stroke="currentColor" stroke-width="4" fill="none"/></svg>
+                    </span><br/>
+                    de la Era de la IA
+                </h1>
+                
+                <p class="mt-6 text-xl md:text-2xl font-medium max-w-3xl mx-auto leading-relaxed mb-10 dark:text-slate-300">
+                    Programa de Enriquecimiento Extracurricular con Scratch e IA diseñado específicamente para estudiantes con <strong class="bg-highlight px-1 text-slate-900">Aptitudes Sobresalientes (CAS)</strong>.
+                </p>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-6 mt-10">
+                    <a href="#contacto" class="btn-3d px-8 py-4 border-4 border-slate-900 bg-secondary text-white dark:bg-accent dark:text-slate-900 font-black text-lg shadow-brutal-light dark:shadow-brutal-dark">
+                        Agendar Presentación
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: EL VALOR DE LA TECNOCOGNICIÓN -->
+        <section id="tecnocognicion" class="py-24 relative z-10 border-y-4 border-slate-900 bg-pop text-slate-900 dark:bg-slate-800 dark:text-white dark:border-slate-700">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-6xl font-black mb-6 uppercase">El Valor de la Tecnocognición</h2>
+                    <p class="text-xl font-medium">Por qué programar IA desarrolla el pensamiento crítico y la ética en un mundo saturado de algoritmos.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-900 p-8 shadow-brutal-light dark:shadow-brutal-dark card-brutal relative">
+                        <div class="absolute -top-6 -right-6 w-16 h-16 bg-highlight border-4 border-slate-900 rounded-full flex items-center justify-center text-3xl z-10">🧠</div>
+                        <h3 class="text-2xl font-black mb-6 dark:text-accent">De Consumidor a Creador</h3>
+                        <p class="text-lg font-medium dark:text-slate-300 mb-4">El antídoto al "Brainrot" digital es transformar el consumo pasivo de pantallas en una auditoría activa.</p>
+                        <p class="text-lg font-medium dark:text-slate-300">Al construir sus propios modelos de IA, los alumnos con aptitudes sobresalientes comprenden cómo la tecnología toma decisiones y captura su atención.</p>
+                    </div>
+
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-900 p-8 shadow-brutal-light dark:shadow-brutal-dark card-brutal relative">
+                        <div class="absolute -top-6 -right-6 w-16 h-16 bg-accent border-4 border-slate-900 flex items-center justify-center text-3xl z-10">⚖️</div>
+                        <h3 class="text-2xl font-black mb-6 dark:text-pop">Ética y Auditoría Algorítmica</h3>
+                        <p class="text-lg font-medium dark:text-slate-300 mb-4">No se trata solo de que la máquina funcione, sino de evaluar por qué falla o discrimina.</p>
+                        <p class="text-lg font-medium dark:text-slate-300">Elevamos la exigencia cognitiva (Taxonomía de Bloom superior: Crear, Auditar, Evaluar) integrando la detección de sesgos desde la niñez.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: PILARES METODOLÓGICOS -->
+        <section id="enfoque" class="py-24 relative z-10 bg-white dark:bg-slate-950">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 uppercase dark:text-white">Pilares Neuro-Pedagógicos</h2>
+                    <p class="text-xl font-medium text-slate-600 dark:text-slate-400">Diseño instruccional fundamentado en neurobiología del desarrollo.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Tarjeta 1 -->
+                    <div class="border-4 border-slate-900 bg-[#C4B5FD] dark:bg-slate-800 p-8 shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <h3 class="text-2xl font-black mb-4 dark:text-white">Enriquecimiento USAER</h3>
+                        <p class="font-medium text-slate-800 dark:text-slate-300">Basado en el modelo sociocultural de la SEP y Centros de Interés. Diseñado específicamente para canalizar la intensidad cognitiva y evitar el desinterés escolar en alumnos CAS.</p>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="border-4 border-slate-900 bg-[#67E8F9] dark:bg-slate-800 p-8 shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <h3 class="text-2xl font-black mb-4 dark:text-white">Modelo KAIT & MIT</h3>
+                        <p class="font-medium text-slate-800 dark:text-slate-300">Aplicación de pensamiento de diseño en IA. Fomentamos la detección de sesgos algorítmicos y la responsabilidad tecnológica basados en currículas del MIT.</p>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="border-4 border-slate-900 bg-[#FCD34D] dark:bg-slate-800 p-8 shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <h3 class="text-2xl font-black mb-4 dark:text-white">Creatividad Divergente</h3>
+                        <p class="font-medium text-slate-800 dark:text-slate-300">Aplicación práctica de los Talentos de Taylor (fluidez, flexibilidad, originalidad) programando clasificadores y proyectos visuales interactivos en Scratch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: PLAN DE ESTUDIOS INTERACTIVO -->
+        <section id="plan-estudios" class="py-24 relative z-10 border-t-4 border-slate-900 bg-slate-100 dark:bg-slate-900 dark:border-slate-700">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 uppercase dark:text-white">Plan de Estudios</h2>
+                    <p class="text-xl font-medium text-slate-600 dark:text-slate-400">12 Sesiones estructuradas en 4 Módulos de progresión.</p>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Módulo 1 -->
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-800 accordion-item active shadow-brutal-light dark:shadow-brutal-dark">
+                        <button class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-highlight px-3 py-1 border-2 border-slate-900 font-black text-slate-900">01</div>
+                                <h3 class="text-xl font-black dark:text-white">Desmitificando la IA</h3>
+                            </div>
+                            <svg class="w-8 h-8 text-slate-900 dark:text-white accordion-icon shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="accordion-content border-t-4 border-slate-900 dark:border-slate-700 bg-[#f8fafc] dark:bg-slate-900">
+                            <div class="p-6">
+                                <p class="font-bold mb-4 dark:text-slate-300">Comprendiendo cómo aprenden las máquinas más allá de la magia aparente.</p>
+                                <ul class="list-disc list-inside font-medium space-y-2 ml-2 dark:text-slate-400">
+                                    <li>Introducción a <em>Machine Learning for Kids</em>.</li>
+                                    <li>Entrenamiento guiado de modelos de visión artificial.</li>
+                                    <li>Clasificación de lenguaje y reconocimiento de patrones.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 2 -->
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-800 accordion-item shadow-brutal-light dark:shadow-brutal-dark">
+                        <button class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-accent px-3 py-1 border-2 border-slate-900 font-black text-slate-900">02</div>
+                                <h3 class="text-xl font-black dark:text-white">Scratch + Inteligencia Artificial</h3>
+                            </div>
+                            <svg class="w-8 h-8 text-slate-900 dark:text-white accordion-icon shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="accordion-content border-t-4 border-slate-900 dark:border-slate-700 bg-[#f8fafc] dark:bg-slate-900">
+                            <div class="p-6">
+                                <p class="font-bold mb-4 dark:text-slate-300">Integración de modelos entrenados en entornos de programación visual.</p>
+                                <ul class="list-disc list-inside font-medium space-y-2 ml-2 dark:text-slate-400">
+                                    <li>Programación de mascotas virtuales emocionales (Sentimiento de texto).</li>
+                                    <li>El camaleón inteligente: reconocimiento de colores y adaptación.</li>
+                                    <li>Bases lógicas para videojuegos con física interactiva.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 3 -->
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-800 accordion-item shadow-brutal-light dark:shadow-brutal-dark">
+                        <button class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-pop px-3 py-1 border-2 border-slate-900 font-black text-white">03</div>
+                                <h3 class="text-xl font-black dark:text-white">Auditoría Algorítmica y Ética</h3>
+                            </div>
+                            <svg class="w-8 h-8 text-slate-900 dark:text-white accordion-icon shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="accordion-content border-t-4 border-slate-900 dark:border-slate-700 bg-[#f8fafc] dark:bg-slate-900">
+                            <div class="p-6">
+                                <p class="font-bold mb-4 dark:text-slate-300">Desarrollando el pensamiento crítico hacia la tecnología.</p>
+                                <ul class="list-disc list-inside font-medium space-y-2 ml-2 dark:text-slate-400">
+                                    <li>"Rompiendo el algoritmo": cómo engañar a un modelo y por qué falla.</li>
+                                    <li>Detección de sesgos en Inteligencia Artificial.</li>
+                                    <li>Dilemas éticos y responsabilidad de los creadores tecnológicos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Módulo 4 -->
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-800 accordion-item shadow-brutal-light dark:shadow-brutal-dark">
+                        <button class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-secondary px-3 py-1 border-2 border-slate-900 font-black text-white">04</div>
+                                <h3 class="text-xl font-black dark:text-white">Feria de Ciencias y Portafolio</h3>
+                            </div>
+                            <svg class="w-8 h-8 text-slate-900 dark:text-white accordion-icon shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="accordion-content border-t-4 border-slate-900 dark:border-slate-700 bg-[#f8fafc] dark:bg-slate-900">
+                            <div class="p-6">
+                                <p class="font-bold mb-4 dark:text-slate-300">Demostración práctica de los aprendizajes y evaluación final.</p>
+                                <ul class="list-disc list-inside font-medium space-y-2 ml-2 dark:text-slate-400">
+                                    <li>Diseño libre de un proyecto funcional en Scratch usando IA.</li>
+                                    <li>Feria de ciencias digital: presentación de proyectos.</li>
+                                    <li>Generación de evidencias técnicas para el portafolio USAER.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: PORTAFOLIO DE EVIDENCIAS -->
+        <section id="impacto" class="py-24 relative z-10 border-t-4 border-slate-900 bg-highlight dark:bg-slate-800 dark:border-slate-700">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 uppercase text-slate-900 dark:text-white">Portafolio de Evidencias Tecnológicas</h2>
+                    <p class="text-xl font-bold text-slate-800 dark:text-slate-300">Los proyectos desarrollados fungen como evidencia técnica directa para respaldar los expedientes CAS ante las normativas escolares.</p>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Badges 3D -->
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-900 p-6 w-full md:w-[calc(33%-1rem)] text-center shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <div class="text-4xl mb-4">🌟</div>
+                        <h4 class="font-black text-xl mb-2 dark:text-accent uppercase">Rareza & Excelencia</h4>
+                        <p class="font-medium text-slate-600 dark:text-slate-400">Proyectos complejos fuera de lo común para el grado escolar, demostrando alta calidad lógica.</p>
+                    </div>
+                    
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-900 p-6 w-full md:w-[calc(33%-1rem)] text-center shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <div class="text-4xl mb-4">🗣️</div>
+                        <h4 class="font-black text-xl mb-2 dark:text-pop uppercase">Demostrabilidad</h4>
+                        <p class="font-medium text-slate-600 dark:text-slate-400">Capacidad verbal de explicar la lógica subyacente de su código y modelos a evaluadores y padres.</p>
+                    </div>
+
+                    <div class="border-4 border-slate-900 bg-white dark:bg-slate-900 p-6 w-full md:w-[calc(33%-1rem)] text-center shadow-brutal-light dark:shadow-brutal-dark card-brutal">
+                        <div class="text-4xl mb-4">🌍</div>
+                        <h4 class="font-black text-xl mb-2 dark:text-secondary uppercase">Impacto y Valor</h4>
+                        <p class="font-medium text-slate-600 dark:text-slate-400">Generación de múltiples soluciones con un impacto educativo y social tangible (Juegos educativos, herramientas).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 6: PERFIL DEL INSTRUCTOR -->
+        <section id="instructor" class="py-24 relative z-10 bg-white dark:bg-slate-950 border-t-4 border-slate-900 dark:border-slate-700">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="border-8 border-slate-900 dark:border-accent bg-accent/10 dark:bg-slate-900 rounded-none p-8 md:p-12 relative overflow-hidden shadow-brutal-light dark:shadow-brutal-dark">
+                    
+                    <div class="flex flex-col md:flex-row gap-10 items-center relative z-10">
+                        <div class="w-56 h-56 border-8 border-slate-900 dark:border-pop shadow-brutal-light dark:shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] shrink-0 overflow-hidden bg-white">
+                            <!-- Placeholder -->
+                            <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?q=80&w=1587&auto=format&fit=crop" alt="Roberto Vargas" class="w-full h-full object-cover grayscale contrast-125">
+                        </div>
+                        
+                        <div>
+                            <span class="bg-pop text-white px-3 py-1 font-black uppercase text-sm border-2 border-slate-900 mb-4 inline-block">Dirección Académica</span>
+                            <h2 class="text-4xl md:text-5xl font-black mb-2 dark:text-white">Roberto Vargas</h2>
+                            <h3 class="text-2xl font-bold text-slate-700 dark:text-accent mb-6">Data Engineer & AI Architect</h3>
+                            
+                            <ul class="space-y-4 font-bold text-lg dark:text-slate-300">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-pop mt-1">✦</span>
+                                    Arquitecto de End-to-End Data Pipelines (Airflow, Docker, GCP) y sistemas de Inteligencia Artificial Multi-Agente (LangGraph).
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-pop mt-1">✦</span>
+                                    Formador de docentes USAER en el diseño de planes de intervención escolar asistidos por IA.
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-pop mt-1">✦</span>
+                                    Ponente experto e investigador sobre el impacto neurobiológico de la exposición a pantallas en preescolares.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 7: FORMULARIO DE CONTACTO -->
+        <section id="contacto" class="py-24 relative z-10 border-t-4 border-slate-900 bg-[#e2e8f0] dark:bg-slate-900 dark:border-slate-700">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-black mb-4 uppercase dark:text-white">Lleva el Programa a tu Escuela</h2>
+                    <p class="text-xl font-bold text-slate-700 dark:text-slate-400">Solicita el proyecto técnico completo para Coordinaciones USAER o Direcciones Académicas.</p>
+                </div>
+
+                <div class="border-4 border-slate-900 bg-white dark:bg-slate-800 p-8 md:p-10 shadow-brutal-light dark:shadow-brutal-dark">
+                    <!-- "Progressive" Form feel -->
+                    <form class="space-y-6 font-bold" onsubmit="event.preventDefault(); alert('Solicitud enviada con éxito. Nos pondremos en contacto a la brevedad.');">
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="nombre" class="block text-sm uppercase mb-2 dark:text-slate-300">Nombre Completo</label>
+                                <input type="text" id="nombre" class="w-full border-4 border-slate-900 bg-slate-50 dark:bg-slate-900 dark:text-white px-4 py-3 focus:outline-none focus:ring-4 focus:ring-highlight dark:focus:ring-accent transition-shadow" required>
+                            </div>
+                            <div>
+                                <label for="cargo" class="block text-sm uppercase mb-2 dark:text-slate-300">Cargo / Perfil</label>
+                                <select id="cargo" class="w-full border-4 border-slate-900 bg-slate-50 dark:bg-slate-900 dark:text-white px-4 py-3 focus:outline-none focus:ring-4 focus:ring-highlight dark:focus:ring-accent transition-shadow" required>
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="director">Director/a de Escuela</option>
+                                    <option value="coordinador">Coordinador/a USAER</option>
+                                    <option value="padre">Padre/Madre CAS</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm uppercase mb-2 dark:text-slate-300">Correo Institucional / Personal</label>
+                            <input type="email" id="email" class="w-full border-4 border-slate-900 bg-slate-50 dark:bg-slate-900 dark:text-white px-4 py-3 focus:outline-none focus:ring-4 focus:ring-highlight dark:focus:ring-accent transition-shadow" required>
+                        </div>
+
+                        <div>
+                            <label for="mensaje" class="block text-sm uppercase mb-2 dark:text-slate-300">Cuéntanos sobre tus alumnos / institución</label>
+                            <textarea id="mensaje" rows="4" class="w-full border-4 border-slate-900 bg-slate-50 dark:bg-slate-900 dark:text-white px-4 py-3 focus:outline-none focus:ring-4 focus:ring-highlight dark:focus:ring-accent transition-shadow" placeholder="¿Cómo podemos adaptar el programa a tu contexto?"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full btn-3d bg-secondary text-white dark:bg-pop dark:text-slate-900 font-black text-2xl uppercase tracking-wider py-5 border-4 border-slate-900 shadow-brutal-light dark:shadow-brutal-dark">
+                            Solicitar Proyecto
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 dark:bg-slate-950 py-12 border-t-4 border-slate-900 relative z-10 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center gap-3 mb-6">
+                <div class="w-10 h-10 border-2 border-white bg-accent text-slate-900 flex items-center justify-center font-black text-lg">
+                    AP
+                </div>
+                <span class="font-black text-2xl uppercase tracking-tight">Arquitectos del Pensamiento</span>
+            </div>
+            <p class="font-bold mb-6 text-slate-400">Innovación EdTech para mentes divergentes.</p>
+            <p class="font-bold text-sm text-slate-500 mt-8">&copy; 2026 Roberto Vargas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT -->
+    <script>
+        // Theme Toggle Logic
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const darkIcon = document.getElementById('theme-toggle-dark-icon');
+        const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+        // Check Local Storage or System Preference
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            lightIcon.classList.remove('hidden');
+        } else {
+            document.documentElement.classList.remove('dark');
+            darkIcon.classList.remove('hidden');
+        }
+
+        themeToggleBtn.addEventListener('click', function() {
+            darkIcon.classList.toggle('hidden');
+            lightIcon.classList.toggle('hidden');
+
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            }
+        });
+
+        // Accordion Logic
+        function toggleAccordion(button) {
+            const item = button.parentElement;
+            const allItems = document.querySelectorAll('.accordion-item');
+            allItems.forEach(el => {
+                if(el !== item && el.classList.contains('active')) {
+                    el.classList.remove('active');
+                }
+            });
+            item.classList.toggle('active');
+        }
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on click
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

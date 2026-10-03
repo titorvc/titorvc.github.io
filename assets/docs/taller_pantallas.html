@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Cerebro Infantil en la Era Digital: Guía para Padres</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Webfont CSS (NO SVG) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              forest: '#1b4332',
+              leaf: '#2d6a4f',
+              sage: '#52b788',
+              coral: '#e07a5f',
+              terracotta: '#c05621',
+              amber: '#f4a261',
+              gold: '#e9c46a',
+              cream: '#fbf8f3',
+              sand: '#f4efe6',
+              dark: '#212529',
+              muted: '#5d5652'
+            }
+          },
+          fontFamily: {
+            sans: ['Nunito', 'sans-serif'],
+            serif: ['Lora', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #fbf8f3;
+      color: #212529;
+      font-family: 'Nunito', sans-serif;
+    }
+    .chart-container {
+      position: relative;
+      width: 100%;
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 320px;
+      max-height: 400px;
+    }
+    @media (min-width: 768px) {
+      .chart-container {
+        height: 360px;
+      }
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-brand-coral selection:text-white">
+
+  <!-- Palette: Warm Mayan Nature (Forest Green #1b4332, Terracotta Coral #e07a5f, Warm Sand #e9c46a, Dark Slate #212529, Soft Cream #fbf8f3) -->
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky top-0 z-50 bg-brand-forest text-white shadow-lg border-b border-brand-leaf">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-full bg-brand-coral flex items-center justify-center font-bold text-white text-xl">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <div>
+          <h1 class="font-serif font-bold text-lg sm:text-xl leading-tight">El Cerebro Infantil en la Era Digital</h1>
+          <p class="text-xs text-brand-gold font-semibold">Guía Psicoeducativa para Familias de Yucatán</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold text-emerald-100">
+        <a href="#kpi" class="hover:text-brand-gold transition-colors">Resumen</a>
+        <a href="#neuro" class="hover:text-brand-gold transition-colors">Neurociencia</a>
+        <a href="#contexto" class="hover:text-brand-gold transition-colors">Contexto Rural</a>
+        <a href="#salud" class="hover:text-brand-gold transition-colors">Vista y Sueño</a>
+        <a href="#phubbing" class="hover:text-brand-gold transition-colors">Tecnoferencia</a>
+        <a href="#reglas" class="hover:text-brand-gold transition-colors">Normativa</a>
+        <a href="#taller" class="bg-brand-coral text-white px-3 py-1.5 rounded-lg hover:bg-brand-terracotta transition-colors shadow">Taller Práctico</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero & Intro Banner -->
+  <section class="bg-gradient-to-b from-brand-forest to-brand-leaf text-white py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <span class="inline-block bg-brand-amber/20 text-brand-gold border border-brand-amber/40 rounded-full px-4 py-1 text-xs sm:text-sm font-extrabold uppercase tracking-widest mb-4">
+        <i class="fa-solid fa-seedling mr-1"></i> Charla de 30 Minutos + Taller Práctico para Padres
+      </span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-6 leading-tight">
+        Protegiendo el Desarrollo Temprano en el Preescolar
+      </h2>
+      <p class="text-base sm:text-xl text-emerald-100 max-w-3xl mx-auto mb-8 font-light leading-relaxed">
+        Los primeros 5 años de vida representan la ventana de mayor neuroplasticidad biológica. Esta infografía sintetiza la evidencia neurobiológica y médica internacional, contextualizada para los hogares de las comunidades de Yucatán.
+      </p>
+      
+      <div class="flex flex-wrap justify-center gap-4 text-left">
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/10 flex items-center space-x-3 max-w-xs">
+          <i class="fa-solid fa-clock text-brand-gold text-2xl"></i>
+          <div>
+            <div class="text-xs text-emerald-200">Duración Recomendada</div>
+            <div class="font-bold text-sm">20 min Charla + 20 min Taller</div>
+          </div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/10 flex items-center space-x-3 max-w-xs">
+          <i class="fa-solid fa-graduation-cap text-brand-gold text-2xl"></i>
+          <div>
+            <div class="text-xs text-emerald-200">Enfoque Comunitario</div>
+            <div class="font-bold text-sm">Aprovechar la Ventaja Rural</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: KPI Cards -->
+  <section id="kpi" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 mb-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <div class="bg-white rounded-2xl p-6 shadow-xl border-t-4 border-brand-coral flex flex-col justify-between">
+        <div>
+          <div class="text-xs font-bold text-brand-terracotta uppercase tracking-wider mb-1">Plasticidad Cerebral</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-brand-forest mb-2">1,000,000</div>
+          <p class="text-sm text-brand-muted leading-snug">
+            Nuevas conexiones neuronales creadas <strong>por segundo</strong> durante los primeros 5 años de vida.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-gray-100 text-xs text-brand-forest font-bold flex items-center">
+          <i class="fa-solid fa-bolt text-brand-coral mr-2"></i> Requiere estimulación real
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-xl border-t-4 border-brand-amber flex flex-col justify-between">
+        <div>
+          <div class="text-xs font-bold text-brand-terracotta uppercase tracking-wider mb-1">Recomendación Menores 2 Años</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-brand-forest mb-2">0 Minutos</div>
+          <p class="text-sm text-brand-muted leading-snug">
+            Cero pantallas. Única excepción: videollamadas breves con familiares lejanos (OMS / AAP).
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-gray-100 text-xs text-brand-forest font-bold flex items-center">
+          <i class="fa-solid fa-ban text-brand-terracotta mr-2"></i> Evitación absoluta
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-xl border-t-4 border-brand-leaf flex flex-col justify-between">
+        <div>
+          <div class="text-xs font-bold text-brand-terracotta uppercase tracking-wider mb-1">Riesgo Oftalmológico</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-brand-forest mb-2">+21%</div>
+          <p class="text-sm text-brand-muted leading-snug">
+            Incremento en la probabilidad de desarrollar miopía infantil por cada hora diaria adicional en pantalla.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-gray-100 text-xs text-brand-forest font-bold flex items-center">
+          <i class="fa-solid fa-eye text-brand-leaf mr-2"></i> Falta de luz solar exterior
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-xl border-t-4 border-emerald-600 flex flex-col justify-between">
+        <div>
+          <div class="text-xs font-bold text-brand-terracotta uppercase tracking-wider mb-1">Adopción Rural en México</div>
+          <div class="text-3xl sm:text-4xl font-extrabold text-brand-forest mb-2">+2.5%</div>
+          <p class="text-sm text-brand-muted leading-snug">
+            Crecimiento anual de internet en zonas rurales (ENDUTIH 2024), superando la velocidad del ámbito urbano.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-gray-100 text-xs text-brand-forest font-bold flex items-center">
+          <i class="fa-solid fa-mobile-screen text-brand-leaf mr-2"></i> Smartphones en el hogar
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16 pb-16">
+
+    <!-- Section 2: Impacto Neurobiológico -->
+    <section id="neuro" class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-brand-sand">
+      <div class="max-w-3xl mb-8">
+        <span class="text-xs font-extrabold text-brand-coral uppercase tracking-widest bg-brand-sand px-3 py-1 rounded-md">
+          Evidencia de Neuroimagen (JAMA Pediatrics)
+        </span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-forest mt-2 mb-3">
+          Impacto en la Materia Blanca Cerebral
+        </h3>
+        <p class="text-brand-muted text-base leading-relaxed">
+          Estudios de resonancia magnética con tensor de difusión (DTI) en preescolares han demostrado que el uso de pantallas por encima de los límites recomendados se asocia directamente con una <strong>menor integridad microestructural (Anisotropía Fraccional)</strong> en tractos nerviosos clave responsables del lenguaje, la autorregulación y la lectura emergente.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Chart Column -->
+        <div class="lg:col-span-7 bg-brand-cream rounded-xl p-4 sm:p-6 border border-gray-200">
+          <h4 class="font-bold text-center text-brand-forest mb-2 text-sm sm:text-base">
+            Integridad Microestructural de Tractos Cerebrales (Reducción por Pantallas)
+          </h4>
+          <p class="text-xs text-center text-brand-muted mb-4">
+            Valores menores indican menor velocidad de procesamiento y menor densidad axonal
+          </p>
+          <div class="chart-container">
+            <canvas id="neuroChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Explanatory Context Column -->
+        <div class="lg:col-span-5 space-y-4 text-sm">
+          <div class="p-4 rounded-xl bg-amber-50 border-l-4 border-brand-amber">
+            <h5 class="font-bold text-brand-forest text-base mb-1">
+              <i class="fa-solid fa-network-wired text-brand-coral mr-2"></i>Fascículo Arqueado
+            </h5>
+            <p class="text-brand-muted">
+              Conecta las áreas cerebrales de Broca y Wernicke. Su menor mielinización resulta en menor vocabulario y lentitud para expresar ideas verbales.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-emerald-50 border-l-4 border-brand-leaf">
+            <h5 class="font-bold text-brand-forest text-base mb-1">
+              <i class="fa-solid fa-brain text-brand-leaf mr-2"></i>Radiación Talámica Anterior
+            </h5>
+            <p class="text-brand-muted">
+              Sustenta las funciones ejecutivas, el control de impulsos y la capacidad de poner atención en el salón de clases sin aburrirse.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-orange-50 border-l-4 border-brand-coral">
+            <h5 class="font-bold text-brand-forest text-base mb-1">
+              <i class="fa-solid fa-heart text-brand-coral mr-2"></i>Fascículo Uncinado
+            </h5>
+            <p class="text-brand-muted">
+              Esencial para la asociación emocional y la denominación rápida de objetos. Se debilita cuando el niño no juega con objetos reales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Contexto Sociodemográfico México y Yucatán -->
+    <section id="contexto" class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-brand-sand">
+      <div class="max-w-3xl mb-8">
+        <span class="text-xs font-extrabold text-brand-leaf uppercase tracking-widest bg-emerald-50 text-emerald-800 px-3 py-1 rounded-md">
+          Datos Censales Nacionales (ENDUTIH / INEGI)
+        </span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-forest mt-2 mb-3">
+          La Realidad Tecnológica en las Comunidades
+        </h3>
+        <p class="text-brand-muted text-base leading-relaxed">
+          Existe el mito de que el niño en zonas rurales está libre de pantallas. Sin embargo, los datos de la Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares demuestran que la telefonía móvil prepago y las Smart TV han penetrado con fuerza en los pueblos de México y Yucatán.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Explanatory Context Column -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="bg-brand-cream p-5 rounded-xl border border-brand-sand">
+            <h4 class="font-bold text-brand-forest text-lg mb-2">
+              <i class="fa-solid fa-wifi text-brand-coral mr-2"></i>El Celular como Vector Dominante
+            </h4>
+            <p class="text-sm text-brand-muted leading-relaxed">
+              El <strong>72.8% de los usuarios</strong> accede a través de esquemas de datos de prepago (promedio $155 MXN/mes). El teléfono de papá o mamá se convierte rápidamente en la principal herramienta de entretenimiento del preescolar.
+            </p>
+          </div>
+
+          <div class="bg-brand-cream p-5 rounded-xl border border-brand-sand">
+            <h4 class="font-bold text-brand-forest text-lg mb-2">
+              <i class="fa-solid fa-tv text-brand-leaf mr-2"></i>El Auge de las Smart TV
+            </h4>
+            <p class="text-sm text-brand-muted leading-relaxed">
+              Con un crecimiento del <strong>43.6% en los hogares</strong>, las televisiones con conexión a internet transmiten videos de reproducción continua (YouTube) de fondo mientras el niño juega o come.
+            </p>
+          </div>
+
+          <div class="p-4 bg-amber-50 rounded-xl border border-amber-200 text-xs text-amber-900 font-medium">
+            <i class="fa-solid fa-triangle-exclamation text-brand-amber mr-1"></i>
+            <strong>Riesgo de Desplazamiento:</strong> En familias con recursos limitados, las pantallas son usadas con mayor frecuencia como "niñeras electrónicas", reduciendo el diálogo directo entre padres e hijos.
+          </div>
+        </div>
+
+        <!-- Chart Column -->
+        <div class="lg:col-span-7 bg-brand-cream rounded-xl p-4 sm:p-6 border border-gray-200">
+          <h4 class="font-bold text-center text-brand-forest mb-2 text-sm sm:text-base">
+            Acceso Tecnológico en Hogares (Comparativo Urbano vs Rural en México)
+          </h4>
+          <p class="text-xs text-center text-brand-muted mb-4">
+            Porcentaje de usuarios e incremento anual del acceso a internet
+          </p>
+          <div class="chart-container">
+            <canvas id="techChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Salud Fisiológica, Vista y Sueño -->
+    <section id="salud" class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-brand-sand">
+      <div class="max-w-3xl mb-8">
+        <span class="text-xs font-extrabold text-brand-coral uppercase tracking-widest bg-amber-100 text-amber-900 px-3 py-1 rounded-md">
+          Consecuencia Fisiológica Acumulativa
+        </span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-forest mt-2 mb-3">
+          Miopía Precoz, Alteración del Sueño y Motricidad
+        </h3>
+        <p class="text-brand-muted text-base leading-relaxed">
+          La exposición prolongada no solo altera la mente; afecta la estructura del ojo infantil y rompe el ciclo hormonal del sueño. A mayor tiempo frente al monitor, la retina recibe menos luz solar natural (que previene la miopía) y la luz azul de noche bloquea la liberación de melatonina.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Chart Column -->
+        <div class="lg:col-span-7 bg-brand-cream rounded-xl p-4 sm:p-6 border border-gray-200">
+          <h4 class="font-bold text-center text-brand-forest mb-2 text-sm sm:text-base">
+            Riesgo de Miopía Infantil y Retraso en Conciliación del Sueño
+          </h4>
+          <p class="text-xs text-center text-brand-muted mb-4">
+            Proyección del impacto según las horas diarias de exposición digital
+          </p>
+          <div class="chart-container">
+            <canvas id="healthChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Explanatory Context Column -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="p-4 rounded-xl border border-gray-200 bg-white shadow-sm flex items-start space-x-3">
+            <div class="w-10 h-10 rounded-full bg-red-100 text-red-600 flex items-center justify-center flex-shrink-0 font-bold">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-brand-forest text-sm">Supresión de Melatonina</h5>
+              <p class="text-xs text-brand-muted mt-1 leading-normal">
+                Ver pantallas 1 o 2 horas antes de dormir retrasa la producción de melatonina hasta por 90 minutos, produciendo insomnio y despertares nocturnos.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-gray-200 bg-white shadow-sm flex items-start space-x-3">
+            <div class="w-10 h-10 rounded-full bg-amber-100 text-brand-terracotta flex items-center justify-center flex-shrink-0 font-bold">
+              <i class="fa-solid fa-eye-slash"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-brand-forest text-sm">Síndrome Visual Digital</h5>
+              <p class="text-xs text-brand-muted mt-1 leading-normal">
+                El parpadeo disminuye de 20 a solo 5 veces por minuto. Genera resequedad, ojo rojo, dolor de cabeza y fatiga del músculo ciliar.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-gray-200 bg-white shadow-sm flex items-start space-x-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-brand-forest flex items-center justify-center flex-shrink-0 font-bold">
+              <i class="fa-solid fa-hand"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-brand-forest text-sm">Debilidad en la Pinza Fina</h5>
+              <p class="text-xs text-brand-muted mt-1 leading-normal">
+                Deslizar solo el dedo sobre el cristal no fortalece los músculos de la mano. Los niños llegan al kínder sin fuerza para tomar el lápiz o usar tijeras.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Tecnoferencia y Phubbing Parental -->
+    <section id="phubbing" class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-brand-sand">
+      <div class="max-w-3xl mb-8">
+        <span class="text-xs font-extrabold text-brand-terracotta uppercase tracking-widest bg-red-50 text-red-800 px-3 py-1 rounded-md">
+          Salud Emocional y Relación Familiar
+        </span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-forest mt-2 mb-3">
+          Tecnoferencia y "Phubbing" Parental
+        </h3>
+        <p class="text-brand-muted text-base leading-relaxed">
+          El riesgo de la tecnología no solo está en la pantalla del niño, sino en la pantalla del adulto. La <strong>tecnoferencia</strong> ocurre cuando el celular del padre interrumpe el contacto visual con el hijo. El niño percibe este distanciamiento como un "micro-rechazo" constante.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <!-- Explanatory Context Column -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="p-5 rounded-xl bg-brand-sand border border-brand-amber/30">
+            <h4 class="font-bold text-brand-forest text-base mb-2">
+              <i class="fa-solid fa-quote-left text-brand-coral mr-2"></i>El Chupón Electrónico
+            </h4>
+            <p class="text-sm text-brand-muted leading-relaxed italic">
+              "Entregar el celular para apagar un berrinche apaga el ruido hoy, pero le quita al niño la oportunidad de aprender a calmarse por sí mismo para mañana."
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="flex items-center p-3 bg-red-50 rounded-lg text-xs text-red-900 border-l-4 border-red-500">
+              <i class="fa-solid fa-face-angry text-base mr-3 text-red-600"></i>
+              <div>
+                <strong>Conductas de Externalización (r = 0.21):</strong> Berrinches exagerados, agresión física e hiperactividad como llamadas desesperadas de atención.
+              </div>
+            </div>
+
+            <div class="flex items-center p-3 bg-blue-50 rounded-lg text-xs text-blue-900 border-l-4 border-blue-500">
+              <i class="fa-solid fa-face-sad-tear text-base mr-3 text-blue-600"></i>
+              <div>
+                <strong>Conductas de Internalización (r = 0.27):</strong> Retraimiento social, tristeza, ansiedad y desarrollo de apego inseguro.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chart Column -->
+        <div class="lg:col-span-7 bg-brand-cream rounded-xl p-4 sm:p-6 border border-gray-200">
+          <h4 class="font-bold text-center text-brand-forest mb-2 text-sm sm:text-base">
+            Impacto del Phubbing Parental en la Conducta del Preescolar
+          </h4>
+          <p class="text-xs text-center text-brand-muted mb-4">
+            Magnitud de la correlación con alteraciones psicopatológicas tempranas (Metaanálisis)
+          </p>
+          <div class="chart-container">
+            <canvas id="phubbingChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Normativa Pediátrica por Edad -->
+    <section id="reglas" class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-brand-sand">
+      <div class="max-w-3xl mb-8">
+        <span class="text-xs font-extrabold text-brand-forest uppercase tracking-widest bg-emerald-100 text-brand-forest px-3 py-1 rounded-md">
+          Consenso Médico Internacional y Nacional
+        </span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-forest mt-2 mb-3">
+          Límites de Exposición Recomendados por Edad
+        </h3>
+        <p class="text-brand-muted text-base leading-relaxed">
+          Las guías de la Organización Mundial de la Salud (OMS), la Academia Americana de Pediatría (AAP) y la Secretaría de Salud de México coinciden de manera categórica en las siguientes reglas:
+        </p>
+      </div>
+
+      <!-- Structured Grid (NO SVG) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="bg-brand-cream rounded-2xl p-6 border-2 border-red-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="px-3 py-1 bg-red-100 text-red-800 font-extrabold rounded-full text-xs">Etapa Crítica</span>
+              <i class="fa-solid fa-baby text-2xl text-red-500"></i>
+            </div>
+            <h4 class="font-serif font-bold text-xl text-brand-forest mb-1">0 a 24 Meses</h4>
+            <div class="text-2xl font-black text-red-600 mb-4">Cero Pantallas</div>
+            <p class="text-xs text-brand-muted leading-relaxed mb-4">
+              El cerebro inmaduro sufre el "efecto del déficit de video": no comprende la luz bidimensional. Requiere contacto cara a cara, gatear y explorar texturas.
+            </p>
+          </div>
+          <div class="bg-white p-3 rounded-xl text-xs text-brand-forest font-semibold border border-red-100">
+            <i class="fa-solid fa-circle-check text-green-600 mr-1"></i>
+            Única excepción: Videollamadas breves con abuelos o familiares lejanos.
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-brand-cream rounded-2xl p-6 border-2 border-amber-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="px-3 py-1 bg-amber-100 text-amber-800 font-extrabold rounded-full text-xs">Etapa Preescolar</span>
+              <i class="fa-solid fa-child text-2xl text-amber-600"></i>
+            </div>
+            <h4 class="font-serif font-bold text-xl text-brand-forest mb-1">2 a 5 Años</h4>
+            <div class="text-2xl font-black text-amber-600 mb-4">Máximo 1 Hora / Día</div>
+            <p class="text-xs text-brand-muted leading-relaxed mb-4">
+              Idealmente tendiente a cero. Si se utiliza, el contenido debe ser de ritmo lento, educacional y sin cortes de cámara rápidos ni anuncios.
+            </p>
+          </div>
+          <div class="bg-white p-3 rounded-xl text-xs text-brand-forest font-semibold border border-amber-100">
+            <i class="fa-solid fa-users text-brand-coral mr-1"></i>
+            Regla de Oro: Siempre acompañados por un adulto que dialogue sobre el contenido.
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-brand-cream rounded-2xl p-6 border-2 border-emerald-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="px-3 py-1 bg-emerald-100 text-emerald-800 font-extrabold rounded-full text-xs">Etapa Escolar</span>
+              <i class="fa-solid fa-child-reaching text-2xl text-emerald-600"></i>
+            </div>
+            <h4 class="font-serif font-bold text-xl text-brand-forest mb-1">6 a 12 Años</h4>
+            <div class="text-2xl font-black text-emerald-700 mb-4">1 a 1.5 Horas / Día</div>
+            <p class="text-xs text-brand-muted leading-relaxed mb-4">
+              Supervisado con controles parentales. Las pantallas jamás deben desplazar las 10 horas de sueño ni los 60 minutos de juego físico diario.
+            </p>
+          </div>
+          <div class="bg-white p-3 rounded-xl text-xs text-brand-forest font-semibold border border-emerald-100">
+            <i class="fa-solid fa-moon text-indigo-600 mr-1"></i>
+            Prohibición total: Apagar todo 1.5 horas antes de acostarse.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 7: La Ventaja Rural y Taller Práctico "El Semáforo del Hogar" -->
+    <section id="taller" class="bg-gradient-to-br from-brand-forest to-brand-leaf rounded-2xl p-6 sm:p-10 text-white shadow-2xl">
+      <div class="max-w-3xl mb-8">
+        <span class="inline-block bg-brand-gold text-brand-forest font-extrabold text-xs uppercase tracking-widest px-3 py-1 rounded-md mb-2">
+          Actividad Práctica de 20 Minutos
+        </span>
+        <h3 class="font-serif text-3xl sm:text-4xl font-bold mb-3">
+          Nuestra Mayor Ventaja en Yucatán y "El Semáforo del Hogar"
+        </h3>
+        <p class="text-emerald-100 text-base leading-relaxed">
+          Vivir en una comunidad con patio, árboles y aire libre es un privilegio biológico. El contacto con la tierra, el agua, la sombra de los árboles y la luz del sol previene la miopía, desarrolla la masa muscular y nutre la imaginación que las pantallas apagan.
+        </p>
+      </div>
+
+      <!-- Interactive Workshop Tool Container -->
+      <div class="bg-white text-brand-dark rounded-2xl p-6 sm:p-8 shadow-inner">
+        <div class="text-center max-w-xl mx-auto mb-6">
+          <h4 class="font-serif font-bold text-2xl text-brand-forest">Diseña el Plan de Tu Familia</h4>
+          <p class="text-xs text-brand-muted mt-1">
+            Haz clic en cada luz del semáforo para construir los acuerdos que se llevarán por escrito a casa.
+          </p>
+        </div>
+
+        <!-- Semaphore Selector Tabs -->
+        <div class="flex justify-center space-x-2 sm:space-x-4 mb-8">
+          <button onclick="setSemaforo('rojo')" id="btn-rojo" class="px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-red-500 text-white shadow-lg ring-4 ring-red-200 transition-all">
+            <span class="w-3 h-3 rounded-full bg-white animate-pulse"></span>
+            <span>Luz Roja (Prohibido)</span>
+          </button>
+          <button onclick="setSemaforo('amarillo')" id="btn-amarillo" class="px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-gray-200 text-gray-700 hover:bg-amber-100 transition-all">
+            <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+            <span>Luz Amarilla (Condicionado)</span>
+          </button>
+          <button onclick="setSemaforo('verde')" id="btn-verde" class="px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-gray-200 text-gray-700 hover:bg-emerald-100 transition-all">
+            <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+            <span>Luz Verde (Ventaja Rural)</span>
+          </button>
+        </div>
+
+        <!-- Dynamic Content Box -->
+        <div id="semaforo-content" class="bg-brand-cream rounded-xl p-6 border-2 border-red-200">
+          <!-- Default: Red Light -->
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3 text-red-600">
+              <i class="fa-solid fa-circle-xmark text-3xl"></i>
+              <h5 class="font-serif font-bold text-xl text-brand-forest">Zonas Cero Pantallas en Casa</h5>
+            </div>
+            <p class="text-sm text-brand-muted">
+              Pide a los padres que anoten 2 lugares o momentos específicos donde a partir de hoy las pantallas estarán **estrictamente prohibidas**:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-semibold">
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-utensils text-red-500 mr-2"></i>La Mesa al Comer
+                <p class="font-normal text-gray-500 mt-1">Para favorecer la conversación y la masticación consciente.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-bed text-red-500 mr-2"></i>Cuarto y Cama
+                <p class="font-normal text-gray-500 mt-1">Las recámaras deben ser santuarios de descanso sin televisión ni celulares.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-face-frown text-red-500 mr-2"></i>Durante Berrinches
+                <p class="font-normal text-gray-500 mt-1">Jamás usar la pantalla como pacificador emocional o extintor de conflictos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Custom Checklists for Parents -->
+        <div class="mt-8 pt-6 border-t border-gray-200">
+          <h5 class="font-bold text-brand-forest text-base mb-3 flex items-center">
+            <i class="fa-solid fa-clipboard-check text-brand-coral mr-2"></i>
+            Hoja de Trabajo del Padre / Madre (Compromiso Firmado)
+          </h5>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div class="p-3 bg-white border border-gray-200 rounded-lg">
+              <label class="font-bold text-brand-forest block mb-1">Mi compromiso Luz Roja:</label>
+              <input type="text" placeholder="Ej: No celular a la hora de la cena" class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-coral focus:outline-none">
+            </div>
+            <div class="p-3 bg-white border border-gray-200 rounded-lg">
+              <label class="font-bold text-brand-forest block mb-1">Mi compromiso Luz Amarilla:</label>
+              <input type="text" placeholder="Ej: Máximo 30 min acompañándolo" class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-amber focus:outline-none">
+            </div>
+            <div class="p-3 bg-white border border-gray-200 rounded-lg">
+              <label class="font-bold text-brand-forest block mb-1">Mi compromiso Luz Verde:</label>
+              <input type="text" placeholder="Ej: Jugar con tierra en el patio 45 min" class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-leaf focus:outline-none">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-brand-dark text-white py-8 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 text-center text-xs text-gray-400 space-y-2">
+      <p class="font-bold text-gray-200">
+        Material Psicoeducativo Desarrollado para Jardines de Niños y Comités de Padres de Familia
+      </p>
+      <p>
+        Basado en evidencia de JAMA Pediatrics, Organización Mundial de la Salud (OMS), Academia Americana de Pediatría (AAP) y ENDUTIH (INEGI 2024).
+      </p>
+      <p class="text-brand-gold pt-2">
+        <i class="fa-solid fa-heart mr-1"></i> Protegiendo el desarrollo natural de la infancia en Yucatán.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Code for Chart.js & Interactive Workshop -->
+  <script>
+    // Mandatory Label Wrapping Logic (>16 chars)
+    function wrapLabel(label) {
+      if (typeof label !== 'string') return label;
+      if (label.length <= 16) return label;
+      const words = label.split(' ');
+      const lines = [];
+      let currentLine = '';
+      words.forEach(word => {
+        if ((currentLine + ' ' + word).trim().length > 16) {
+          if (currentLine) lines.push(currentLine.trim());
+          currentLine = word;
+        } else {
+          currentLine = (currentLine + ' ' + word).trim();
+        }
+      });
+      if (currentLine) lines.push(currentLine.trim());
+      return lines;
+    }
+
+    // Shared Tooltip Callback Configuration (Mandatory Rule)
+    const commonTooltipConfig = {
+      callbacks: {
+        title: function(tooltipItems) {
+          const item = tooltipItems[0];
+          let label = item.chart.data.labels[item.dataIndex];
+          if (Array.isArray(label)) {
+            return label.join(' ');
+          } else {
+            return label;
+          }
+        }
+      }
+    };
+
+    // Global Chart.js Font Setup
+    Chart.defaults.font.family = "'Nunito', sans-serif";
+    Chart.defaults.color = "#5d5652";
+
+    // Chart 1: Neurobiological Brain Tract Integrity (Bar Chart)
+    const rawNeuroLabels = [
+      "Fascículo Arqueado (Lenguaje Expresivo)",
+      "Radiación Talámica (Atención y Control)",
+      "Fascículo Uncinado (Emoción y Léxico)",
+      "Longitudinal Superior (Procesamiento Multi)",
+      "Cíngulo (Memoria y Regulación Afec)"
+    ];
+    const wrappedNeuroLabels = rawNeuroLabels.map(wrapLabel);
+
+    const ctxNeuro = document.getElementById('neuroChart').getContext('2d');
+    new Chart(ctxNeuro, {
+      type: 'bar',
+      data: {
+        labels: wrappedNeuroLabels,
+        datasets: [{
+          label: 'Reducción de Integridad Axonal (%)',
+          data: [-38, -32, -29, -25, -22],
+          backgroundColor: '#e07a5f',
+          borderColor: '#c05621',
+          borderWidth: 1,
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: commonTooltipConfig
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            title: { display: true, text: 'Disminución en Anisotropía Fraccional (%)', font: { size: 11, weight: 'bold' } }
+          },
+          x: {
+            ticks: { font: { size: 10 } }
+          }
+        }
+      }
+    });
+
+    // Chart 2: Tech Adoption Mexico Rural vs Urban (Grouped Bar Chart)
+    const rawTechLabels = [
+      "Usuarios de Internet en el Hogar",
+      "Conexión Vía Smartphone",
+      "Televisor Inteligente Smart TV",
+      "Crecimiento Anual de Acceso"
+    ];
+    const wrappedTechLabels = rawTechLabels.map(wrapLabel);
+
+    const ctxTech = document.getElementById('techChart').getContext('2d');
+    new Chart(ctxTech, {
+      type: 'bar',
+      data: {
+        labels: wrappedTechLabels,
+        datasets: [
+          {
+            label: 'Ámbito Rural (%)',
+            data: [66.0, 72.8, 43.6, 2.5],
+            backgroundColor: '#2d6a4f',
+            borderRadius: 4
+          },
+          {
+            label: 'Ámbito Urbano (%)',
+            data: [85.5, 84.1, 68.2, 1.4],
+            backgroundColor: '#f4a261',
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top' },
+          tooltip: commonTooltipConfig
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 100,
+            title: { display: true, text: 'Porcentaje de Penetración / Crecimiento (%)', font: { size: 11, weight: 'bold' } }
+          },
+          x: {
+            ticks: { font: { size: 10 } }
+          }
+        }
+      }
+    });
+
+    // Chart 3: Health Impacts vs Daily Hours (Line Chart)
+    const rawHealthLabels = [
+      "0 Horas (Ideal)",
+      "1 Hora Diaria",
+      "2 Horas Diarias",
+      "3 Horas Diarias",
+      "4+ Horas Diarias"
+    ];
+    const wrappedHealthLabels = rawHealthLabels.map(wrapLabel);
+
+    const ctxHealth = document.getElementById('healthChart').getContext('2d');
+    new Chart(ctxHealth, {
+      type: 'line',
+      data: {
+        labels: wrappedHealthLabels,
+        datasets: [
+          {
+            label: 'Riesgo de Miopía Infantil (%)',
+            data: [5, 21, 42, 68, 89],
+            borderColor: '#e07a5f',
+            backgroundColor: 'rgba(224, 122, 95, 0.1)',
+            fill: true,
+            tension: 0.3,
+            borderWidth: 3
+          },
+          {
+            label: 'Retraso en Sueño (Minutos)',
+            data: [0, 25, 55, 85, 120],
+            borderColor: '#1b4332',
+            backgroundColor: 'transparent',
+            borderDash: [5, 5],
+            tension: 0.3,
+            borderWidth: 3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top' },
+          tooltip: commonTooltipConfig
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            title: { display: true, text: 'Nivel de Incremento (%) / Tiempo (Min)', font: { size: 11, weight: 'bold' } }
+          },
+          x: {
+            ticks: { font: { size: 10 } }
+          }
+        }
+      }
+    });
+
+    // Chart 4: Parental Phubbing Effects (Horizontal Bar Chart)
+    const rawPhubbingLabels = [
+      "Problemas Internalizantes (Ansiedad)",
+      "Problemas Externalizantes (Berrinches)",
+      "Apego Inseguro en el Niño",
+      "Pérdida de Claridad de Autoestima"
+    ];
+    const wrappedPhubbingLabels = rawPhubbingLabels.map(wrapLabel);
+
+    const ctxPhubbing = document.getElementById('phubbingChart').getContext('2d');
+    new Chart(ctxPhubbing, {
+      type: 'bar',
+      indexAxis: 'y',
+      data: {
+        labels: wrappedPhubbingLabels,
+        datasets: [{
+          label: 'Tamaño del Efecto (Correlación r)',
+          data: [0.270, 0.210, 0.310, -0.206],
+          backgroundColor: function(context) {
+            const val = context.dataset.data[context.dataIndex];
+            return val < 0 ? '#f4a261' : '#c05621';
+          },
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: commonTooltipConfig
+        },
+        scales: {
+          x: {
+            min: -0.3,
+            max: 0.4,
+            title: { display: true, text: 'Fuerza de la Correlación Estadística (r)', font: { size: 11, weight: 'bold' } }
+          },
+          y: {
+            ticks: { font: { size: 10 } }
+          }
+        }
+      }
+    });
+
+    // Interactive Semaphore Workshop Functionality
+    function setSemaforo(tipo) {
+      const btnRojo = document.getElementById('btn-rojo');
+      const btnAmarillo = document.getElementById('btn-amarillo');
+      const btnVerde = document.getElementById('btn-verde');
+      const content = document.getElementById('semaforo-content');
+
+      // Reset styles
+      btnRojo.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-gray-200 text-gray-700 hover:bg-red-100 transition-all";
+      btnAmarillo.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-gray-200 text-gray-700 hover:bg-amber-100 transition-all";
+      btnVerde.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-gray-200 text-gray-700 hover:bg-emerald-100 transition-all";
+
+      if (tipo === 'rojo') {
+        btnRojo.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-red-500 text-white shadow-lg ring-4 ring-red-200 transition-all";
+        content.className = "bg-brand-cream rounded-xl p-6 border-2 border-red-200";
+        content.innerHTML = `
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3 text-red-600">
+              <i class="fa-solid fa-circle-xmark text-3xl"></i>
+              <h5 class="font-serif font-bold text-xl text-brand-forest">Zonas Cero Pantallas en Casa (Luz Roja)</h5>
+            </div>
+            <p class="text-sm text-brand-muted">
+              Escriban 2 lugares o momentos específicos donde a partir de hoy las pantallas estarán <strong>estrictamente prohibidas</strong>:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-semibold">
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-utensils text-red-500 mr-2"></i>La Mesa al Comer
+                <p class="font-normal text-gray-500 mt-1">Para favorecer la conversación y la masticación consciente.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-bed text-red-500 mr-2"></i>Cuarto y Cama
+                <p class="font-normal text-gray-500 mt-1">Las recámaras deben ser santuarios de descanso sin televisión ni celulares.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                <i class="fa-solid fa-face-frown text-red-500 mr-2"></i>Durante Berrinches
+                <p class="font-normal text-gray-500 mt-1">Jamás usar la pantalla como pacificador emocional o extintor de conflictos.</p>
+              </div>
+            </div>
+          </div>
+        `;
+      } else if (tipo === 'amarillo') {
+        btnAmarillo.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-amber-500 text-white shadow-lg ring-4 ring-amber-200 transition-all";
+        content.className = "bg-brand-cream rounded-xl p-6 border-2 border-amber-200";
+        content.innerHTML = `
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3 text-amber-600">
+              <i class="fa-solid fa-triangle-exclamation text-3xl"></i>
+              <h5 class="font-serif font-bold text-xl text-brand-forest">Condiciones de Uso Permitido (Luz Amarilla)</h5>
+            </div>
+            <p class="text-sm text-brand-muted">
+              Definan las reglas bajo las cuales sí se permitirá ver contenido de manera responsable:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-semibold">
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-amber-500">
+                <i class="fa-solid fa-clock text-amber-500 mr-2"></i>Máximo 30-45 Minutos
+                <p class="font-normal text-gray-500 mt-1">Con temporizador visible para que el niño sepa cuándo termina.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-amber-500">
+                <i class="fa-solid fa-comments text-amber-500 mr-2"></i>Co-visualización Activa
+                <p class="font-normal text-gray-500 mt-1">Sentarse al lado del niño y hacerle preguntas sobre lo que ve en la caricatura.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-amber-500">
+                <i class="fa-solid fa-check-double text-amber-500 mr-2"></i>Filtro de Contenido
+                <p class="font-normal text-gray-500 mt-1">Solo programas educativos de ritmo lento, sin comerciales ni cortes bruscos.</p>
+              </div>
+            </div>
+          </div>
+        `;
+      } else if (tipo === 'verde') {
+        btnVerde.className = "px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-bold text-sm sm:text-base flex items-center space-x-2 bg-emerald-500 text-white shadow-lg ring-4 ring-emerald-200 transition-all";
+        content.className = "bg-brand-cream rounded-xl p-6 border-2 border-emerald-200";
+        content.innerHTML = `
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3 text-emerald-600">
+              <i class="fa-solid fa-tree text-3xl"></i>
+              <h5 class="font-serif font-bold text-xl text-brand-forest">Alternativas de Alto Impacto (Luz Verde)</h5>
+            </div>
+            <p class="text-sm text-brand-muted">
+              Comprométanse a 1 actividad física diaria que fomente el neurodesarrollo natural:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-semibold">
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-emerald-500">
+                <i class="fa-solid fa-sun text-emerald-500 mr-2"></i>Luz Solar y Prevención
+                <p class="font-normal text-gray-500 mt-1">Jugar en el patio previene la miopía y ajusta el reloj biológico para dormir mejor.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-emerald-500">
+                <i class="fa-solid fa-book-open text-emerald-500 mr-2"></i>Lectura en Voz Alta
+                <p class="font-normal text-gray-500 mt-1">15 minutos de cuento antes de dormir acelera la adquisición de vocabulario.</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-emerald-500">
+                <i class="fa-solid fa-hands-holding-child text-emerald-500 mr-2"></i>Tareas del Hogar
+                <p class="font-normal text-gray-500 mt-1">Ayudar a lavar verduras o regar plantas desarrolla motricidad y sentido de pertenencia.</p>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    }
+  </script>
+</body>
+</html>
