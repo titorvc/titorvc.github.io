@@ -908,3 +908,361 @@ body, .navbar, .footer, .skills-section, .tech-item {
     color: var(--surface-color);
 }
 
+
+/* ==========================================================================
+   CAREER & OPPORTUNITY RADAR (OBSIDIAN KNOWLEDGE GRAPH + DYNAMIC CV FORGER)
+   ========================================================================== */
+.radar-section {
+    padding: 160px 8%;
+    background-color: var(--surface-color);
+    border-radius: 80px;
+    margin: 80px 2% 0;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.4s var(--transition-ease), border-color 0.4s var(--transition-ease);
+}
+
+.radar-telemetry-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 48px;
+}
+
+.telemetry-pill {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 28px;
+    padding: 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.3s var(--transition-ease), box-shadow 0.3s var(--transition-ease);
+}
+
+.telemetry-pill:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.05);
+}
+
+.telemetry-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-secondary);
+}
+
+.telemetry-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.1;
+}
+
+.telemetry-sub {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Archetype CV Quick-Download Bar */
+.archetype-bar {
+    max-width: 1200px;
+    margin: 0 auto 48px;
+    padding: 32px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 36px;
+}
+
+.archetype-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.archetype-bar-header h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.archetype-bar-header span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+
+.archetype-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.archetype-dl-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    border-radius: 40px;
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.archetype-dl-btn:hover {
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    border-color: var(--text-primary);
+    transform: translateY(-2px);
+}
+
+/* Radar Controls (Search + Category Filters) */
+.radar-controls {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radar-search-input {
+    flex: 1 1 300px;
+    padding: 14px 24px;
+    border-radius: 40px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.radar-search-input:focus {
+    border-color: var(--text-primary);
+}
+
+.radar-filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.radar-filter-btn {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-secondary);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.radar-filter-btn:hover,
+.radar-filter-btn.active {
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    border-color: var(--text-primary);
+}
+
+/* Jobs Grid */
+.radar-jobs-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 28px;
+}
+
+.job-radar-card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 36px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    transition: transform 0.35s var(--transition-ease), box-shadow 0.35s var(--transition-ease), border-color 0.35s ease;
+}
+
+.job-radar-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px rgba(0,0,0,0.07);
+    border-color: var(--text-primary);
+}
+
+.job-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.job-score-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 30px;
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    white-space: nowrap;
+}
+
+.job-score-badge.high-match {
+    background: linear-gradient(135deg, #111111 0%, #333333 100%);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+[data-theme="dark"] .job-score-badge.high-match {
+    background: linear-gradient(135deg, #ffffff 0%, #d4d4d4 100%);
+    color: #0d0d0d;
+}
+
+.job-archetype-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.job-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.25;
+    margin-bottom: 6px;
+}
+
+.job-company-meta {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.job-reason-box {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    background-color: var(--surface-color);
+    padding: 16px 18px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+}
+
+.job-skills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.job-skill-chip {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    padding: 4px 11px;
+    border-radius: 16px;
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.job-obsidian-nodes {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.73rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.job-actions-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-color);
+}
+
+.job-btn {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+}
+
+.job-btn.primary {
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    border-color: var(--text-primary);
+}
+
+.job-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+
+.job-status-select {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
+    color: var(--text-secondary);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    cursor: pointer;
+}
+
+/* Beyond Engineering / DJ Card */
+.dj-spotlight-card {
+    max-width: 1200px;
+    margin: 56px auto 0;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 44px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dj-spotlight-card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.dj-spotlight-card p {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    line-height: 1.7;
+}

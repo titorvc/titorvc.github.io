@@ -34,6 +34,7 @@
         <ul class="nav-links">
             <li><a href="#about">Sobre Mí</a></li>
             <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#career-radar">Radar IA &amp; CVs</a></li>
             <li><a href="#projects">Portafolio</a></li>
             <li><a href="https://github.com/titorvc" target="_blank">GitHub</a></li>
             <li><a href="https://linkedin.com/in/titorvc" target="_blank">LinkedIn</a></li>
@@ -50,8 +51,9 @@
             <span class="hero-label animate-on-scroll delay-1">Data & AI Engineer</span>
             <h1 class="hero-title-anim">Construyo el cerebro<br>detrás de las aplicaciones.</h1>
             <p class="description animate-on-scroll delay-3">Soluciones de Data Engineering e Inteligencia Artificial. Automatización de tareas complejas, estructuración de ecosistemas masivos de datos y conexión de sistemas para lograr software autónomo y eficiente.</p>
-            <div class="hero-actions animate-on-scroll delay-5">
+            <div class="hero-actions animate-on-scroll delay-5" style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
                 <a href="#projects" class="btn-primary large">Explorar Proyectos</a>
+                <a href="#career-radar" class="btn-primary large outline">Radar de Vacantes &amp; CV Dinámico</a>
             </div>
         </div>
     </header>
@@ -77,6 +79,10 @@
             <div class="skill-card animate-on-scroll delay-4">
                 <h3>Vanguardia (Notebook LM)</h3>
                 <p>Mi formación no se detiene. Utilizo herramientas avanzadas como Notebook LM para consolidar una red de aprendizaje constante, manteniéndome a la vanguardia de la teoría computacional y el estado del arte en IA.</p>
+            </div>
+            <div class="skill-card animate-on-scroll delay-5">
+                <h3>Live DJ &amp; Audio Stack</h3>
+                <p>Más allá del código, mezclo música en vivo sobre un stack de audio de baja latencia en Fedora Linux (PipeWire + Mixxx + Pioneer DDJ-FLX4), integrando curaduría musical, análisis armónico Camelot y bibliotecas Rekordbox XML.</p>
             </div>
         </div>
     </section>
@@ -181,10 +187,13 @@
                         <i class="devicon-linux-plain" title="Linux"></i>
                     </div>
                     </div>
-                    <h3>Job Hunter AI</h3>
-                    <p class="project-problem"><strong>El Problema:</strong> Leer cientos de ofertas de trabajo en internet todos los días es aburrido y consume demasiado tiempo.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Creé un motor (ETL en Airflow) que navega por sí solo, extrae vacantes y usa una Inteligencia Artificial (Llama 3.2 local) para decidir exactamente cuáles coinciden con mi perfil.</p>
-                    <a href="https://console.cloud.google.com/welcome?project=data-hunter-494609" target="_blank" class="btn-secondary">Ver Proyecto en GCP</a>
+                    <h3>Job Hunter AI (v4.0 — Conectado a Red Obsidian)</h3>
+                    <p class="project-problem"><strong>El Problema:</strong> Leer cientos de ofertas de trabajo todos los días y adaptar manualmente el CV a cada rol específico consume horas valiosas.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Diseñé un motor autónomo que escanea +42 APIs y bolsas globales en segundo plano, cruza cada vacante contra mi Grafo de Conocimiento vivo en Obsidian (donde se indexan todos mis proyectos y habilidades) y compila al vuelo un CV ATS en PDF seleccionando únicamente los proyectos y logros que hacen mayor match.</p>
+                    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                        <a href="#career-radar" class="btn-secondary">Abrir Radar Interactivo en Vivo</a>
+                        <a href="https://console.cloud.google.com/welcome?project=data-hunter-494609" target="_blank" class="btn-secondary">Ver Proyecto en GCP</a>
+                    </div>
                 </div>
             </article>
 
@@ -320,6 +329,102 @@
         </div>
     </section>
 
+    <!-- =======================================================================
+         RADAR AUTÓNOMO DE VACANTES & FORJADOR DINÁMICO DE CV (RED OBSIDIAN)
+         ======================================================================= -->
+    <section id="career-radar" class="radar-section">
+        <div class="section-header animate-on-scroll" style="margin-bottom: 64px;">
+            <span class="badge" style="margin-bottom: 16px;">OBSIDIAN KNOWLEDGE GRAPH • AUTO-SYNC DAEMON</span>
+            <h2 class="section-title">Career &amp; Opportunity Radar</h2>
+            <p class="section-subtitle" style="max-width: 760px;">
+                Motor autónomo en segundo plano que escanea +42 fuentes globales y LATAM, evalúa cada vacante contra la red viva de mis proyectos en Obsidian y genera un CV ATS a medida seleccionando los logros exactos para cada puesto.
+            </p>
+        </div>
+
+        <!-- Telemetría en Tiempo Real -->
+        <div class="radar-telemetry-bar animate-on-scroll">
+            <div class="telemetry-pill">
+                <span class="telemetry-label">Fuentes Monitoreadas</span>
+                <span class="telemetry-value" id="stat-sources">42</span>
+                <span class="telemetry-sub">APIs, RSS, ATS &amp; LATAM Boards</span>
+            </div>
+            <div class="telemetry-pill">
+                <span class="telemetry-label">Vacantes Compatibles</span>
+                <span class="telemetry-value" id="stat-total-matches">929</span>
+                <span class="telemetry-sub">Filtradas por Stack &amp; Zona Horaria</span>
+            </div>
+            <div class="telemetry-pill">
+                <span class="telemetry-label">Top Matches (&ge;85%)</span>
+                <span class="telemetry-value" id="stat-high-matches">135</span>
+                <span class="telemetry-sub">Prioridad Alta para Postulación</span>
+            </div>
+            <div class="telemetry-pill">
+                <span class="telemetry-label">Nodos en Obsidian</span>
+                <span class="telemetry-value" id="stat-obsidian-nodes">9 Proyectos</span>
+                <span class="telemetry-sub" id="stat-last-sync">Sincronizado automáticamente</span>
+            </div>
+        </div>
+
+        <!-- Descarga Rápida de CVs Adaptados por Arquetipo desde Obsidian -->
+        <div class="archetype-bar animate-on-scroll">
+            <div class="archetype-bar-header">
+                <h3>📄 CVs ATS Dinámicos por Especialidad (Generados desde Obsidian)</h3>
+                <span>1 Página • Formato Ejecutivo ATS • Incluye Nodo Live DJ &amp; Audio</span>
+            </div>
+            <div class="archetype-pills">
+                <a href="assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf" target="_blank" class="archetype-dl-btn">
+                    ⚡ AI / ML &amp; LLM Engineer (PDF)
+                </a>
+                <a href="assets/cvs/Roberto_Vargas_CV_data_engineer.pdf" target="_blank" class="archetype-dl-btn">
+                    🗄️ Data &amp; ETL Engineer (PDF)
+                </a>
+                <a href="assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf" target="_blank" class="archetype-dl-btn">
+                    🐍 Python Backend &amp; Automation (PDF)
+                </a>
+                <a href="assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf" target="_blank" class="archetype-dl-btn">
+                    📊 Data Analyst &amp; BI (PDF)
+                </a>
+                <a href="assets/cvs/Roberto_Vargas_CV_music_audio_tech.pdf" target="_blank" class="archetype-dl-btn">
+                    🎧 Music, Audio &amp; Media Tech (PDF)
+                </a>
+            </div>
+        </div>
+
+        <!-- Buscador y Filtros Interactivos -->
+        <div class="radar-controls animate-on-scroll">
+            <input type="text" id="radar-search" class="radar-search-input" placeholder="Buscar por puesto, empresa o habilidad (ej. Python, RAG, Airflow, Spotify, Remoto)..." />
+            <div class="radar-filter-group" id="radar-filters">
+                <button class="radar-filter-btn active" data-filter="all">Todas (Top)</button>
+                <button class="radar-filter-btn" data-filter="ai_ml_engineer">AI &amp; ML</button>
+                <button class="radar-filter-btn" data-filter="data_engineer">Data Eng</button>
+                <button class="radar-filter-btn" data-filter="python_backend_automation">Python / Backend</button>
+                <button class="radar-filter-btn" data-filter="data_analyst_bi">Analytics / BI</button>
+                <button class="radar-filter-btn" data-filter="music_audio_tech">Music / Audio</button>
+                <button class="radar-filter-btn" data-filter="saved">⭐ Guardadas / Postuladas</button>
+            </div>
+        </div>
+
+        <!-- Grid Dinámico de Vacantes -->
+        <div class="radar-jobs-grid" id="radar-jobs-container">
+            <!-- Renderizado dinámicamente por jobs_feed.js -->
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <button id="radar-load-more" class="btn-secondary" style="cursor: pointer;">Mostrar más vacantes compatibles</button>
+        </div>
+
+        <!-- Tarjeta de Identidad Personal: Beyond Engineering (Live DJ) -->
+        <div class="dj-spotlight-card animate-on-scroll">
+            <div class="project-header-top" style="margin-bottom: 8px;">
+                <span class="badge">BEYOND ENGINEERING • CREATIVE &amp; LIVE AUDIO</span>
+            </div>
+            <h3>🎧 Live DJ &amp; Linux Low-Latency Audio</h3>
+            <p>
+                Además de construir pipelines de datos y agentes de IA, soy <strong>DJ en activo</strong>. Opero mi propio entorno de mezcla en vivo sobre <strong>Fedora Linux + PipeWire</strong> con hardware <strong>Pioneer DDJ-FLX4</strong> y <strong>Mixxx</strong>, automatizando la migración y curaduría de bibliotecas <code>rekordbox.xml</code> (Hot Cues, Beatgrids y mezcla armónica Camelot) hacia sistemas de código abierto. Esta combinación de ingeniería rigurosa y sensibilidad musical se integra automáticamente en mi perfil cuando postulo a empresas creativas, de audio o entretenimiento.
+            </p>
+        </div>
+    </section>
+
     <footer id="contact" class="footer">
         <div class="footer-content">
             <h2>Conecta conmigo</h2>
@@ -417,6 +522,196 @@
             btn.addEventListener('click', function() {
                 setDark(document.documentElement.getAttribute('data-theme') !== 'dark');
             });
+        });
+    </script>
+
+    <!-- Feed de Vacantes Autónomo (Generado por job_hunter_engine.py + Obsidian Graph) -->
+    <script src="assets/data/jobs_feed.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const feed = window.NEXUS_JOB_FEED;
+            if (!feed || !Array.isArray(feed.jobs)) return;
+
+            // Actualizar telemetría superior
+            const elSources = document.getElementById('stat-sources');
+            const elTotal = document.getElementById('stat-total-matches');
+            const elHigh = document.getElementById('stat-high-matches');
+            const elNodes = document.getElementById('stat-obsidian-nodes');
+            const elSync = document.getElementById('stat-last-sync');
+
+            if (elSources) elSources.textContent = feed.total_scanned_sources || 42;
+            if (elTotal) elTotal.textContent = feed.total_active_matches || feed.jobs.length;
+            if (elHigh) elHigh.textContent = feed.high_priority_matches || feed.jobs.filter(j => j.score >= 85).length;
+            if (elNodes && feed.knowledge_graph_summary) {
+                elNodes.textContent = (feed.knowledge_graph_summary.total_projects || 9) + ' Proyectos';
+            }
+            if (elSync && feed.updated_at) {
+                elSync.textContent = 'Actualizado: ' + feed.updated_at;
+            }
+
+            const container = document.getElementById('radar-jobs-container');
+            const searchInput = document.getElementById('radar-search');
+            const filterBtns = document.querySelectorAll('#radar-filters .radar-filter-btn');
+            const loadMoreBtn = document.getElementById('radar-load-more');
+
+            let currentFilter = 'all';
+            let searchQuery = '';
+            let visibleCount = 9;
+
+            function getSavedStatuses() {
+                try {
+                    return JSON.parse(localStorage.getItem('nexus_job_statuses') || '{}');
+                } catch (e) {
+                    return {};
+                }
+            }
+
+            function setJobStatus(jobId, status) {
+                const map = getSavedStatuses();
+                map[jobId] = status;
+                localStorage.setItem('nexus_job_statuses', JSON.stringify(map));
+            }
+
+            const projNodeNames = {
+                'proj_job_hunter': 'Job Hunter RAG',
+                'proj_music_lead_gen': 'Music Lead Gen (Spotify)',
+                'proj_consultoria_langgraph': 'LangGraph Multi-Agent',
+                'proj_datacenter_api': 'FastAPI Microservices',
+                'proj_agenmono': 'AgenMono PDF Engine',
+                'proj_nexus_os_daemons': 'Nexus Linux Daemons',
+                'proj_barber_bot': 'WhatsApp Gemini Bot',
+                'proj_upy_sales_mining': 'UPY Sales ETL Mining',
+                'proj_live_dj_linux': 'Live DJ Audio Linux'
+            };
+
+            const archetypeCvs = (feed.knowledge_graph_summary && feed.knowledge_graph_summary.archetype_cvs) || {};
+
+            function renderJobs() {
+                if (!container) return;
+                const statuses = getSavedStatuses();
+
+                const filtered = feed.jobs.filter(job => {
+                    const st = statuses[job.job_id] || 'new';
+                    if (currentFilter === 'saved') {
+                        if (st !== 'saved' && st !== 'applied' && st !== 'interview') return false;
+                    } else if (currentFilter !== 'all') {
+                        if (job.archetype !== currentFilter) return false;
+                    }
+
+                    if (searchQuery) {
+                        const hay = (job.title + ' ' + job.company + ' ' + job.location + ' ' + (job.matched_skills || []).join(' ')).toLowerCase();
+                        if (!hay.includes(searchQuery)) return false;
+                    }
+                    return true;
+                });
+
+                const slice = filtered.slice(0, visibleCount);
+                container.innerHTML = '';
+
+                if (slice.length === 0) {
+                    container.innerHTML = '<div class="job-radar-card" style="grid-column: 1 / -1; text-align: center;"><p style="color: var(--text-secondary);">No se encontraron vacantes con ese filtro. Prueba con otro criterio.</p></div>';
+                    if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+                    return;
+                }
+
+                slice.forEach(job => {
+                    const st = statuses[job.job_id] || 'new';
+                    const cvUrl = job.cv_pdf_url || archetypeCvs[job.archetype] || 'assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf';
+                    const skillsHtml = (job.matched_skills || []).slice(0, 6).map(s => `<span class="job-skill-chip">${s}</span>`).join('');
+                    const nodesHtml = (job.matched_projects || []).map(pid => projNodeNames[pid] || pid).join(' • ');
+
+                    const card = document.createElement('article');
+                    card.className = 'job-radar-card';
+                    card.innerHTML = `
+                        <div>
+                            <div class="job-card-top">
+                                <span class="job-score-badge ${job.score >= 85 ? 'high-match' : ''}">${job.score}% MATCH</span>
+                                <select class="job-status-select" data-job-id="${job.job_id}" aria-label="Estado de postulación">
+                                    <option value="new" ${st === 'new' ? 'selected' : ''}>🟢 Nueva</option>
+                                    <option value="saved" ${st === 'saved' ? 'selected' : ''}>⭐ Guardada</option>
+                                    <option value="applied" ${st === 'applied' ? 'selected' : ''}>📨 Postulado</option>
+                                    <option value="interview" ${st === 'interview' ? 'selected' : ''}>🎯 Entrevista</option>
+                                </select>
+                            </div>
+                            <div style="margin-top: 14px;">
+                                <h3 class="job-title">${job.title}</h3>
+                                <p class="job-company-meta"><strong>${job.company}</strong> • ${job.location} • <span style="opacity:0.75">${job.source}</span></p>
+                            </div>
+                        </div>
+
+                        <div class="job-reason-box">
+                            ${job.reason_es}
+                        </div>
+
+                        <div>
+                            <div class="job-skills-wrap" style="margin-bottom: 12px;">
+                                ${skillsHtml}
+                            </div>
+                            <div class="job-obsidian-nodes">
+                                <span>💎 Nodos Obsidian inyectados en CV:</span>
+                                <strong>${nodesHtml}</strong>
+                            </div>
+                        </div>
+
+                        <div class="job-actions-row">
+                            <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary">Postular ↗</a>
+                            <a href="${cvUrl}" target="_blank" download class="job-btn">📄 CV ATS Adaptado</a>
+                            <button type="button" class="job-btn copy-pitch-btn" data-pitch="${encodeURIComponent(job.pitch_en || '')}">📋 Copiar Pitch</button>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+
+                // Listeners para cambio de estado y copiar pitch
+                container.querySelectorAll('.job-status-select').forEach(sel => {
+                    sel.addEventListener('change', function() {
+                        setJobStatus(this.getAttribute('data-job-id'), this.value);
+                    });
+                });
+
+                container.querySelectorAll('.copy-pitch-btn').forEach(b => {
+                    b.addEventListener('click', function() {
+                        const pitch = decodeURIComponent(this.getAttribute('data-pitch') || '');
+                        navigator.clipboard.writeText(pitch).then(() => {
+                            const orig = this.textContent;
+                            this.textContent = '✓ Pitch Copiado';
+                            setTimeout(() => { this.textContent = orig; }, 1800);
+                        });
+                    });
+                });
+
+                if (loadMoreBtn) {
+                    loadMoreBtn.style.display = filtered.length > visibleCount ? 'inline-block' : 'none';
+                    loadMoreBtn.textContent = `Mostrar más vacantes (${filtered.length - visibleCount} restantes)`;
+                }
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentFilter = this.getAttribute('data-filter');
+                    visibleCount = 9;
+                    renderJobs();
+                });
+            });
+
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    searchQuery = this.value.trim().toLowerCase();
+                    visibleCount = 9;
+                    renderJobs();
+                });
+            }
+
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    visibleCount += 9;
+                    renderJobs();
+                });
+            }
+
+            renderJobs();
         });
     </script>
 </body>
