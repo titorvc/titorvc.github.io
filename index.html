@@ -37,7 +37,7 @@
             <li><a href="#about">Sobre Mí</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#career-radar">Radar IA &amp; CVs</a></li>
+            <li><a href="radar.html" title="Abrir Radar de Empleos y CVs en página dedicada">Radar IA &amp; CVs ↗</a></li>
             <li><a href="#projects">Portafolio</a></li>
             <li><a href="https://github.com/titorvc" target="_blank">GitHub</a></li>
             <li><a href="https://linkedin.com/in/titorvc" target="_blank">LinkedIn</a></li>
@@ -226,9 +226,10 @@
                     </div>
                     <h3>Job Hunter AI (v4.0 — Conectado a Red Obsidian)</h3>
                     <p class="project-problem"><strong>El Problema:</strong> Leer cientos de ofertas de trabajo todos los días y adaptar manualmente el CV a cada rol específico consume horas valiosas.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Diseñé un motor autónomo que escanea 42 APIs y bolsas globales en segundo plano (3,780 ofertas → 929 compatibles → 135 con match ≥85%), cruza cada vacante contra mi Grafo de Conocimiento vivo en Obsidian (donde se indexan todos mis proyectos y habilidades) y compila al vuelo un CV ATS en PDF seleccionando únicamente los proyectos y logros que hacen mayor match.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Diseñé un motor autónomo que escanea 55 fuentes globales y tableros ATS (Ashby, Lever, Greenhouse, RemoteOK, Remotive) en segundo plano (+5,400 ofertas → 1,426 compatibles → 269 con match ≥85%), cruza cada vacante contra mi Grafo de Conocimiento vivo en Obsidian (donde se indexan todos mis proyectos y habilidades) y compila al vuelo un CV ATS en PDF seleccionando únicamente los proyectos y logros que hacen mayor match.</p>
                     <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                        <a href="#career-radar" class="btn-secondary">Abrir Radar Interactivo en Vivo</a>
+                        <a href="radar.html" class="btn-primary" target="_blank" rel="noopener">Abrir Radar Autónomo en Vivo (radar.html) ↗</a>
+                        <a href="#career-radar" class="btn-secondary">Ver Vista Rápida en Página ↓</a>
                     </div>
                 </div>
             </article>
@@ -423,26 +424,31 @@
         <div class="section-header animate-on-scroll" style="margin-bottom: 64px;">
             <span class="badge" style="margin-bottom: 16px;">OBSIDIAN KNOWLEDGE GRAPH • AUTO-SYNC DAEMON</span>
             <h2 class="section-title">Career &amp; Opportunity Radar</h2>
-            <p class="section-subtitle" style="max-width: 760px;">
-                Motor autónomo en segundo plano que escanea 42 fuentes globales y LATAM, evalúa cada vacante contra la red viva de mis proyectos en Obsidian y genera un CV ATS a medida seleccionando los logros exactos para cada puesto.
+            <p class="section-subtitle" style="max-width: 760px; margin: 0 auto 20px;">
+                Motor autónomo en segundo plano que escanea 55 fuentes globales y tableros ATS (Ashby, Lever, Greenhouse, Remotive), evalúa cada vacante contra la red viva de mis proyectos en Obsidian y genera un CV ATS a medida seleccionando los logros exactos para cada puesto.
             </p>
+            <div style="margin-top: 16px;">
+                <a href="radar.html" class="btn-primary" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px;">
+                    Abrir Aplicación Dedicada en Pantalla Completa (radar.html) ↗
+                </a>
+            </div>
         </div>
 
         <!-- Telemetría en Tiempo Real -->
         <div class="radar-telemetry-bar animate-on-scroll">
             <div class="telemetry-pill">
                 <span class="telemetry-label">Fuentes Monitoreadas</span>
-                <span class="telemetry-value" id="stat-sources">42</span>
-                <span class="telemetry-sub">APIs, RSS, ATS &amp; LATAM Boards</span>
+                <span class="telemetry-value" id="stat-sources">55</span>
+                <span class="telemetry-sub">Ashby, Lever, Greenhouse, RSS &amp; APIs</span>
             </div>
             <div class="telemetry-pill">
                 <span class="telemetry-label">Vacantes Compatibles</span>
-                <span class="telemetry-value" id="stat-total-matches">929</span>
+                <span class="telemetry-value" id="stat-total-matches">1,426</span>
                 <span class="telemetry-sub">Filtradas por Stack &amp; Zona Horaria</span>
             </div>
             <div class="telemetry-pill">
                 <span class="telemetry-label">Top Matches (&ge;85%)</span>
-                <span class="telemetry-value" id="stat-high-matches">135</span>
+                <span class="telemetry-value" id="stat-high-matches">269</span>
                 <span class="telemetry-sub">Prioridad Alta para Postulación</span>
             </div>
             <div class="telemetry-pill">
