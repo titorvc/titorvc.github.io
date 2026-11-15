@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15 01:41",
-  "total_scanned_sources": 55,
-  "total_active_matches": 1426,
-  "high_priority_matches": 269,
+  "updated_at": "2026-11-15 02:32",
+  "total_scanned_sources": 63,
+  "total_active_matches": 713,
+  "high_priority_matches": 190,
   "knowledge_graph_summary": {
     "total_projects": 9,
     "total_verified_skills": 79,
@@ -314,127 +314,11 @@
       "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, AgenMono). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Tillster team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Data Analyst and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Tillster! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Data Analyst y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Tillster_c31ce1.pdf",
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Data Analyst (Mid-Level) HYBRID (No Visa Transfers or Sponsorships Available) Role Summary The Data Analyst is an individual contributor who has moved beyond supervised execution and is developing the independence, analytical depth, and stakeholder skills needed to progress to Senior level. They own smaller analytical domains end-to-end, contribute meaningfully to team standards, and begin to proactively surface insi...",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Tillster_c31ce1.pdf"
-    },
-    {
-      "job_id": "c6586fd8aedfb65f",
-      "title": "Senior Data Engineer",
-      "company": "Kpler",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/senior-data-engineer-united-kingdom-384605",
-      "location": "United Kingdom",
-      "source": "Arbeitnow",
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "data_engineer",
-      "archetype_label": "Data Engineer & ETL Pipeline Specialist",
-      "score": 98,
-      "matched_skills": [
-        "SQL / PostgreSQL",
-        "LLM Orchestration",
-        "Machine Learning (Scikit-learn)",
-        "Apache Airflow",
-        "ETL / Data Pipelines",
-        "Docker / Containers",
-        "English C1 Bilingual"
-      ],
-      "missing_skills": [
-        "Kubernetes",
-        "AWS (Redshift/S3)",
-        "Terraform"
-      ],
-      "matched_projects": [
-        "proj_job_hunter",
-        "proj_upy_sales_mining",
-        "proj_datacenter_api"
-      ],
-      "reason_es": "Match con tu arquetipo de Ingeniero de Datos (Data & Analytics Engineer). La vacante solicita SQL / PostgreSQL, LLM Orchestration, Machine Learning (Scikit-learn), Apache Airflow, ETL / Data Pipelines, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, DataCenter Microservices). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi Kpler team! I'm Roberto Vargas, a Data Engineer & ETL Pipeline Specialist based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Data Engineer and built a tailored resume highlighting my hands-on production work with SQL / PostgreSQL, LLM Orchestration, Machine Learning (Scikit-learn), Apache Airflow, ETL / Data Pipelines — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Kpler! Soy Roberto Vargas (Ingeniero de Datos (Data & Analytics Engineer), Inglés C1, Mérida MX). Vi su vacante de Senior Data Engineer y preparé mi CV enfocado en mi experiencia real con SQL / PostgreSQL, LLM Orchestration, Machine Learning (Scikit-learn), Apache Airflow, ETL / Data Pipelines, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Kpler_c6586f.pdf"
-    },
-    {
-      "job_id": "c520054745ecab74",
-      "title": "Senior Data Analyst (Companies/Ownership)",
-      "company": "Kpler",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/senior-data-analyst-companies-ownership-london-477348",
-      "location": "London",
-      "source": "Arbeitnow",
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "data_analyst_bi",
-      "archetype_label": "Data Analyst & Business Intelligence Engineer",
-      "score": 98,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "Machine Learning (Scikit-learn)",
-        "ETL / Data Pipelines",
-        "Pydantic / JSON Schema",
-        "Streamlit / BI Dashboards",
-        "n8n / Workflow Automation",
-        "English C1 Bilingual"
-      ],
-      "missing_skills": [],
-      "matched_projects": [
-        "proj_job_hunter",
-        "proj_agenmono",
-        "proj_upy_sales_mining"
-      ],
-      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, AgenMono, UPY Data Mining).",
-      "pitch_en": "Hi Kpler team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Data Analyst (Companies/Ownership) and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Kpler! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Senior Data Analyst (Companies/Ownership) y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Kpler_c52005.pdf"
-    },
-    {
-      "job_id": "8550ed73bb8a6cb4",
-      "title": "Senior Backend Engineer - Cruise",
-      "company": "Kpler",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/senior-backend-engineer-cruise-united-kingdom-253482",
-      "location": "United Kingdom",
-      "source": "Arbeitnow",
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "python_backend_automation",
-      "archetype_label": "Python Backend & AI Automation Engineer",
-      "score": 98,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "FastAPI / REST APIs",
-        "Docker / Containers",
-        "Git / CI/CD",
-        "English C1 Bilingual"
-      ],
-      "missing_skills": [
-        "Kubernetes",
-        "AWS (Redshift/S3)",
-        "Terraform"
-      ],
-      "matched_projects": [
-        "proj_datacenter_api",
-        "proj_job_hunter",
-        "proj_music_lead_gen"
-      ],
-      "reason_es": "Match con tu arquetipo de Desarrollador Python Backend & Automatización IA. La vacante solicita Python, SQL / PostgreSQL, FastAPI / REST APIs, Docker / Containers, Git / CI/CD, tecnologías verificadas directamente en tus nodos de Obsidian (DataCenter Microservices, Buscador Trabajo IA, Music Lead Gen). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi Kpler team! I'm Roberto Vargas, a Python Backend & AI Automation Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Backend Engineer - Cruise and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, FastAPI / REST APIs, Docker / Containers, Git / CI/CD — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Kpler! Soy Roberto Vargas (Desarrollador Python Backend & Automatización IA, Inglés C1, Mérida MX). Vi su vacante de Senior Backend Engineer - Cruise y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, FastAPI / REST APIs, Docker / Containers, Git / CI/CD, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Kpler_8550ed.pdf"
     },
     {
       "job_id": "aed3c9e011a63aaa",
@@ -467,7 +351,7 @@
       "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, AgenMono, UPY Data Mining).",
       "pitch_en": "Hi Kpler team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Data Analyst (Vessel Particulars) and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Kpler! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Data Analyst (Vessel Particulars) y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), ETL / Data Pipelines, Pydantic / JSON Schema, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Kpler_aed3c9.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
@@ -507,7 +391,7 @@
       "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), Apache Airflow, Google BigQuery / GCP, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, AgenMono). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Kpler team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for ML Engineer - Power and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), Apache Airflow, Google BigQuery / GCP — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Kpler! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de ML Engineer - Power y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), Apache Airflow, Google BigQuery / GCP, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Kpler_e0d326.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
@@ -546,7 +430,7 @@
       "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, Music Lead Gen, UPY Data Mining). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi 433 team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Jr. AI Engineer and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn) — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de 433! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Jr. AI Engineer y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_433_4e8a4e.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Are you passionate about football and technology? This is your chance! At 433, we are looking for a Junior AI Engineer to join our AI team. WE ARE 433 With almost 80 million followers and over 5 billion impressions per month, 433 is the home of football on social media. We create and share the best football content across all platforms, worldwide. Our massive fanbase includes more than 15,000 professional football pl...",
@@ -660,88 +544,6 @@
       "is_latam_friendly": 1,
       "description_snippet": "Tallinn, Harju County, Estonia Location: USA & LATAM | Remote Employment Type: Contractor, Full-time What You’ll Do: Design, develop, and maintain backend services and RESTful APIs using Python, Flask, or FastAPI Build clean, maintainable, and scalable solutions following Python best practices and PEP8 Work with SQL databases, particularly PostgreSQL Develop unit and integration tests using Pytest Create and maintain...",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Python_org_Official_Boar_926812.pdf"
-    },
-    {
-      "job_id": "16c3e1e1af7277b1",
-      "title": "Senior Backend Engineer - Backend Platform (USA Only, 100% Remote)",
-      "company": "Close",
-      "url": "https://jobicy.com/jobs/154467-senior-backend-engineer-backend-platform-usa-only-100-remote",
-      "location": "USA",
-      "source": "Jobicy (Python)",
-      "published_at": "2026-11-03T03:36:59",
-      "discovered_at": "2026-11-04 05:36",
-      "archetype": "python_backend_automation",
-      "archetype_label": "Python Backend & AI Automation Engineer",
-      "score": 98,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "LLM Orchestration",
-        "RAG & AI Agents",
-        "FastAPI / REST APIs",
-        "Docker / Containers",
-        "Git / CI/CD"
-      ],
-      "missing_skills": [
-        "Kubernetes",
-        "AWS (Redshift/S3)",
-        "Terraform",
-        "TypeScript / React"
-      ],
-      "matched_projects": [
-        "proj_datacenter_api",
-        "proj_job_hunter",
-        "proj_music_lead_gen"
-      ],
-      "reason_es": "Match con tu arquetipo de Desarrollador Python Backend & Automatización IA. La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs, tecnologías verificadas directamente en tus nodos de Obsidian (DataCenter Microservices, Buscador Trabajo IA, Music Lead Gen). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi Close team! I'm Roberto Vargas, a Python Backend & AI Automation Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Backend Engineer - Backend Platform (USA Only, 100% Remote) and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Close! Soy Roberto Vargas (Desarrollador Python Backend & Automatización IA, Inglés C1, Mérida MX). Vi su vacante de Senior Backend Engineer - Backend Platform (USA Only, 100% Remote) y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Close_16c3e1.pdf",
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "About Us Since 2013, we’ve been building a CRM that gets out of your way and helps your team sell more, faster. Now we’re building AI into every part of it, so Close does the busywork and your team does the selling. No manual data entry, no 10-click workflows. Just communication-first, AI-powered sales software designed to help you succeed and scale. We're bootstrapped and profitable which means we answer to our cust...",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Close_16c3e1.pdf"
-    },
-    {
-      "job_id": "8c792108d6791d8c",
-      "title": "Senior Backend Engineer - CRM (USA Only, 100% Remote)",
-      "company": "Close",
-      "url": "https://jobicy.com/jobs/154463-senior-backend-engineer-crm-usa-only-100-remote",
-      "location": "USA",
-      "source": "Jobicy (Python)",
-      "published_at": "2026-11-03T03:36:52",
-      "discovered_at": "2026-11-04 05:36",
-      "archetype": "python_backend_automation",
-      "archetype_label": "Python Backend & AI Automation Engineer",
-      "score": 98,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "LLM Orchestration",
-        "RAG & AI Agents",
-        "FastAPI / REST APIs",
-        "Docker / Containers",
-        "Git / CI/CD"
-      ],
-      "missing_skills": [
-        "Kubernetes",
-        "AWS (Redshift/S3)",
-        "Terraform",
-        "TypeScript / React"
-      ],
-      "matched_projects": [
-        "proj_datacenter_api",
-        "proj_music_lead_gen",
-        "proj_job_hunter"
-      ],
-      "reason_es": "Match con tu arquetipo de Desarrollador Python Backend & Automatización IA. La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs, tecnologías verificadas directamente en tus nodos de Obsidian (DataCenter Microservices, Music Lead Gen, Buscador Trabajo IA). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi Close team! I'm Roberto Vargas, a Python Backend & AI Automation Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Backend Engineer - CRM (USA Only, 100% Remote) and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Close! Soy Roberto Vargas (Desarrollador Python Backend & Automatización IA, Inglés C1, Mérida MX). Vi su vacante de Senior Backend Engineer - CRM (USA Only, 100% Remote) y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, RAG & AI Agents, FastAPI / REST APIs, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Close_8c7921.pdf",
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "About Us Since 2013, we’ve been building a CRM that gets out of your way and helps your team sell more, faster. Now we’re building AI into every part of it, so Close does the busywork and your team does the selling. No manual data entry, no 10-click workflows. Just communication-first, AI-powered sales software designed to help you succeed and scale. We're bootstrapped and profitable which means we answer to our cust...",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Close_8c7921.pdf"
     },
     {
       "job_id": "c5aa5f84e30dc9e3",
@@ -888,7 +690,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: United States Machine Learning Data Engineer Job Title: Machine Learning Data Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 3–8 Years Salary Range: $110,000 – $175,000 per year (USD) Employment Type: Full-Time Job Category: Artificial Intelligence / Machine Learning / Data Engineering Job Summary We are seeking a skilled and experienced Machine Learning Data Engineer to jo..."
+      "description_snippet": "Headquarters: United States Machine Learning Data Engineer Job Title: Machine Learning Data Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 3–8 Years Salary Range: $110,000 – $175,000 per year (USD) Employment Type: Full-Time Job Category: Artificial Intelligence / Machine Learning / Data Engineering Job Summary We are seeking a skilled and experienced Machine Learning Data Engineer to jo...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_EdgeQ_Technologies_Priva_0f5b08.pdf"
     },
     {
       "job_id": "a83f00cbbc0d277e",
@@ -924,7 +727,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "At Hudson River Trading (HRT) the Applied AI team’s mission is to increase the speed and quality of work across the firm’s most consequential workflows. We build AI systems that help researchers and developers iterate faster, automate increasingly complex work, and enable autonomous exploration at a scale that would not otherwise be possible. We apply frontier models and agentic systems to how quantitative research, ..."
+      "description_snippet": "At Hudson River Trading (HRT) the Applied AI team’s mission is to increase the speed and quality of work across the firm’s most consequential workflows. We build AI systems that help researchers and developers iterate faster, automate increasingly complex work, and enable autonomous exploration at a scale that would not otherwise be possible. We apply frontier models and agentic systems to how quantitative research, ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Wehrtyou_a83f00.pdf"
     },
     {
       "job_id": "175c9557a29392e3",
@@ -962,7 +766,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info..."
+      "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Reddit_175c95.pdf"
     },
     {
       "job_id": "8ffb1952069c8a9b",
@@ -999,7 +804,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info..."
+      "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Reddit_8ffb19.pdf"
     },
     {
       "job_id": "3bfb4d5d6d6bf2f5",
@@ -1037,7 +843,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite..."
+      "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Figma_3bfb4d.pdf"
     },
     {
       "job_id": "970df6f91fd89bf2",
@@ -1191,47 +998,6 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un..."
-    },
-    {
-      "job_id": "ea7e4628d0d859d9",
-      "title": "Principal Data Engineer",
-      "company": "ZoomInfo Technologies LLC",
-      "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-data-engineer",
-      "location": "Remote / Global",
-      "source": "WeWorkRemotely (DevOps/Sysadmin)",
-      "published_at": "Thu, 29 Oct 2026",
-      "discovered_at": "2026-11-04 05:36",
-      "archetype": "data_engineer",
-      "archetype_label": "Data Engineer & ETL Pipeline Specialist",
-      "score": 97,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "LLM Orchestration",
-        "Apache Airflow",
-        "ETL / Data Pipelines",
-        "Google BigQuery / GCP",
-        "n8n / Workflow Automation",
-        "Git / CI/CD"
-      ],
-      "missing_skills": [
-        "AWS (Redshift/S3)",
-        "Snowflake",
-        "Apache Spark / Databricks",
-        "dbt"
-      ],
-      "matched_projects": [
-        "proj_job_hunter",
-        "proj_upy_sales_mining",
-        "proj_agenmono"
-      ],
-      "reason_es": "Match con tu arquetipo de Ingeniero de Datos (Data & Analytics Engineer). La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, Apache Airflow, ETL / Data Pipelines, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, AgenMono). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi ZoomInfo Technologies LLC team! I'm Roberto Vargas, a Data Engineer & ETL Pipeline Specialist based in Mexico (UTC-6, C1 English). I noticed your opening for Principal Data Engineer and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, Apache Airflow, ETL / Data Pipelines — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de ZoomInfo Technologies LLC! Soy Roberto Vargas (Ingeniero de Datos (Data & Analytics Engineer), Inglés C1, Mérida MX). Vi su vacante de Principal Data Engineer y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, Apache Airflow, ETL / Data Pipelines, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_ZoomInfo_Technologies_LL_ea7e46.pdf",
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: Remote-US ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen fast. We are seeking a highly experienced, hands-on Princi..."
     },
     {
       "job_id": "c080105b88a0bdc7",
@@ -1639,75 +1405,6 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Upgrade helps customers move in the right direction with affordable and responsible financial products. Since 2017, weâve helped over 7.5 million customers access over $42 billion in consumer credit. With a relentless focus on improving our customers' financial well-being, we build products that put more money in their pocket and support their journey toward a better financial future. Weâre backed by some of the ..."
-    },
-    {
-      "job_id": "24492750f6170b74",
-      "title": "Senior Applied Data Scientist, Fleet Intelligence",
-      "company": "Fleetio",
-      "url": "https://jobicy.com/jobs/155336-senior-applied-data-scientist-fleet-intelligence",
-      "location": "Canada,  Mexico,  USA",
-      "source": "Jobicy (Python)",
-      "published_at": "2026-11-14T03:05:13",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "data_analyst_bi",
-      "archetype_label": "Data Analyst & Business Intelligence Engineer",
-      "score": 93,
-      "matched_skills": [
-        "Python",
-        "SQL / PostgreSQL",
-        "Machine Learning (Scikit-learn)"
-      ],
-      "missing_skills": [
-        "Snowflake",
-        "dbt"
-      ],
-      "matched_projects": [
-        "proj_upy_sales_mining",
-        "proj_job_hunter",
-        "proj_agenmono"
-      ],
-      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), tecnologías verificadas directamente en tus nodos de Obsidian (UPY Data Mining, Buscador Trabajo IA, AgenMono).",
-      "pitch_en": "Hi Fleetio team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Senior Applied Data Scientist, Fleet Intelligence and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Machine Learning (Scikit-learn) — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Fleetio! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Senior Applied Data Scientist, Fleet Intelligence y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Machine Learning (Scikit-learn), incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 1,
-      "description_snippet": "A little about us…Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations. Transportation technology is a hot market, and we’re leading the charge with raving fans and new customers signing up every day. We raised $450M in our Series D funding round in March of 2025 and are on an exciting trajectory as a company. Fleetio is also a proud founding member of th..."
-    },
-    {
-      "job_id": "60ffa9030fdf961e",
-      "title": "Forward Deployed AI Solutions Architect",
-      "company": "Qventus",
-      "url": "https://jobicy.com/jobs/162075-forward-deployed-ai-solutions-architect",
-      "location": "USA",
-      "source": "Jobicy (Python)",
-      "published_at": "2026-11-13T18:54:29",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "ai_ml_engineer",
-      "archetype_label": "Junior AI / Machine Learning Engineer",
-      "score": 93,
-      "matched_skills": [
-        "Python",
-        "pgvector / Vector DB",
-        "LLM Orchestration",
-        "RAG & AI Agents",
-        "Machine Learning (Scikit-learn)"
-      ],
-      "missing_skills": [
-        "TypeScript / React"
-      ],
-      "matched_projects": [
-        "proj_job_hunter",
-        "proj_music_lead_gen",
-        "proj_barber_bot"
-      ],
-      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, Music Lead Gen, Barber AI Bot). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
-      "pitch_en": "Hi Qventus team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Forward Deployed AI Solutions Architect and built a tailored resume highlighting my hands-on production work with Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn) — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Qventus! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Forward Deployed AI Solutions Architect y preparé mi CV enfocado en mi experiencia real con Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 0,
-      "description_snippet": "On this journey for over 12 years, Qventus is leading the transformation of healthcare. We enable hospitals to focus on what matters most: patient care. Our innovative solutions harness the power of machine learning, generative AI, and behavioral science to deliver exceptional outcomes and empower care teams to anticipate and resolve issues before they arise. Our success in rapid scale across the globe is backed by s..."
     },
     {
       "job_id": "2139d5806915b930",
@@ -2251,40 +1948,6 @@
       "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP, tecnologías verificadas directamente en tus nodos de Obsidian (UPY Data Mining, Buscador Trabajo IA, AgenMono).",
       "pitch_en": "Hi Elastic team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Analytics Engineer, HR Analytics and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Elastic! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Analytics Engineer, HR Analytics y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, LLM Orchestration, ETL / Data Pipelines, Google BigQuery / GCP, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
-      "status": "new",
-      "is_latam_friendly": 0,
-      "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un..."
-    },
-    {
-      "job_id": "d1b9f4b84fcc9234",
-      "title": "Principal, Agentic Engineering Platform",
-      "company": "Elastic",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8092084&gh_jid=8092084",
-      "location": "United States",
-      "source": "Greenhouse (Elastic)",
-      "published_at": "2026-10-01",
-      "discovered_at": "2026-11-15 01:41",
-      "archetype": "ai_ml_engineer",
-      "archetype_label": "Junior AI / Machine Learning Engineer",
-      "score": 92,
-      "matched_skills": [
-        "Python",
-        "LLM Orchestration",
-        "RAG & AI Agents",
-        "Machine Learning (Scikit-learn)",
-        "Pydantic / JSON Schema",
-        "n8n / Workflow Automation"
-      ],
-      "missing_skills": [],
-      "matched_projects": [
-        "proj_job_hunter",
-        "proj_music_lead_gen",
-        "proj_barber_bot"
-      ],
-      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), Pydantic / JSON Schema, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, Music Lead Gen, Barber AI Bot).",
-      "pitch_en": "Hi Elastic team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Principal, Agentic Engineering Platform and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), Pydantic / JSON Schema — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
-      "pitch_es": "¡Hola equipo de Elastic! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Principal, Agentic Engineering Platform y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), Pydantic / JSON Schema, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
@@ -3198,6 +2861,304 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Our mission Constructor’s mission is to enable all educational organisations to provide high-quality digital education to 10x people with 10x efficiency. With strong expertise in machine intelligence and data science, Constructor’s all-in-one platform for education and research addresses today’s pressing educational challenges: access inequality, tech clutter, and low engagement of students. Please send your resume i..."
+    },
+    {
+      "job_id": "ab135f94ddc8e3a3",
+      "title": "Founding Research Engineer or Research Scientist",
+      "company": "Grubel",
+      "url": "https://www.arbeitnow.com/jobs/companies/grubel/founding-research-engineer-or-research-scientist-munich-284774",
+      "location": "Munich",
+      "source": "Arbeitnow",
+      "published_at": "2026-11-04",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "data_analyst_bi",
+      "archetype_label": "Data Analyst & Business Intelligence Engineer",
+      "score": 91,
+      "matched_skills": [
+        "LLM Orchestration",
+        "RAG & AI Agents",
+        "Machine Learning (Scikit-learn)",
+        "English C1 Bilingual"
+      ],
+      "missing_skills": [],
+      "matched_projects": [
+        "proj_job_hunter",
+        "proj_agenmono",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), English C1 Bilingual, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, AgenMono, UPY Data Mining).",
+      "pitch_en": "Hi Grubel team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Founding Research Engineer or Research Scientist and built a tailored resume highlighting my hands-on production work with LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), English C1 Bilingual — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Grubel! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Founding Research Engineer or Research Scientist y preparé mi CV enfocado en mi experiencia real con LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), English C1 Bilingual, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 0,
+      "description_snippet": "About Grubel Grubel is a research lab that builds AI for high-stakes knowledge work, starting with law. Legal matters require specialized expertise, and each one involves its own facts, practices, parties, and institutions. General-purpose AI applies the same system to every legal matter, varying only what goes into a limited context window. To meet the depth and diversity of legal work, we let every matter build its..."
+    },
+    {
+      "job_id": "b49c350dc6656a6a",
+      "title": "Financial Data Analyst Intern, Technical Operations",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=8186442",
+      "location": "Singapore",
+      "source": "Greenhouse (Stripe)",
+      "published_at": "2026-10-29",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "data_analyst_bi",
+      "archetype_label": "Data Analyst & Business Intelligence Engineer",
+      "score": 91,
+      "matched_skills": [
+        "Python",
+        "SQL / PostgreSQL",
+        "Streamlit / BI Dashboards",
+        "Git / CI/CD"
+      ],
+      "missing_skills": [],
+      "matched_projects": [
+        "proj_job_hunter",
+        "proj_upy_sales_mining",
+        "proj_agenmono"
+      ],
+      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, Streamlit / BI Dashboards, Git / CI/CD, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, AgenMono).",
+      "pitch_en": "Hi Stripe team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Financial Data Analyst Intern, Technical Operations and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Streamlit / BI Dashboards, Git / CI/CD — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Stripe! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Financial Data Analyst Intern, Technical Operations y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Streamlit / BI Dashboards, Git / CI/CD, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 0,
+      "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi..."
+    },
+    {
+      "job_id": "a9d7c6e21d4aeac8",
+      "title": "Master's Machine Learning Engineer, Intern",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=8333122",
+      "location": "Toronto",
+      "source": "Greenhouse (Stripe)",
+      "published_at": "2026-10-30",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "ai_ml_engineer",
+      "archetype_label": "Junior AI / Machine Learning Engineer",
+      "score": 91,
+      "matched_skills": [
+        "Python",
+        "LLM Orchestration",
+        "Machine Learning (Scikit-learn)",
+        "Pandas / NumPy"
+      ],
+      "missing_skills": [
+        "Apache Spark / Databricks"
+      ],
+      "matched_projects": [
+        "proj_consultoria_langgraph",
+        "proj_job_hunter",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, UPY Data Mining).",
+      "pitch_en": "Hi Stripe team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Master's Machine Learning Engineer, Intern and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Stripe! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Master's Machine Learning Engineer, Intern y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 1,
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+    },
+    {
+      "job_id": "7c2d1c6811f9045a",
+      "title": "Master's Machine Learning Engineer, Intern",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=8333074",
+      "location": "San Francisco, New York City, Seattle",
+      "source": "Greenhouse (Stripe)",
+      "published_at": "2026-10-30",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "ai_ml_engineer",
+      "archetype_label": "Junior AI / Machine Learning Engineer",
+      "score": 91,
+      "matched_skills": [
+        "Python",
+        "LLM Orchestration",
+        "Machine Learning (Scikit-learn)",
+        "Pandas / NumPy"
+      ],
+      "missing_skills": [
+        "Apache Spark / Databricks"
+      ],
+      "matched_projects": [
+        "proj_consultoria_langgraph",
+        "proj_job_hunter",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, UPY Data Mining).",
+      "pitch_en": "Hi Stripe team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Master's Machine Learning Engineer, Intern and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Stripe! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Master's Machine Learning Engineer, Intern y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 1,
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+    },
+    {
+      "job_id": "c089703b17cc22b7",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=8328662",
+      "location": "San Francisco, New York City, Seattle",
+      "source": "Greenhouse (Stripe)",
+      "published_at": "2026-10-30",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "ai_ml_engineer",
+      "archetype_label": "Junior AI / Machine Learning Engineer",
+      "score": 91,
+      "matched_skills": [
+        "Python",
+        "LLM Orchestration",
+        "Machine Learning (Scikit-learn)",
+        "Pandas / NumPy"
+      ],
+      "missing_skills": [
+        "Apache Spark / Databricks"
+      ],
+      "matched_projects": [
+        "proj_consultoria_langgraph",
+        "proj_job_hunter",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, UPY Data Mining).",
+      "pitch_en": "Hi Stripe team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for PhD Machine Learning Engineer, Intern and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Stripe! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de PhD Machine Learning Engineer, Intern y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 1,
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+    },
+    {
+      "job_id": "8189da242597c7fc",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "company": "Stripe",
+      "url": "https://stripe.com/jobs/search?gh_jid=8328664",
+      "location": "Toronto",
+      "source": "Greenhouse (Stripe)",
+      "published_at": "2026-10-30",
+      "discovered_at": "2026-11-04 05:36",
+      "archetype": "ai_ml_engineer",
+      "archetype_label": "Junior AI / Machine Learning Engineer",
+      "score": 91,
+      "matched_skills": [
+        "Python",
+        "LLM Orchestration",
+        "Machine Learning (Scikit-learn)",
+        "Pandas / NumPy"
+      ],
+      "missing_skills": [
+        "Apache Spark / Databricks"
+      ],
+      "matched_projects": [
+        "proj_consultoria_langgraph",
+        "proj_job_hunter",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, UPY Data Mining).",
+      "pitch_en": "Hi Stripe team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for PhD Machine Learning Engineer, Intern and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Stripe! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de PhD Machine Learning Engineer, Intern y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, Machine Learning (Scikit-learn), Pandas / NumPy, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 1,
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+    },
+    {
+      "job_id": "58c01e629ead2700",
+      "title": "Threat Research Engineer, Security Factory: Threat Research",
+      "company": "GitLab",
+      "url": "https://jobicy.com/jobs/162093-threat-research-engineer-security-factory-threat-research",
+      "location": "Israel,  Poland,  UK",
+      "source": "Jobicy (Python)",
+      "published_at": "2026-11-14T07:24:39",
+      "discovered_at": "2026-11-15 01:41",
+      "archetype": "ai_ml_engineer",
+      "archetype_label": "Junior AI / Machine Learning Engineer",
+      "score": 89,
+      "matched_skills": [
+        "Python",
+        "LLM Orchestration",
+        "RAG & AI Agents",
+        "Google BigQuery / GCP"
+      ],
+      "missing_skills": [
+        "Terraform"
+      ],
+      "matched_projects": [
+        "proj_consultoria_langgraph",
+        "proj_job_hunter",
+        "proj_music_lead_gen"
+      ],
+      "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, LLM Orchestration, RAG & AI Agents, Google BigQuery / GCP, tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, Music Lead Gen). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
+      "pitch_en": "Hi GitLab team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Threat Research Engineer, Security Factory: Threat Research and built a tailored resume highlighting my hands-on production work with Python, LLM Orchestration, RAG & AI Agents, Google BigQuery / GCP — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de GitLab! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Threat Research Engineer, Security Factory: Threat Research y preparé mi CV enfocado en mi experiencia real con Python, LLM Orchestration, RAG & AI Agents, Google BigQuery / GCP, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 0,
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+    },
+    {
+      "job_id": "3281d42294f04299",
+      "title": "Data Analyst (No Experience Required) - Japanese and English",
+      "company": "Peroptyx",
+      "url": "https://www.workingnomads.com/job/go/2007849/",
+      "location": "Japan - Remote",
+      "source": "WorkingNomads (Data)",
+      "published_at": "2026-11-15",
+      "discovered_at": "2026-11-15 01:41",
+      "archetype": "data_analyst_bi",
+      "archetype_label": "Data Analyst & Business Intelligence Engineer",
+      "score": 89,
+      "matched_skills": [
+        "English C1 Bilingual",
+        "Python",
+        "SQL / PostgreSQL",
+        "ETL / Data Pipelines"
+      ],
+      "missing_skills": [],
+      "matched_projects": [
+        "proj_job_hunter",
+        "proj_agenmono",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, AgenMono, UPY Data Mining). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
+      "pitch_en": "Hi Peroptyx team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Data Analyst (No Experience Required) - Japanese and English and built a tailored resume highlighting my hands-on production work with English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Peroptyx! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Data Analyst (No Experience Required) - Japanese and English y preparé mi CV enfocado en mi experiencia real con English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 1,
+      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an..."
+    },
+    {
+      "job_id": "5105745dbac42e54",
+      "title": "Data Analyst (No Experience Required)",
+      "company": "Peroptyx",
+      "url": "https://www.workingnomads.com/job/go/2007847/",
+      "location": "Canada",
+      "source": "WorkingNomads (Data)",
+      "published_at": "2026-11-15",
+      "discovered_at": "2026-11-15 01:41",
+      "archetype": "data_analyst_bi",
+      "archetype_label": "Data Analyst & Business Intelligence Engineer",
+      "score": 89,
+      "matched_skills": [
+        "English C1 Bilingual",
+        "Python",
+        "SQL / PostgreSQL",
+        "ETL / Data Pipelines"
+      ],
+      "missing_skills": [],
+      "matched_projects": [
+        "proj_job_hunter",
+        "proj_agenmono",
+        "proj_upy_sales_mining"
+      ],
+      "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, AgenMono, UPY Data Mining). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
+      "pitch_en": "Hi Peroptyx team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Data Analyst (No Experience Required) and built a tailored resume highlighting my hands-on production work with English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
+      "pitch_es": "¡Hola equipo de Peroptyx! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Data Analyst (No Experience Required) y preparé mi CV enfocado en mi experiencia real con English C1 Bilingual, Python, SQL / PostgreSQL, ETL / Data Pipelines, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
+      "cv_pdf_path": null,
+      "status": "new",
+      "is_latam_friendly": 0,
+      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an..."
     }
   ]
 }
