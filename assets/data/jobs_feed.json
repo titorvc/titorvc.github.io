@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 03:22",
+  "updated_at": "2026-11-15 04:05",
   "total_scanned_sources": 63,
   "total_active_matches": 713,
   "high_priority_matches": 190,
@@ -914,7 +914,7 @@
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
       "salary_expected_range": "$34,000 - $46,000 USD",
       "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ElevenLabs_970df6.pdf"
     },
     {
       "job_id": "7ce00131cea82cf2",
@@ -954,7 +954,7 @@
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
       "salary_expected_range": "$26,000 - $36,000 USD",
       "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ElevenLabs_7ce001.pdf"
     },
     {
       "job_id": "bdac166eec7c5658",
@@ -995,7 +995,7 @@
       "description_snippet": "ABOUT US: AI NEEDS A NEW INFRASTRUCTURE LAYER. WE'RE BUILDING IT AT MODAL. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ...",
       "salary_expected_range": "$26,000 - $36,000 USD",
       "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Modal_Labs_bdac16.pdf"
     },
     {
       "job_id": "9a1dc3bda8b5a1d0",
@@ -1039,7 +1039,7 @@
       "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un...",
       "salary_expected_range": "$38,000 - $50,000 USD",
       "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Elastic_9a1dc3.pdf"
     },
     {
       "job_id": "c080105b88a0bdc7",
@@ -1080,7 +1080,7 @@
       "description_snippet": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest ...",
       "salary_expected_range": "$26,000 - $36,000 USD",
       "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Reddit_c08010.pdf"
     },
     {
       "job_id": "635c0b626ad44e80",
@@ -1122,7 +1122,7 @@
       "description_snippet": "At Scale, we build the AI systems behind some of the country's most important decisions. On the Public Sector Engineering team, you'll embed directly with U.S. government customers, including the Army, Air Force, Joint commands and Intelligence Community, to build and deploy AI applications that support their most critical missions. This is a hybrid customer-facing engineering role. You'll sit with the people whose p...",
       "salary_expected_range": "$32,000 - $44,000 USD",
       "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Scale_AI_635c0b.pdf"
     },
     {
       "job_id": "213ea94930693d7a",
@@ -1164,7 +1164,7 @@
       "description_snippet": "About Scale AI Scale AI is the data foundation for AI, helping organizations build and deploy reliable production AI applications. We partner with the world's leading enterprises and government organizations to accelerate their AI transformation through frontier AI systems that solve real business problems. Every day, we work with organizations across finance, healthcare, manufacturing, media, telecommunications, and...",
       "salary_expected_range": "$38,000 - $50,000 USD",
       "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Scale_AI_213ea9.pdf"
     },
     {
       "job_id": "50fd9eaa78656528",
@@ -1205,7 +1205,7 @@
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
       "salary_expected_range": "$26,000 - $36,000 USD",
       "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_GitLab_50fd9e.pdf"
     },
     {
       "job_id": "498b090ae33eb09d",
@@ -1247,7 +1247,7 @@
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
       "salary_expected_range": "$32,000 - $44,000 USD",
       "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_GitLab_498b09.pdf"
     },
     {
       "job_id": "e6cf5e8222a1badc",
@@ -1291,7 +1291,7 @@
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
       "salary_expected_range": "$34,000 - $46,000 USD",
       "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
-      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_GitLab_e6cf5e.pdf"
     },
     {
       "job_id": "dd9ba2c3c5efb870",
