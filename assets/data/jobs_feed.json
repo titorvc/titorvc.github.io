@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 02:40",
+  "updated_at": "2026-11-15 03:22",
   "total_scanned_sources": 63,
   "total_active_matches": 713,
   "high_priority_matches": 190,
@@ -318,6 +318,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Data Analyst (Mid-Level) HYBRID (No Visa Transfers or Sponsorships Available) Role Summary The Data Analyst is an individual contributor who has moved beyond supervised execution and is developing the independence, analytical depth, and stakeholder skills needed to progress to Senior level. They own smaller analytical domains end-to-end, contribute meaningfully to team standards, and begin to proactively surface insi...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Tillster_c31ce1.pdf"
     },
     {
@@ -355,6 +357,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Kpler_aed3c9.pdf"
     },
     {
@@ -395,6 +399,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries wor...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Kpler_e0d326.pdf"
     },
     {
@@ -434,6 +440,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Are you passionate about football and technology? This is your chance! At 433, we are looking for a Junior AI Engineer to join our AI team. WE ARE 433 With almost 80 million followers and over 5 billion impressions per month, 433 is the home of football on social media. We create and share the best football content across all platforms, worldwide. Our massive fanbase includes more than 15,000 professional football pl...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_433_4e8a4e.pdf"
     },
     {
@@ -469,6 +477,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About HiredBuddy At HiredBuddy , we connect domain specialists and subject-matter experts with leading AI research labs to shape and train the next generation of artificial intelligence. We focus on high-quality data annotation, RLHF (Reinforcement Learning from Human Feedback), and model evaluation across various domains, ranging from STEM and software engineering to linguistics and data science. Position Overview W...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_HiredBuddy_68d88e.pdf"
     },
     {
@@ -504,6 +514,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Description Machine Learning Maestro: You donât just work with data - you decode it, predict the future with it, and turn it into action. Your models donât just sit on a shelf - they shape strategy, optimize efficiency, and fuel company growth. You thrive on uncovering hidden patterns, validating hypotheses, and embedding machine learning models into real-world AI applications. If that sounds like you - read on. ...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_AlgaeCal_a90696.pdf"
     },
     {
@@ -543,6 +555,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Tallinn, Harju County, Estonia Location: USA & LATAM | Remote Employment Type: Contractor, Full-time What You’ll Do: Design, develop, and maintain backend services and RESTful APIs using Python, Flask, or FastAPI Build clean, maintainable, and scalable solutions following Python best practices and PEP8 Work with SQL databases, particularly PostgreSQL Develop unit and integration tests using Pytest Create and maintain...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Python_org_Official_Boar_926812.pdf"
     },
     {
@@ -575,6 +589,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About the Role This role will serve as a key execution partner to the GenAI Customer Compliance Manager, with a strong focus on supporting GenAI delivery workflows through embedded compliance operations and Legal coordination. The GenAI Compliance Operations & Programs Associate will sit at the intersection of Delivery, Ops, and Legal, ensuring that compliance considerations are integrated early in the project lifecy...",
+      "salary_expected_range": "$22,000 - $30,000 USD (~$440K - $600K MXN)",
+      "salary_explanation": "Rango bruto anual estimado para ingeniería de datos/IA en mercado corporativo México / nómina local.",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Scale_AI_c5aa5f.pdf"
     },
     {
@@ -612,6 +628,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Stripe_63e5c1.pdf"
     },
     {
@@ -649,6 +667,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Stripe_14f577.pdf"
     },
     {
@@ -691,6 +711,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: United States Machine Learning Data Engineer Job Title: Machine Learning Data Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 3–8 Years Salary Range: $110,000 – $175,000 per year (USD) Employment Type: Full-Time Job Category: Artificial Intelligence / Machine Learning / Data Engineering Job Summary We are seeking a skilled and experienced Machine Learning Data Engineer to jo...",
+      "salary_expected_range": "$110,000 - $133,000 USD",
+      "salary_explanation": "Basado en el rango publicado ($110,000 - $175,000 USD). Calibrado en el percentil inicial/competitivo para maximizar conversión ATS en perfil Early-Career.",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_EdgeQ_Technologies_Priva_0f5b08.pdf"
     },
     {
@@ -728,6 +750,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "At Hudson River Trading (HRT) the Applied AI team’s mission is to increase the speed and quality of work across the firm’s most consequential workflows. We build AI systems that help researchers and developers iterate faster, automate increasingly complex work, and enable autonomous exploration at a scale that would not otherwise be possible. We apply frontier models and agentic systems to how quantitative research, ...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Wehrtyou_a83f00.pdf"
     },
     {
@@ -767,6 +791,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Reddit_175c95.pdf"
     },
     {
@@ -805,6 +831,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Reddit_8ffb19.pdf"
     },
     {
@@ -844,6 +872,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_Figma_3bfb4d.pdf"
     },
     {
@@ -882,6 +912,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -920,6 +952,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -959,6 +993,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "ABOUT US: AI NEEDS A NEW INFRASTRUCTURE LAYER. WE'RE BUILDING IT AT MODAL. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -1001,6 +1037,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1040,6 +1078,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest ...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -1080,6 +1120,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "At Scale, we build the AI systems behind some of the country's most important decisions. On the Public Sector Engineering team, you'll embed directly with U.S. government customers, including the Army, Air Force, Joint commands and Intelligence Community, to build and deploy AI applications that support their most critical missions. This is a hybrid customer-facing engineering role. You'll sit with the people whose p...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1120,6 +1162,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Scale AI Scale AI is the data foundation for AI, helping organizations build and deploy reliable production AI applications. We partner with the world's leading enterprises and government organizations to accelerate their AI transformation through frontier AI systems that solve real business problems. Every day, we work with organizations across finance, healthcare, manufacturing, media, telecommunications, and...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1159,6 +1203,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -1199,6 +1245,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1241,6 +1289,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1278,6 +1328,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1311,6 +1363,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About Andercore Andercore is the AI-native supplier of industrial materials and goods for energy and infrastructure. We execute trade and distribution end-to-end, on our own account, at the speed of compute - and we are becoming the supplier of record for the entire industry. Industrial procurement is a €900B market in Europe alone and the largest manual market on earth. 95% of customers have no direct access to glob...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -1348,6 +1402,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Overview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new produ...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1382,6 +1438,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, part-time, in-...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1419,6 +1477,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Upgrade helps customers move in the right direction with affordable and responsible financial products. Since 2017, weâve helped over 7.5 million customers access over $42 billion in consumer credit. With a relentless focus on improving our customers' financial well-being, we build products that put more money in their pocket and support their journey toward a better financial future. Weâre backed by some of the ...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -1456,6 +1516,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: Turkey URL: https://sezzle.com The salary range for this role is $2,800 - $4,500 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; ...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1494,6 +1556,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Â¡ATENCIÃN, PYTHON DEVELOPERS! Buscamos perfiles para incorporar a un proyecto internacional donde podrÃ¡s desarrollar soluciones, procesar datos y trabajar con tecnologÃ­as punteras... Â¡sin salir de casa! Â¿QuÃ© necesitamos? MÃ¡s De 5 AÃ±os De Experiencia En Python (Flask / Plotly Dash) Pandas y NumPy Bases de datos SQL Desarrollo con contenedores CI/CD con GitHub Actions Nivel de inglÃ©s B2 o superior imprescindi...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1528,6 +1592,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Claude is trained and served on hardware in data centers Anthropic ...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1564,6 +1630,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1600,6 +1668,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1636,6 +1706,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who We Are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1672,6 +1744,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1712,6 +1786,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1753,6 +1829,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering startups, including Rolls Royce, Continental, Porsche, ABB, and WGU. With an exclusive focus on Artificial Intelligence and Big Data, Addepto helps organization...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1792,6 +1870,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "At The Flex, we believe renting a home should be as effortless as booking a ride. Our mission is ambitious: enable anyone to live anywhere, anytime, without friction. Powered by Base360.ai, our proprietary technology platform, we are building the operating system for modern rentingâautomating operations, connecting fragmented systems, and creating seamless experiences for guests, landlords, and operators across the...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1829,6 +1909,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market s...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1866,6 +1948,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Über die Customs Support Group Die Customs Support Group (CSG) ist der europäische Marktführer für Zolldienstleistungen und in 15 Ländern aktiv. CSG befindet sich im Besitz einer Private-Equity-Gesellschaft und ist ein schnell wachsendes, dynamisches und datengetriebenes Unternehmen, das seine Präsenz durch starkes organisches Wachstum und strategische Akquisitionen weiter ausbaut. Zu den wichtigsten Prioritäten zähl...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -1903,6 +1987,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -1943,6 +2029,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -1981,6 +2069,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2020,6 +2110,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Consequential Work. Dedicated People. About Onebrief Onebrief builds collaboration and AI-powered workflow software for military planning and operational coordination. Military planning is complex by nature, requiring teams to coordinate information, people, and decisions across systems and locations. Onebrief brings planning, collaboration, simulation, and AI into one connected environment, helping teams test strate...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2052,6 +2144,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "ABOUT NUMA Hey there! Weâre Numa, a forward-thinking hospitality brand redefining how people discover cities. We create spaces where simplicity meets innovation, offering thoughtfully designed rooms, studios, and apartments in the heart of Europeâs most vibrant neighbourhoods. Weâre not just transforming the guest experienceâweâre revolutionizing the hospitality industry from the inside out. Our cutting-edg...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2087,6 +2181,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "We're looking for a detail-oriented and strategic Data Analyst to join our data-driven team. You'll transform complex datasets into clear, actionable insights that drive performance improvements across the business. This role requires strong analytical capabilities, technical proficiency in data tools, and the ability to clearly communicate insights to both technical and non-technical audiences. Key Responsibilities:...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2124,6 +2220,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About us Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at: https://rubylabs.com/about-us/ About the role We are...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2161,6 +2259,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Ubuntu Linux is one of the most widely used Linux distributions in the world today and one of the top contributing factors to its popularity is its wide availability and ease of installation. Canonical , the publisher of Ubuntu Linux, is seeking a senior software engineer to lead an initiative to take the configuration and build of the Ubuntu Linux kernel to a new level of simplicity and automation to make it even ea...",
+      "salary_expected_range": "$32,000 - $44,000 USD",
+      "salary_explanation": "Rango bruto anual para Backend/Automatización Early-Career remoto internacional (FastAPI, Linux Daemons).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -2196,6 +2296,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: Summary We are seeking a highly hands-on AI Engineer with a proven track record of shipping agentic AI systems into production for enterprise environments. In this role, you will design, build, and deploy production-grade AI agents capable of multi-agent orchestration, complex tool execution, and dynamic context management. You will implement robust safety guardrails and integrate frontier models using ...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2231,6 +2333,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: New York City, Remote Alloy is where you belong! Alloy is the AI-powered identity and fraud prevention platform that accelerates onboarding, stops fraud, and scales compliance across the customer lifecycle so financial organizations can grow without limits. More than 900 of the world's leading financial institutions and fintechs trust Alloy for smarter risk management that drives growth. Through our val...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -2268,6 +2372,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: India (remote) Machine Learning Engineer IV – (Computer Vision) We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. ...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2305,6 +2411,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and d...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2342,6 +2450,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: Austria (remote) Machine Learning Engineer We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2377,6 +2487,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Description QuantumDiamonds (QD) is entering its next phase: with the start of production, we are evolving from a startup into an industrial company. This transition requires an operational foundation built on clean, lean and scalable processes. Join the CEO Office and play a key role in establishing this foundation. As a Process Optimization Intern, you will map our processes in Odoo, from purchase request to bookke...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2414,6 +2526,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role As a Data Engineer supporting Billing & Payments Engineering, you’l...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2451,6 +2565,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role As a Data Engineer on the Data Science & Analytics team, you will b...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -2488,6 +2604,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. Job Description As a Data Engineer, you will be a member of the Data Science & Ana...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -2525,6 +2643,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role We are seeking a Recruiting Analytics Data Engineer to join our Peo...",
+      "salary_expected_range": "$34,000 - $46,000 USD",
+      "salary_explanation": "Rango bruto anual para Data/ETL Engineer Early-Career remoto internacional (Python, SQL, Airflow).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
@@ -2563,6 +2683,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2600,6 +2722,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2638,6 +2762,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2676,6 +2802,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2715,6 +2843,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2753,6 +2883,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "GAQ427R224 We're hiring an AI Automation Engineer to build the next generation of IT automations to improve the employee experience at Databricks. You'll be building production-grade AI agents and automation services that understand employee requests, retrieve enterprise context, reason across systems, invoke tools and APIs, and take action safely. The goal isn't to automate existing workflows the same way we've done...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2786,6 +2918,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, in-person in t...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2818,6 +2952,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "salary_expected_range": "$18,000 - $25,000 USD (~$360K - $500K MXN)",
+      "salary_explanation": "Rango bruto anual estimado para analítica y BI en mercado México / nómina local.",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2850,6 +2986,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "salary_expected_range": "$20,000 - $28,000 USD (~$400K - $560K MXN)",
+      "salary_explanation": "Rango bruto anual estimado para backend y automatización en mercado México / nómina local.",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
@@ -2883,6 +3021,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "At Scale , our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2916,6 +3056,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Our mission Constructor’s mission is to enable all educational organisations to provide high-quality digital education to 10x people with 10x efficiency. With strong expertise in machine intelligence and data science, Constructor’s all-in-one platform for education and research addresses today’s pressing educational challenges: access inequality, tech clutter, and low engagement of students. Please send your resume i...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -2949,6 +3091,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "About Grubel Grubel is a research lab that builds AI for high-stakes knowledge work, starting with law. Legal matters require specialized expertise, and each one involves its own facts, practices, parties, and institutions. General-purpose AI applies the same system to every legal matter, varying only what goes into a limited context window. To meet the depth and diversity of legal work, we let every matter build its...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -2982,6 +3126,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -3017,6 +3163,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -3052,6 +3200,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -3087,6 +3237,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -3122,6 +3274,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -3157,6 +3311,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "salary_expected_range": "$38,000 - $50,000 USD",
+      "salary_explanation": "Rango bruto anual para AI/ML Early-Career en esquema contractor remoto internacional (C1 inglés + RAG/pgvector).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
@@ -3190,6 +3346,8 @@
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
@@ -3223,6 +3381,8 @@
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an...",
+      "salary_expected_range": "$26,000 - $36,000 USD",
+      "salary_explanation": "Rango bruto anual para Data Analyst / BI Early-Career remoto internacional (SQL, Tableau, MicroSIP ETL).",
       "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     }
   ]

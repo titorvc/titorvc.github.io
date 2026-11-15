@@ -413,6 +413,15 @@
                             ${job.reason_es}
                         </div>
 
+                        <div class="job-salary-box">
+                            <div class="job-salary-header">
+                                <span class="job-salary-badge">💵 Expectativa Salarial Bruta Anual (Gross Base)</span>
+                                <button type="button" class="job-salary-copy-btn" data-salary="${job.salary_expected_range || '$34,000 - $46,000 USD'}">📋 Copiar Rango</button>
+                            </div>
+                            <div class="job-salary-amount">${job.salary_expected_range || '$34,000 - $46,000 USD'}</div>
+                            <div class="job-salary-hint">${job.salary_explanation || 'Rango bruto anual calibrado para perfil Early-Career en esquema contractor remoto internacional.'}</div>
+                        </div>
+
                         <div>
                             <div class="job-skills-wrap" style="margin-bottom: 12px;">
                                 ${skillsHtml}
@@ -435,6 +444,17 @@
                 container.querySelectorAll('.job-status-select').forEach(sel => {
                     sel.addEventListener('change', function() {
                         setJobStatus(this.getAttribute('data-job-id'), this.value);
+                    });
+                });
+
+                container.querySelectorAll('.job-salary-copy-btn').forEach(b => {
+                    b.addEventListener('click', function() {
+                        const salary = this.getAttribute('data-salary') || '';
+                        navigator.clipboard.writeText(salary).then(() => {
+                            const orig = this.textContent;
+                            this.textContent = '✓ Copiado';
+                            setTimeout(() => { this.textContent = orig; }, 1800);
+                        });
                     });
                 });
 

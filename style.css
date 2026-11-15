@@ -1170,6 +1170,74 @@ body, .navbar, .footer, .skills-section, .tech-item {
     border: 1px solid var(--border-color);
 }
 
+.job-salary-box {
+    background: rgba(16, 185, 129, 0.06);
+    border: 1px solid rgba(16, 185, 129, 0.28);
+    border-radius: 18px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.job-salary-box:hover {
+    border-color: rgba(16, 185, 129, 0.5);
+    background: rgba(16, 185, 129, 0.09);
+}
+
+.job-salary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.job-salary-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #10b981;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.job-salary-copy-btn {
+    background: var(--surface-color);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    color: var(--text-primary);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.job-salary-copy-btn:hover {
+    background: #10b981;
+    color: #ffffff;
+    border-color: #10b981;
+    transform: translateY(-1px);
+}
+
+.job-salary-amount {
+    font-size: 1.22rem;
+    font-weight: 800;
+    font-family: 'JetBrains Mono', monospace;
+    color: #10b981;
+    letter-spacing: -0.02em;
+}
+
+.job-salary-hint {
+    font-size: 0.78rem;
+    line-height: 1.4;
+    color: var(--text-secondary);
+}
+
 .job-skills-wrap {
     display: flex;
     flex-wrap: wrap;
