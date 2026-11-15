@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 02:32",
+  "updated_at": "2026-11-15 02:40",
   "total_scanned_sources": 63,
   "total_active_matches": 713,
   "high_priority_matches": 190,
@@ -687,7 +687,7 @@
       "reason_es": "Match con tu arquetipo de Ingeniero de Datos (Data & Analytics Engineer). La vacante solicita Python, SQL / PostgreSQL, pgvector / Vector DB, LLM Orchestration, Machine Learning (Scikit-learn), tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, Agencia Digitalizacion IA, UPY Data Mining). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi EdgeQ Technologies Private Limited team! I'm Roberto Vargas, a Data Engineer & ETL Pipeline Specialist based in Mexico (UTC-6, C1 English). I noticed your opening for Machine Learning Data Engineer and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, pgvector / Vector DB, LLM Orchestration, Machine Learning (Scikit-learn) — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de EdgeQ Technologies Private Limited! Soy Roberto Vargas (Ingeniero de Datos (Data & Analytics Engineer), Inglés C1, Mérida MX). Vi su vacante de Machine Learning Data Engineer y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, pgvector / Vector DB, LLM Orchestration, Machine Learning (Scikit-learn), incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_EdgeQ_Technologies_Priva_0f5b08.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Headquarters: United States Machine Learning Data Engineer Job Title: Machine Learning Data Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 3–8 Years Salary Range: $110,000 – $175,000 per year (USD) Employment Type: Full-Time Job Category: Artificial Intelligence / Machine Learning / Data Engineering Job Summary We are seeking a skilled and experienced Machine Learning Data Engineer to jo...",
@@ -724,7 +724,7 @@
       "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, RAG & AI Agents, Machine Learning (Scikit-learn), Linux / Bash / Daemons, n8n / Workflow Automation, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, Music Lead Gen, Agencia Digitalizacion IA). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Wehrtyou team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Applied AI Engineer and built a tailored resume highlighting my hands-on production work with Python, RAG & AI Agents, Machine Learning (Scikit-learn), Linux / Bash / Daemons, n8n / Workflow Automation — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Wehrtyou! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Applied AI Engineer y preparé mi CV enfocado en mi experiencia real con Python, RAG & AI Agents, Machine Learning (Scikit-learn), Linux / Bash / Daemons, n8n / Workflow Automation, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Wehrtyou_a83f00.pdf",
       "status": "new",
       "is_latam_friendly": 0,
       "description_snippet": "At Hudson River Trading (HRT) the Applied AI team’s mission is to increase the speed and quality of work across the firm’s most consequential workflows. We build AI systems that help researchers and developers iterate faster, automate increasingly complex work, and enable autonomous exploration at a scale that would not otherwise be possible. We apply frontier models and agentic systems to how quantitative research, ...",
@@ -763,7 +763,7 @@
       "reason_es": "Match con tu arquetipo de Analista de Datos & Business Intelligence (BI / ML). La vacante solicita Python, SQL / PostgreSQL, RAG & AI Agents, Apache Airflow, ETL / Data Pipelines, tecnologías verificadas directamente en tus nodos de Obsidian (UPY Data Mining, Buscador Trabajo IA, AgenMono). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Reddit team! I'm Roberto Vargas, a Data Analyst & Business Intelligence Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Analytics Engineer and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, RAG & AI Agents, Apache Airflow, ETL / Data Pipelines — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Reddit! Soy Roberto Vargas (Analista de Datos & Business Intelligence (BI / ML), Inglés C1, Mérida MX). Vi su vacante de Analytics Engineer y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, RAG & AI Agents, Apache Airflow, ETL / Data Pipelines, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Reddit_175c95.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
@@ -801,7 +801,7 @@
       "reason_es": "Match con tu arquetipo de Ingeniero de Inteligencia Artificial y Machine Learning. La vacante solicita Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), tecnologías verificadas directamente en tus nodos de Obsidian (Agencia Digitalizacion IA, Buscador Trabajo IA, Music Lead Gen). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Reddit team! I'm Roberto Vargas, a Junior AI / Machine Learning Engineer based in Mexico (UTC-6, C1 English). I noticed your opening for Machine Learning Engineer, Answers Relevance and built a tailored resume highlighting my hands-on production work with Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn) — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Reddit! Soy Roberto Vargas (Ingeniero de Inteligencia Artificial y Machine Learning, Inglés C1, Mérida MX). Vi su vacante de Machine Learning Engineer, Answers Relevance y preparé mi CV enfocado en mi experiencia real con Python, pgvector / Vector DB, LLM Orchestration, RAG & AI Agents, Machine Learning (Scikit-learn), incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Reddit_8ffb19.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more info...",
@@ -840,7 +840,7 @@
       "reason_es": "Match con tu arquetipo de Ingeniero de Datos (Data & Analytics Engineer). La vacante solicita Python, SQL / PostgreSQL, Apache Airflow, ETL / Data Pipelines, n8n / Workflow Automation, tecnologías verificadas directamente en tus nodos de Obsidian (Buscador Trabajo IA, UPY Data Mining, DataCenter Microservices). Además, tu perfil activo como DJ en Linux y creador de Music Lead Gen (Spotify API) te da una ventaja única de dominio.",
       "pitch_en": "Hi Figma team! I'm Roberto Vargas, a Data Engineer & ETL Pipeline Specialist based in Mexico (UTC-6, C1 English). I noticed your opening for Data & Integration Engineer, Business Systems and built a tailored resume highlighting my hands-on production work with Python, SQL / PostgreSQL, Apache Airflow, ETL / Data Pipelines, n8n / Workflow Automation — including an end-to-end ML & ERP pipeline (0.88 ROC-AUC on 124K+ transactions) and autonomous AI/RAG architectures. Portfolio: https://titorvc.github.io/ — I'd love to connect!",
       "pitch_es": "¡Hola equipo de Figma! Soy Roberto Vargas (Ingeniero de Datos (Data & Analytics Engineer), Inglés C1, Mérida MX). Vi su vacante de Data & Integration Engineer, Business Systems y preparé mi CV enfocado en mi experiencia real con Python, SQL / PostgreSQL, Apache Airflow, ETL / Data Pipelines, n8n / Workflow Automation, incluyendo pipelines en producción (+124K transacciones ERP, Random Forest 0.88 ROC-AUC) y sistemas autónomos con IA. Mi portafolio: https://titorvc.github.io/",
-      "cv_pdf_path": null,
+      "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Figma_3bfb4d.pdf",
       "status": "new",
       "is_latam_friendly": 1,
       "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite...",
@@ -881,7 +881,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr..."
+      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "7ce00131cea82cf2",
@@ -918,7 +919,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr..."
+      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "bdac166eec7c5658",
@@ -956,7 +958,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "ABOUT US: AI NEEDS A NEW INFRASTRUCTURE LAYER. WE'RE BUILDING IT AT MODAL. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ..."
+      "description_snippet": "ABOUT US: AI NEEDS A NEW INFRASTRUCTURE LAYER. WE'RE BUILDING IT AT MODAL. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneath defined the decade. AI is no different, except it touches everything instead of one slice, and the window to build the layer underneath it is open right now. ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "9a1dc3bda8b5a1d0",
@@ -997,7 +1000,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un..."
+      "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "c080105b88a0bdc7",
@@ -1035,7 +1039,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Reddit_c08010.pdf",
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest ..."
+      "description_snippet": "Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "635c0b626ad44e80",
@@ -1074,7 +1079,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Scale_AI_635c0b.pdf",
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "At Scale, we build the AI systems behind some of the country's most important decisions. On the Public Sector Engineering team, you'll embed directly with U.S. government customers, including the Army, Air Force, Joint commands and Intelligence Community, to build and deploy AI applications that support their most critical missions. This is a hybrid customer-facing engineering role. You'll sit with the people whose p..."
+      "description_snippet": "At Scale, we build the AI systems behind some of the country's most important decisions. On the Public Sector Engineering team, you'll embed directly with U.S. government customers, including the Army, Air Force, Joint commands and Intelligence Community, to build and deploy AI applications that support their most critical missions. This is a hybrid customer-facing engineering role. You'll sit with the people whose p...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "213ea94930693d7a",
@@ -1113,7 +1119,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_Scale_AI_213ea9.pdf",
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Scale AI Scale AI is the data foundation for AI, helping organizations build and deploy reliable production AI applications. We partner with the world's leading enterprises and government organizations to accelerate their AI transformation through frontier AI systems that solve real business problems. Every day, we work with organizations across finance, healthcare, manufacturing, media, telecommunications, and..."
+      "description_snippet": "About Scale AI Scale AI is the data foundation for AI, helping organizations build and deploy reliable production AI applications. We partner with the world's leading enterprises and government organizations to accelerate their AI transformation through frontier AI systems that solve real business problems. Every day, we work with organizations across finance, healthcare, manufacturing, media, telecommunications, and...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "50fd9eaa78656528",
@@ -1151,7 +1158,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_GitLab_50fd9e.pdf",
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "498b090ae33eb09d",
@@ -1190,7 +1198,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_GitLab_498b09.pdf",
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "e6cf5e8222a1badc",
@@ -1231,7 +1240,8 @@
       "cv_pdf_path": "/home/titorvc/CV_Roberto_Vargas/Tailored_CVs/Roberto_Vargas_CV_GitLab_e6cf5e.pdf",
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "dd9ba2c3c5efb870",
@@ -1267,7 +1277,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "bf2f3bd41c2a8387",
@@ -1299,7 +1310,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "About Andercore Andercore is the AI-native supplier of industrial materials and goods for energy and infrastructure. We execute trade and distribution end-to-end, on our own account, at the speed of compute - and we are becoming the supplier of record for the entire industry. Industrial procurement is a €900B market in Europe alone and the largest manual market on earth. 95% of customers have no direct access to glob..."
+      "description_snippet": "About Andercore Andercore is the AI-native supplier of industrial materials and goods for energy and infrastructure. We execute trade and distribution end-to-end, on our own account, at the speed of compute - and we are becoming the supplier of record for the entire industry. Industrial procurement is a €900B market in Europe alone and the largest manual market on earth. 95% of customers have no direct access to glob...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "104f56d7b1d472d1",
@@ -1335,7 +1347,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Overview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new produ..."
+      "description_snippet": "Overview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new produ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "dc1e583a19490cc1",
@@ -1368,7 +1381,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, part-time, in-..."
+      "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, part-time, in-...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "9fdf2eaeedd0c753",
@@ -1404,7 +1418,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Upgrade helps customers move in the right direction with affordable and responsible financial products. Since 2017, weâve helped over 7.5 million customers access over $42 billion in consumer credit. With a relentless focus on improving our customers' financial well-being, we build products that put more money in their pocket and support their journey toward a better financial future. Weâre backed by some of the ..."
+      "description_snippet": "Upgrade helps customers move in the right direction with affordable and responsible financial products. Since 2017, weâve helped over 7.5 million customers access over $42 billion in consumer credit. With a relentless focus on improving our customers' financial well-being, we build products that put more money in their pocket and support their journey toward a better financial future. Weâre backed by some of the ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "2139d5806915b930",
@@ -1440,7 +1455,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: Turkey URL: https://sezzle.com The salary range for this role is $2,800 - $4,500 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; ..."
+      "description_snippet": "Headquarters: Turkey URL: https://sezzle.com The salary range for this role is $2,800 - $4,500 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "8ec11b1128ba95cb",
@@ -1477,7 +1493,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Â¡ATENCIÃN, PYTHON DEVELOPERS! Buscamos perfiles para incorporar a un proyecto internacional donde podrÃ¡s desarrollar soluciones, procesar datos y trabajar con tecnologÃ­as punteras... Â¡sin salir de casa! Â¿QuÃ© necesitamos? MÃ¡s De 5 AÃ±os De Experiencia En Python (Flask / Plotly Dash) Pandas y NumPy Bases de datos SQL Desarrollo con contenedores CI/CD con GitHub Actions Nivel de inglÃ©s B2 o superior imprescindi..."
+      "description_snippet": "Â¡ATENCIÃN, PYTHON DEVELOPERS! Buscamos perfiles para incorporar a un proyecto internacional donde podrÃ¡s desarrollar soluciones, procesar datos y trabajar con tecnologÃ­as punteras... Â¡sin salir de casa! Â¿QuÃ© necesitamos? MÃ¡s De 5 AÃ±os De Experiencia En Python (Flask / Plotly Dash) Pandas y NumPy Bases de datos SQL Desarrollo con contenedores CI/CD con GitHub Actions Nivel de inglÃ©s B2 o superior imprescindi...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "3792993822cea086",
@@ -1510,7 +1527,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Claude is trained and served on hardware in data centers Anthropic ..."
+      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Claude is trained and served on hardware in data centers Anthropic ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "1c9a6792f6cb1496",
@@ -1545,7 +1563,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "570d26775f97383a",
@@ -1580,7 +1599,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "62122a7779162af7",
@@ -1615,7 +1635,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who We Are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who We Are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "639638181a176505",
@@ -1650,7 +1671,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "906dde8f1d0c6534",
@@ -1689,7 +1711,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T..."
+      "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "a1701f2bc184c148",
@@ -1729,7 +1752,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering startups, including Rolls Royce, Continental, Porsche, ABB, and WGU. With an exclusive focus on Artificial Intelligence and Big Data, Addepto helps organization..."
+      "description_snippet": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering startups, including Rolls Royce, Continental, Porsche, ABB, and WGU. With an exclusive focus on Artificial Intelligence and Big Data, Addepto helps organization...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "3a62f4e6091c351f",
@@ -1767,7 +1791,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "At The Flex, we believe renting a home should be as effortless as booking a ride. Our mission is ambitious: enable anyone to live anywhere, anytime, without friction. Powered by Base360.ai, our proprietary technology platform, we are building the operating system for modern rentingâautomating operations, connecting fragmented systems, and creating seamless experiences for guests, landlords, and operators across the..."
+      "description_snippet": "At The Flex, we believe renting a home should be as effortless as booking a ride. Our mission is ambitious: enable anyone to live anywhere, anytime, without friction. Powered by Base360.ai, our proprietary technology platform, we are building the operating system for modern rentingâautomating operations, connecting fragmented systems, and creating seamless experiences for guests, landlords, and operators across the...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "cbeda072bde9dd67",
@@ -1803,7 +1828,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market s..."
+      "description_snippet": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market s...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "def6578bc213ff60",
@@ -1839,7 +1865,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Über die Customs Support Group Die Customs Support Group (CSG) ist der europäische Marktführer für Zolldienstleistungen und in 15 Ländern aktiv. CSG befindet sich im Besitz einer Private-Equity-Gesellschaft und ist ein schnell wachsendes, dynamisches und datengetriebenes Unternehmen, das seine Präsenz durch starkes organisches Wachstum und strategische Akquisitionen weiter ausbaut. Zu den wichtigsten Prioritäten zähl..."
+      "description_snippet": "Über die Customs Support Group Die Customs Support Group (CSG) ist der europäische Marktführer für Zolldienstleistungen und in 15 Ländern aktiv. CSG befindet sich im Besitz einer Private-Equity-Gesellschaft und ist ein schnell wachsendes, dynamisches und datengetriebenes Unternehmen, das seine Präsenz durch starkes organisches Wachstum und strategische Akquisitionen weiter ausbaut. Zu den wichtigsten Prioritäten zähl...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "c7e77f442f5bab7d",
@@ -1875,7 +1902,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite..."
+      "description_snippet": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excite...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "f7402d6b0e1ed4f8",
@@ -1914,7 +1942,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T..."
+      "description_snippet": "About the Role We're looking for a FinOps Data Engineer to help drive cost optimization and cloud financial governance across our AWS infrastructure and GCP footprint. You'll work cross-functionally with Engineering, Finance, and Product to find and ship savings, build the tooling necessary to maximize efficiency of every dollar spent in the cloud, and cultivate a culture of cost awareness across engineering teams. T...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "064501bfe39362eb",
@@ -1951,7 +1980,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un..."
+      "description_snippet": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and un...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "8558538fae5196b4",
@@ -1989,7 +2019,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Consequential Work. Dedicated People. About Onebrief Onebrief builds collaboration and AI-powered workflow software for military planning and operational coordination. Military planning is complex by nature, requiring teams to coordinate information, people, and decisions across systems and locations. Onebrief brings planning, collaboration, simulation, and AI into one connected environment, helping teams test strate..."
+      "description_snippet": "Consequential Work. Dedicated People. About Onebrief Onebrief builds collaboration and AI-powered workflow software for military planning and operational coordination. Military planning is complex by nature, requiring teams to coordinate information, people, and decisions across systems and locations. Onebrief brings planning, collaboration, simulation, and AI into one connected environment, helping teams test strate...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "f2836ee8d829fc99",
@@ -2020,7 +2051,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "ABOUT NUMA Hey there! Weâre Numa, a forward-thinking hospitality brand redefining how people discover cities. We create spaces where simplicity meets innovation, offering thoughtfully designed rooms, studios, and apartments in the heart of Europeâs most vibrant neighbourhoods. Weâre not just transforming the guest experienceâweâre revolutionizing the hospitality industry from the inside out. Our cutting-edg..."
+      "description_snippet": "ABOUT NUMA Hey there! Weâre Numa, a forward-thinking hospitality brand redefining how people discover cities. We create spaces where simplicity meets innovation, offering thoughtfully designed rooms, studios, and apartments in the heart of Europeâs most vibrant neighbourhoods. Weâre not just transforming the guest experienceâweâre revolutionizing the hospitality industry from the inside out. Our cutting-edg...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "81ff797f56c92760",
@@ -2054,7 +2086,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "We're looking for a detail-oriented and strategic Data Analyst to join our data-driven team. You'll transform complex datasets into clear, actionable insights that drive performance improvements across the business. This role requires strong analytical capabilities, technical proficiency in data tools, and the ability to clearly communicate insights to both technical and non-technical audiences. Key Responsibilities:..."
+      "description_snippet": "We're looking for a detail-oriented and strategic Data Analyst to join our data-driven team. You'll transform complex datasets into clear, actionable insights that drive performance improvements across the business. This role requires strong analytical capabilities, technical proficiency in data tools, and the ability to clearly communicate insights to both technical and non-technical audiences. Key Responsibilities:...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "b1deff03d8c143cb",
@@ -2090,7 +2123,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About us Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at: https://rubylabs.com/about-us/ About the role We are..."
+      "description_snippet": "About us Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at: https://rubylabs.com/about-us/ About the role We are...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "c314494c268453ae",
@@ -2126,7 +2160,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Ubuntu Linux is one of the most widely used Linux distributions in the world today and one of the top contributing factors to its popularity is its wide availability and ease of installation. Canonical , the publisher of Ubuntu Linux, is seeking a senior software engineer to lead an initiative to take the configuration and build of the Ubuntu Linux kernel to a new level of simplicity and automation to make it even ea..."
+      "description_snippet": "Ubuntu Linux is one of the most widely used Linux distributions in the world today and one of the top contributing factors to its popularity is its wide availability and ease of installation. Canonical , the publisher of Ubuntu Linux, is seeking a senior software engineer to lead an initiative to take the configuration and build of the Ubuntu Linux kernel to a new level of simplicity and automation to make it even ea...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "cba88bd64ef83f05",
@@ -2160,7 +2195,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: Summary We are seeking a highly hands-on AI Engineer with a proven track record of shipping agentic AI systems into production for enterprise environments. In this role, you will design, build, and deploy production-grade AI agents capable of multi-agent orchestration, complex tool execution, and dynamic context management. You will implement robust safety guardrails and integrate frontier models using ..."
+      "description_snippet": "Headquarters: Summary We are seeking a highly hands-on AI Engineer with a proven track record of shipping agentic AI systems into production for enterprise environments. In this role, you will design, build, and deploy production-grade AI agents capable of multi-agent orchestration, complex tool execution, and dynamic context management. You will implement robust safety guardrails and integrate frontier models using ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "0b2774802d114a0b",
@@ -2194,7 +2230,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: New York City, Remote Alloy is where you belong! Alloy is the AI-powered identity and fraud prevention platform that accelerates onboarding, stops fraud, and scales compliance across the customer lifecycle so financial organizations can grow without limits. More than 900 of the world's leading financial institutions and fintechs trust Alloy for smarter risk management that drives growth. Through our val..."
+      "description_snippet": "Headquarters: New York City, Remote Alloy is where you belong! Alloy is the AI-powered identity and fraud prevention platform that accelerates onboarding, stops fraud, and scales compliance across the customer lifecycle so financial organizations can grow without limits. More than 900 of the world's leading financial institutions and fintechs trust Alloy for smarter risk management that drives growth. Through our val...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "5569f28fb2403ff4",
@@ -2230,7 +2267,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: India (remote) Machine Learning Engineer IV – (Computer Vision) We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. ..."
+      "description_snippet": "Headquarters: India (remote) Machine Learning Engineer IV – (Computer Vision) We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. ...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "73bacd3d61b3754f",
@@ -2266,7 +2304,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and d..."
+      "description_snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and d...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "df3280a1c637f1a7",
@@ -2302,7 +2341,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Headquarters: Austria (remote) Machine Learning Engineer We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and..."
+      "description_snippet": "Headquarters: Austria (remote) Machine Learning Engineer We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "e97a73b1e68aafcb",
@@ -2336,7 +2376,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Description QuantumDiamonds (QD) is entering its next phase: with the start of production, we are evolving from a startup into an industrial company. This transition requires an operational foundation built on clean, lean and scalable processes. Join the CEO Office and play a key role in establishing this foundation. As a Process Optimization Intern, you will map our processes in Odoo, from purchase request to bookke..."
+      "description_snippet": "Description QuantumDiamonds (QD) is entering its next phase: with the start of production, we are evolving from a startup into an industrial company. This transition requires an operational foundation built on clean, lean and scalable processes. Join the CEO Office and play a key role in establishing this foundation. As a Process Optimization Intern, you will map our processes in Odoo, from purchase request to bookke...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "59a8520d53573818",
@@ -2372,7 +2413,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role As a Data Engineer supporting Billing & Payments Engineering, you’l..."
+      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role As a Data Engineer supporting Billing & Payments Engineering, you’l...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "254eeb7b6f1091e1",
@@ -2408,7 +2450,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role As a Data Engineer on the Data Science & Analytics team, you will b..."
+      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role As a Data Engineer on the Data Science & Analytics team, you will b...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "b401a964756b979f",
@@ -2444,7 +2487,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. Job Description As a Data Engineer, you will be a member of the Data Science & Ana..."
+      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. Job Description As a Data Engineer, you will be a member of the Data Science & Ana...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "b368abfc29745158",
@@ -2480,7 +2524,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role We are seeking a Recruiting Analytics Data Engineer to join our Peo..."
+      "description_snippet": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role We are seeking a Recruiting Analytics Data Engineer to join our Peo...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_engineer.pdf"
     },
     {
       "job_id": "9a6997f608a14da6",
@@ -2517,7 +2562,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "e2973e3324f23e0e",
@@ -2553,7 +2599,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "3f9405dc11f422ce",
@@ -2590,7 +2637,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "e6b9933349c71951",
@@ -2627,7 +2675,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "e8a4aeee223e3144",
@@ -2665,7 +2714,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "e36d02876a2684a6",
@@ -2702,7 +2752,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "GAQ427R224 We're hiring an AI Automation Engineer to build the next generation of IT automations to improve the employee experience at Databricks. You'll be building production-grade AI agents and automation services that understand employee requests, retrieve enterprise context, reason across systems, invoke tools and APIs, and take action safely. The goal isn't to automate existing workflows the same way we've done..."
+      "description_snippet": "GAQ427R224 We're hiring an AI Automation Engineer to build the next generation of IT automations to improve the employee experience at Databricks. You'll be building production-grade AI agents and automation services that understand employee requests, retrieve enterprise context, reason across systems, invoke tools and APIs, and take action safely. The goal isn't to automate existing workflows the same way we've done...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "a8c75b3bdc54ddbd",
@@ -2734,7 +2785,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, in-person in t..."
+      "description_snippet": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, in-person in t...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "40ef9ddcd96eae40",
@@ -2765,7 +2817,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr..."
+      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "673973163161eea1",
@@ -2796,7 +2849,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr..."
+      "description_snippet": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Gr...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf"
     },
     {
       "job_id": "eb9e563b63f88ae0",
@@ -2828,7 +2882,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "At Scale , our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of..."
+      "description_snippet": "At Scale , our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst & Young, Mayo Clinic, Time Inc., the Government of...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "96f9b429c02f019b",
@@ -2860,7 +2915,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Our mission Constructor’s mission is to enable all educational organisations to provide high-quality digital education to 10x people with 10x efficiency. With strong expertise in machine intelligence and data science, Constructor’s all-in-one platform for education and research addresses today’s pressing educational challenges: access inequality, tech clutter, and low engagement of students. Please send your resume i..."
+      "description_snippet": "Our mission Constructor’s mission is to enable all educational organisations to provide high-quality digital education to 10x people with 10x efficiency. With strong expertise in machine intelligence and data science, Constructor’s all-in-one platform for education and research addresses today’s pressing educational challenges: access inequality, tech clutter, and low engagement of students. Please send your resume i...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "ab135f94ddc8e3a3",
@@ -2892,7 +2948,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "About Grubel Grubel is a research lab that builds AI for high-stakes knowledge work, starting with law. Legal matters require specialized expertise, and each one involves its own facts, practices, parties, and institutions. General-purpose AI applies the same system to every legal matter, varying only what goes into a limited context window. To meet the depth and diversity of legal work, we let every matter build its..."
+      "description_snippet": "About Grubel Grubel is a research lab that builds AI for high-stakes knowledge work, starting with law. Legal matters require specialized expertise, and each one involves its own facts, practices, parties, and institutions. General-purpose AI applies the same system to every legal matter, varying only what goes into a limited context window. To meet the depth and diversity of legal work, we let every matter build its...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "b49c350dc6656a6a",
@@ -2924,7 +2981,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi..."
+      "description_snippet": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to establi...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "a9d7c6e21d4aeac8",
@@ -2958,7 +3016,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "7c2d1c6811f9045a",
@@ -2992,7 +3051,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "c089703b17cc22b7",
@@ -3026,7 +3086,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "8189da242597c7fc",
@@ -3060,7 +3121,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to..."
+      "description_snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "58c01e629ead2700",
@@ -3094,7 +3156,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r..."
+      "description_snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf"
     },
     {
       "job_id": "3281d42294f04299",
@@ -3126,7 +3189,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 1,
-      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an..."
+      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     },
     {
       "job_id": "5105745dbac42e54",
@@ -3158,7 +3222,8 @@
       "cv_pdf_path": null,
       "status": "new",
       "is_latam_friendly": 0,
-      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an..."
+      "description_snippet": "For thousands of years, maps have provided humans with the knowledge they need to make decisions. As a Maps Evaluator, you will have the opportunity to provide ground truth for your town, city or country. At Peroptyx , we are looking for Data Analysts who will review mapping data for digital mapping applications. Your research capabilities will validate and ensure that the navigation of certain routes are accurate an...",
+      "cv_pdf_url": "assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf"
     }
   ]
 }
