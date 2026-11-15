@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Vargas | Data & AI Engineer</title>
+    <meta name="description" content="Roberto Vargas — Ingeniero de Datos & IA en Mérida, México. Agentes autónomos, pipelines ETL, Machine Learning y automatización en producción. Inglés C1.">
+    <script>if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');</script>
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -34,6 +36,7 @@
         <ul class="nav-links">
             <li><a href="#about">Sobre Mí</a></li>
             <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#experience">Experiencia</a></li>
             <li><a href="#career-radar">Radar IA &amp; CVs</a></li>
             <li><a href="#projects">Portafolio</a></li>
             <li><a href="https://github.com/titorvc" target="_blank">GitHub</a></li>
@@ -53,7 +56,13 @@
             <p class="description animate-on-scroll delay-3">Soluciones de Data Engineering e Inteligencia Artificial. Automatización de tareas complejas, estructuración de ecosistemas masivos de datos y conexión de sistemas para lograr software autónomo y eficiente.</p>
             <div class="hero-actions animate-on-scroll delay-5" style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
                 <a href="#projects" class="btn-primary large">Explorar Proyectos</a>
-                <a href="#career-radar" class="btn-primary large outline">Radar de Vacantes &amp; CV Dinámico</a>
+                <a href="assets/docs/CV_Roberto_Vargas_ES.pdf" target="_blank" class="btn-primary large outline">Descargar CV (PDF)</a>
+            </div>
+            <div class="hero-metrics animate-on-scroll delay-5">
+                <div class="hero-metric"><strong>124K+</strong><span>transacciones ERP conciliadas</span></div>
+                <div class="hero-metric"><strong>0.88</strong><span>ROC-AUC en retención</span></div>
+                <div class="hero-metric"><strong>42</strong><span>fuentes de empleo monitoreadas</span></div>
+                <div class="hero-metric"><strong>&lt;20 ms</strong><span>latencia en daemons IPC</span></div>
             </div>
         </div>
     </header>
@@ -77,13 +86,37 @@
                 <p>Programo los servidores, flujos de trabajo en n8n, y los scripts de bajo nivel que corren las 24 horas en segundo plano. Aseguro que todos los programas conversen entre sí sin experimentar caídas.</p>
             </div>
             <div class="skill-card animate-on-scroll delay-4">
-                <h3>Vanguardia (Notebook LM)</h3>
-                <p>Mi formación no se detiene. Utilizo herramientas avanzadas como Notebook LM para consolidar una red de aprendizaje constante, manteniéndome a la vanguardia de la teoría computacional y el estado del arte en IA.</p>
+                <h3>Agentes IA &amp; LLMOps</h3>
+                <p>Diseño sistemas multi-agente (LangGraph) con validación estricta (Pydantic), aprobación humana en los pasos críticos y búsqueda semántica (RAG + pgvector) para que la IA trabaje con datos reales sin alucinar.</p>
             </div>
-            <div class="skill-card animate-on-scroll delay-5">
-                <h3>Live DJ &amp; Audio Stack</h3>
-                <p>Más allá del código, mezclo música en vivo sobre un stack de audio de baja latencia en Fedora Linux (PipeWire + Mixxx + Pioneer DDJ-FLX4), integrando curaduría musical, análisis armónico Camelot y bibliotecas Rekordbox XML.</p>
-            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Experiencia</h2>
+            <p class="section-subtitle">Necesidad → Métrica → Solución.</p>
+        </div>
+        <div class="experience-list">
+            <article class="experience-item animate-on-scroll delay-1">
+                <div class="experience-head">
+                    <h3>Ingeniero de Datos &amp; Machine Learning <span>· Vinilos, Vidrio y Aluminio S.A. de C.V.</span></h3>
+                    <span class="experience-date">2025 – 2026</span>
+                </div>
+                <ul>
+                    <li><strong>Necesidad:</strong> 6 años de ventas dispersas en el ERP MicroSIP. <strong>Métrica:</strong> 124K+ transacciones ($85M+ MXN) conciliadas sobre 3,050 SKUs. <strong>Solución:</strong> pipeline ETL en Python con validación de esquemas y detección de anomalías.</li>
+                    <li><strong>Necesidad:</strong> inventario rezagado y llamadas de venta sin respuesta. <strong>Métrica:</strong> 0.88 ROC-AUC y 80% Precision@50. <strong>Solución:</strong> feature store RFM + Random Forest y guiones de venta generados con LLM en un dashboard de Streamlit.</li>
+                </ul>
+            </article>
+            <article class="experience-item animate-on-scroll delay-2">
+                <div class="experience-head">
+                    <h3>Investigador de Datos <span>· Preparatoria No. 2, UADY</span></h3>
+                    <span class="experience-date">Ene – May 2025</span>
+                </div>
+                <ul>
+                    <li><strong>Necesidad:</strong> medir si la economía familiar afecta el rendimiento escolar. <strong>Métrica:</strong> datos de varias generaciones normalizados y analizados. <strong>Solución:</strong> pruebas de hipótesis, correlación y visualizaciones en Python y R para la coordinación académica.</li>
+                </ul>
+            </article>
         </div>
     </section>
 
@@ -122,6 +155,11 @@
             <div class="tech-item"><i class="devicon-linux-plain"></i><span>Linux OS</span></div>
             <div class="tech-item"><i class="devicon-bash-plain"></i><span>Bash Scripts</span></div>
             <div class="tech-item"><i class="devicon-apache-plain"></i><span>Apache Airflow</span></div>
+            <div class="tech-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+            <div class="tech-item"><i class="devicon-googlecloud-plain"></i><span>BigQuery / GCP</span></div>
+            <div class="tech-item"><i class="devicon-fastapi-plain"></i><span>FastAPI</span></div>
+            <div class="tech-item"><i class="devicon-streamlit-plain"></i><span>Streamlit</span></div>
+            <div class="tech-item"><i class="devicon-sqlite-plain"></i><span>SQLite / pgvector</span></div>
             <div class="tech-item"><img src="assets/gemini.png" alt="Google Gemini" class="theme-invert"><span>Google Gemini</span></div>
             <div class="tech-item"><img src="assets/antigravity.png" alt="Antigravity" class="theme-invert"><span>Antigravity</span></div>
             <div class="tech-item"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>OpenAI</title><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg><span>OpenAI (ChatGPT)</span></div>
@@ -154,7 +192,6 @@
                     <h3>WhatsApp Barber AI Bot</h3>
                     <p class="project-problem"><strong>El Problema:</strong> Una barbería local perdía clientes porque su personal no podía responder mensajes de WhatsApp o agendar citas 24/7.</p>
                     <p class="project-solution"><strong>La Solución:</strong> Construí un asistente inteligente conectado a WhatsApp y a la IA de Google Gemini. Fue entrenado con la "personalidad" de la barbería, revisa Google Calendar en tiempo real, gestiona espacios de 30-60 minutos respetando los turnos de dos barberos y agenda todo automáticamente.</p>
-                    <a href="https://console.cloud.google.com/welcome?project=bot-barberia-llanes" target="_blank" class="btn-secondary">Ver Proyecto en GCP</a>
                 </div>
             </article>
 
@@ -189,11 +226,62 @@
                     </div>
                     <h3>Job Hunter AI (v4.0 — Conectado a Red Obsidian)</h3>
                     <p class="project-problem"><strong>El Problema:</strong> Leer cientos de ofertas de trabajo todos los días y adaptar manualmente el CV a cada rol específico consume horas valiosas.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Diseñé un motor autónomo que escanea +42 APIs y bolsas globales en segundo plano, cruza cada vacante contra mi Grafo de Conocimiento vivo en Obsidian (donde se indexan todos mis proyectos y habilidades) y compila al vuelo un CV ATS en PDF seleccionando únicamente los proyectos y logros que hacen mayor match.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Diseñé un motor autónomo que escanea 42 APIs y bolsas globales en segundo plano (3,780 ofertas → 929 compatibles → 135 con match ≥85%), cruza cada vacante contra mi Grafo de Conocimiento vivo en Obsidian (donde se indexan todos mis proyectos y habilidades) y compila al vuelo un CV ATS en PDF seleccionando únicamente los proyectos y logros que hacen mayor match.</p>
                     <div style="display: flex; gap: 12px; flex-wrap: wrap;">
                         <a href="#career-radar" class="btn-secondary">Abrir Radar Interactivo en Vivo</a>
-                        <a href="https://console.cloud.google.com/welcome?project=data-hunter-494609" target="_blank" class="btn-secondary">Ver Proyecto en GCP</a>
                     </div>
+                </div>
+            </article>
+
+            <article class="project-card animate-on-scroll">
+                <div class="project-content">
+                    <div class="project-header-top">
+                        <span class="badge">Multi-Agente / LangGraph</span>
+                        <div class="project-tech-icons">
+                        <i class="devicon-python-plain" title="Python"></i>
+                        <span class="tech-plus">+</span>
+                        <i class="devicon-docker-plain" title="Docker"></i>
+                        <span class="tech-plus">+</span>
+                        <i class="devicon-fastapi-plain" title="FastAPI"></i>
+                    </div>
+                    </div>
+                    <h3>Consultoría IA Multi-Agente</h3>
+                    <p class="project-problem"><strong>El Problema:</strong> Auditar datos y escribir pipelines ETL/ML para cada cliente es lento, y el código generado por IA sin supervisión es riesgoso.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Sistema con estado en LangGraph que coordina 5 agentes (Evaluador, Data Engineer, Analista EDA, Arquitecto ML y Constructor de Modelos), con aprobación humana (HITL) antes de cada paso crítico. Plataforma completa en Docker Compose.</p>
+                </div>
+            </article>
+
+            <article class="project-card animate-on-scroll">
+                <div class="project-content">
+                    <div class="project-header-top">
+                        <span class="badge">AI Agent / Music Tech</span>
+                        <div class="project-tech-icons">
+                        <i class="devicon-python-plain" title="Python"></i>
+                        <span class="tech-plus">+</span>
+                        <i style="font-style: normal; font-size: 1.5rem; filter: grayscale(100%); line-height: 1;" title="Spotify API">🎧</i>
+                    </div>
+                    </div>
+                    <h3>Music Lead Gen (Spotify + OSINT)</h3>
+                    <p class="project-problem"><strong>El Problema:</strong> Encontrar artistas emergentes y escribirles mensajes personalizados a mano no escala.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Agente autónomo que cruza Spotify Web API, Bandcamp y búsqueda OSINT, redacta mensajes con LiteLLM/Groq validados con Pydantic (sin datos inventados) y registra cada contacto en un CRM dentro de Obsidian.</p>
+                </div>
+            </article>
+
+            <article class="project-card animate-on-scroll">
+                <div class="project-content">
+                    <div class="project-header-top">
+                        <span class="badge">ETL / Data Mining</span>
+                        <div class="project-tech-icons">
+                        <i class="devicon-python-plain" title="Python"></i>
+                        <span class="tech-plus">+</span>
+                        <i class="devicon-apache-plain" title="Apache Airflow"></i>
+                        <span class="tech-plus">+</span>
+                        <i class="devicon-postgresql-plain" title="SQL"></i>
+                    </div>
+                    </div>
+                    <h3>ETL de Ventas &amp; Reglas de Asociación (UPY)</h3>
+                    <p class="project-problem"><strong>El Problema:</strong> Datos transaccionales crudos sin estructura impedían saber qué productos se venden juntos.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Flujos ETL con Python, SQL y Apache Airflow hacia JSONL analítico, métricas RFM con CTEs y Window Functions, y minería de reglas de asociación para descubrir patrones de venta cruzada.</p>
                 </div>
             </article>
 
@@ -208,7 +296,7 @@
                         </div>
                     </div>
                     <p class="project-problem"><strong>El Problema:</strong> Diseñar cientos de páginas para agendas en software tradicional toma días y los errores son comunes.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Escribí un algoritmo en Python que calcula márgenes perfectos e inyecta colores, generando maquetaciones de PDF en milisegundos. <br><br><strong>Red de Productos con IA:</strong> El sistema evolucionó para crear una red completa de productos generados con IA. Incorpora la generación automática de Diarios de Salud Mental, Cuadernos Versátiles y libretas novedosas.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Escribí un motor en Python (ReportLab + PyMuPDF) que calcula márgenes e inyecta colores, generando agendas de +200 páginas listas para imprenta en milisegundos. <br><br><strong>Red de Productos con IA:</strong> El sistema evolucionó para crear una red completa de productos generados con IA. Incorpora la generación automática de Diarios de Salud Mental, Cuadernos Versátiles y libretas novedosas.</p>
                     
                     <div class="scroll-presentation">
                         <div class="scroll-slide"><img src="assets/agenmono_1.jpg" alt="Render Agenda 1"></div>
@@ -233,8 +321,8 @@
                     </div>
                     <h3>Nexus OS Integration</h3>
                     <p class="project-problem"><strong>El Problema:</strong> Los ordenadores consumen recursos en tareas ineficientes y no se adaptan de forma autónoma a flujos de trabajo complejos.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Optimicé profundamente mi sistema operativo Linux integrándolo con Inteligencia Artificial. Lo doté de una red de aprendizaje conectada a mi bóveda de Obsidian, creando un ecosistema interconectado que reacciona a mis necesidades y automatiza procesos rutinarios.</p>
-                    <a href="https://console.cloud.google.com/welcome?project=server-arch-lab-vargas-roberto" target="_blank" class="btn-secondary">Ver Proyecto en GCP</a>
+                    <p class="project-solution"><strong>La Solución:</strong> Suite de daemons en Python sobre sockets UNIX y máquinas de estado (FSM) con latencia &lt;20 ms: temas de color extraídos del fondo con K-Means en espacio CIELAB, autopromoción de Wi-Fi 5 GHz con histéresis y pruebas headless bajo systemd. Todo conectado a mi bóveda de Obsidian como memoria del sistema.</p>
+                    <a href="https://github.com/titorvc" target="_blank" class="btn-secondary">Ver en GitHub</a>
                 </div>
             </article>
 
@@ -257,7 +345,6 @@
 
                     <p class="project-problem"><strong>El Problema:</strong> Los profesores de educación especial invierten incontables horas en la redacción manual de planes de intervención para cada alumno.</p>
                     <p class="project-solution"><strong>La Solución:</strong> Diseñé e impartí una capacitación especializada para enseñar a docentes a utilizar ChatGPT en la generación estructurada de planes de intervención USAER, optimizando su tiempo y mejorando la personalización educativa.</p>
-                    <a href="#" class="btn-secondary">Ver Documentación y Pruebas</a>
                 </div>
             </article>
 
@@ -306,7 +393,7 @@
                     </div>
                     <h3>Machine Learning para Vinilos</h3>
                     <p class="project-problem"><strong>El Problema:</strong> Dificultad para desplazar inventario de baja rotación (material rezagado) y nula tasa de respuesta ante llamadas telefónicas con guiones genéricos.</p>
-                    <p class="project-solution"><strong>La Solución:</strong> Diseño de un pipeline ETL (Python) y entrenamiento de un modelo Random Forest para predecir recompra de productos rezagados. Orquestación de una API LLM para generar guiones personalizados y despliegue final en un dashboard interactivo con Streamlit para que los asesores contacten de forma asíncrona por WhatsApp.</p>
+                    <p class="project-solution"><strong>La Solución:</strong> Pipeline ETL (Python) sobre 124K+ transacciones ($85M+ MXN) y modelo Random Forest para predecir recompra de productos rezagados (0.88 ROC-AUC, 80% Precision@50). Orquestación de una API LLM para generar guiones personalizados y despliegue final en un dashboard interactivo con Streamlit para que los asesores contacten de forma asíncrona por WhatsApp.</p>
                     <a href="assets/docs/proyecto_vinilos.pdf" target="_blank" class="btn-secondary">Ver Documentación del Sistema (PDF)</a>
                 </div>
             </article>
@@ -337,7 +424,7 @@
             <span class="badge" style="margin-bottom: 16px;">OBSIDIAN KNOWLEDGE GRAPH • AUTO-SYNC DAEMON</span>
             <h2 class="section-title">Career &amp; Opportunity Radar</h2>
             <p class="section-subtitle" style="max-width: 760px;">
-                Motor autónomo en segundo plano que escanea +42 fuentes globales y LATAM, evalúa cada vacante contra la red viva de mis proyectos en Obsidian y genera un CV ATS a medida seleccionando los logros exactos para cada puesto.
+                Motor autónomo en segundo plano que escanea 42 fuentes globales y LATAM, evalúa cada vacante contra la red viva de mis proyectos en Obsidian y genera un CV ATS a medida seleccionando los logros exactos para cada puesto.
             </p>
         </div>
 
@@ -434,7 +521,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                     roberto.vargas99@outlook.com
                 </a>
-                <a href="https://wa.me/5299996405649" target="_blank" class="btn-contact">
+                <a href="https://wa.me/529996405649" target="_blank" class="btn-contact">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     +52 999 640 5649
                 </a>
@@ -445,7 +532,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> Roberto Vargas. Creado con arquitectura limpia.<br><span style="opacity: 0.6; font-size: 0.9em;">Todos los derechos reservados.</span></p>
+            <p>&copy; <span id="year">2026</span> Roberto Vargas. Creado con arquitectura limpia.<br><span style="opacity: 0.6; font-size: 0.9em;">Todos los derechos reservados.</span></p>
         </div>
     </footer>
 
@@ -471,7 +558,9 @@
             });
 
             // Initializing Auto-playing Slideshows
-            const carousels = document.querySelectorAll('.scroll-presentation');
+            document.getElementById('year').textContent = new Date().getFullYear();
+            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const carousels = reduceMotion ? [] : document.querySelectorAll('.scroll-presentation');
             carousels.forEach(carousel => {
                 setInterval(() => {
                     if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 10) {
