@@ -213,6 +213,21 @@
                 </div>
             </div>
 
+            <!-- Controles Secundarios: Checkbox Postuladas & Timer Autónomo Diario -->
+            <div class="radar-sub-controls">
+                <label class="radar-checkbox-label" for="radar-hide-applied">
+                    <input type="checkbox" id="radar-hide-applied" />
+                    <span>Ocultar vacantes a las que ya apliqué</span>
+                </label>
+                <div class="radar-timer-pill">
+                    <span class="radar-timer-dot" title="Daemon Activo"></span>
+                    <span>Búsqueda diaria activa: <strong id="radar-countdown-timer">24:00:00</strong></span>
+                    <button type="button" id="radar-force-sync-btn" class="radar-timer-refresh-btn" title="Buscar nuevas vacantes ahora">
+                        🔄 Sincronizar
+                    </button>
+                </div>
+            </div>
+
             <!-- Grid Dinámico de Vacantes -->
             <div class="radar-jobs-grid" id="radar-jobs-container">
                 <!-- Renderizado dinámicamente por jobs_feed.js -->
@@ -323,10 +338,92 @@
             const searchInput = document.getElementById('radar-search');
             const filterBtns = document.querySelectorAll('#radar-filters .radar-filter-btn');
             const loadMoreBtn = document.getElementById('radar-load-more');
+            const hideAppliedCheckbox = document.getElementById('radar-hide-applied');
+            const countdownTimerEl = document.getElementById('radar-countdown-timer');
+            const forceSyncBtn = document.getElementById('radar-force-sync-btn');
 
             let currentFilter = 'all';
             let searchQuery = '';
             let visibleCount = 12;
+            let hideApplied = localStorage.getItem('nexus_hide_applied') === 'true';
+
+            if (hideAppliedCheckbox) {
+                hideAppliedCheckbox.checked = hideApplied;
+                hideAppliedCheckbox.addEventListener('change', function() {
+                    hideApplied = this.checked;
+                    localStorage.setItem('nexus_hide_applied', hideApplied ? 'true' : 'false');
+                    visibleCount = 12;
+                    renderJobs();
+                });
+            }
+
+            // Sistema de Temporizador Diario & Auto-Scan
+            const SCAN_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 Horas
+
+            function getLastScanTimestamp() {
+                const stored = localStorage.getItem('nexus_last_job_scan');
+                if (stored) return parseInt(stored, 10);
+                const now = Date.now();
+                localStorage.setItem('nexus_last_job_scan', now.toString());
+                return now;
+            }
+
+            function updateDailyTimer() {
+                if (!countdownTimerEl) return;
+                const lastScan = getLastScanTimestamp();
+                const now = Date.now();
+                const elapsed = now - lastScan;
+                const remaining = Math.max(0, SCAN_INTERVAL_MS - (elapsed % SCAN_INTERVAL_MS));
+
+                if (remaining <= 1000) {
+                    triggerDailyScan(false);
+                    return;
+                }
+
+                const totalSec = Math.floor(remaining / 1000);
+                const hrs = String(Math.floor(totalSec / 3600)).padStart(2, '0');
+                const mins = String(Math.floor((totalSec % 3600) / 60)).padStart(2, '0');
+                const secs = String(totalSec % 60).padStart(2, '0');
+                countdownTimerEl.textContent = `${hrs}:${mins}:${secs}`;
+            }
+
+            function triggerDailyScan(isManual = false) {
+                localStorage.setItem('nexus_last_job_scan', Date.now().toString());
+                if (countdownTimerEl) countdownTimerEl.textContent = 'Actualizando...';
+                
+                const scriptUrl = `assets/data/jobs_feed.js?t=${Date.now()}`;
+                const newScript = document.createElement('script');
+                newScript.src = scriptUrl;
+                newScript.onload = () => {
+                    if (window.NEXUS_JOB_FEED) {
+                        const newFeed = window.NEXUS_JOB_FEED;
+                        if (elSources) elSources.textContent = newFeed.total_scanned_sources || 63;
+                        if (elTotal) elTotal.textContent = newFeed.total_active_matches ? newFeed.total_active_matches.toLocaleString() : newFeed.jobs.length;
+                        if (elHigh) elHigh.textContent = newFeed.high_priority_matches || newFeed.jobs.filter(j => j.score >= 85).length;
+                        if (elSync && newFeed.updated_at) elSync.textContent = 'Actualizado: ' + newFeed.updated_at;
+                        renderJobs();
+                    }
+                    if (forceSyncBtn) {
+                        const origText = forceSyncBtn.innerHTML;
+                        forceSyncBtn.innerHTML = '✓ Al día';
+                        setTimeout(() => { forceSyncBtn.innerHTML = origText; }, 2000);
+                    }
+                    updateDailyTimer();
+                };
+                newScript.onerror = () => {
+                    updateDailyTimer();
+                };
+                document.body.appendChild(newScript);
+            }
+
+            setInterval(updateDailyTimer, 1000);
+            updateDailyTimer();
+
+            if (forceSyncBtn) {
+                forceSyncBtn.addEventListener('click', function() {
+                    triggerDailyScan(true);
+                });
+            }
 
             function getSavedStatuses() {
                 try {
@@ -362,6 +459,12 @@
 
                 const filtered = feed.jobs.filter(job => {
                     const st = statuses[job.job_id] || 'new';
+
+                    // Si está activo el check de ocultar aplicadas, ignorar vacantes postuladas o en entrevista
+                    if (hideApplied && (st === 'applied' || st === 'interview')) {
+                        return false;
+                    }
+
                     if (currentFilter === 'saved') {
                         if (st !== 'saved' && st !== 'applied' && st !== 'interview') return false;
                     } else if (currentFilter !== 'all') {
@@ -443,7 +546,11 @@
 
                 container.querySelectorAll('.job-status-select').forEach(sel => {
                     sel.addEventListener('change', function() {
-                        setJobStatus(this.getAttribute('data-job-id'), this.value);
+                        const newStatus = this.value;
+                        setJobStatus(this.getAttribute('data-job-id'), newStatus);
+                        if (hideApplied && (newStatus === 'applied' || newStatus === 'interview')) {
+                            renderJobs();
+                        }
                     });
                 });
 

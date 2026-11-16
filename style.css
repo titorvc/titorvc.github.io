@@ -1079,6 +1079,119 @@ body, .navbar, .footer, .skills-section, .tech-item {
     border-color: var(--text-primary);
 }
 
+/* Radar Sub-bar (Check applied & Countdown Timer) */
+.radar-sub-controls {
+    max-width: 1200px;
+    margin: -24px auto 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 20px;
+    background: rgba(30, 41, 59, 0.04);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .radar-sub-controls {
+    background: rgba(30, 41, 59, 0.35);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.radar-checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    user-select: none;
+    color: var(--text-primary);
+}
+
+.radar-checkbox-label input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    transition: all 0.2s ease;
+    margin: 0;
+}
+
+.radar-checkbox-label input[type="checkbox"]:checked {
+    background-color: var(--text-primary);
+    border-color: var(--text-primary);
+}
+
+.radar-checkbox-label input[type="checkbox"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    transition: transform 0.15s ease-in-out;
+    background-color: var(--surface-color);
+    clip-path: polygon(14% 44%, 0 60%, 38% 100%, 100% 16%, 80% 0%, 38% 62%);
+}
+
+.radar-checkbox-label input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.radar-timer-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+}
+
+.radar-timer-pill .radar-timer-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10b981;
+    box-shadow: 0 0 8px #10b981;
+    animation: radarPulse 2s infinite ease-in-out;
+}
+
+.radar-timer-refresh-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.radar-timer-refresh-btn:hover {
+    background: var(--text-primary);
+    color: var(--surface-color);
+    border-color: var(--text-primary);
+}
+
+@keyframes radarPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+}
+
 /* Jobs Grid */
 .radar-jobs-grid {
     max-width: 1200px;
