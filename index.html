@@ -635,11 +635,13 @@
         });
     </script>
 
-    <!-- Feed de Vacantes Autónomo (Generado por job_hunter_engine.py + Obsidian Graph) -->
-    <script src="assets/data/jobs_feed.js"></script>
+    <!-- Feed de Vacantes Autónomo con Anti-Cache -->
+    <script>
+        document.write('<script src="assets/data/jobs_feed.js?v=' + Date.now() + '"><\/script>');
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const feed = window.NEXUS_JOB_FEED;
+            let feed = window.NEXUS_JOB_FEED;
             if (!feed || !Array.isArray(feed.jobs)) return;
 
             // Actualizar telemetría superior
@@ -670,7 +672,9 @@
             let currentFilter = 'all';
             let searchQuery = '';
             let visibleCount = 9;
-            let hideApplied = localStorage.getItem('nexus_hide_applied') === 'true';
+            // Forzar por defecto a ocultar postuladas en la página para evitar duplicados o vistas residuales
+            let hideApplied = true;
+            localStorage.setItem('nexus_hide_applied', 'true');
 
             if (hideAppliedCheckbox) {
                 hideAppliedCheckbox.checked = hideApplied;
@@ -862,12 +866,35 @@
                         </div>
 
                         <div class="job-actions-row">
-                            <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary">Postular ↗</a>
+                            <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary apply-link-btn" data-job-id="${job.job_id}">Postular ↗</a>
                             <a href="${cvUrl}" target="_blank" download class="job-btn">📄 CV ATS Adaptado</a>
                             <button type="button" class="job-btn copy-pitch-btn" data-pitch="${encodeURIComponent(job.pitch_en || '')}">📋 Copiar Pitch</button>
                         </div>
                     `;
                     container.appendChild(card);
+                });
+
+                container.querySelectorAll('.apply-link-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const jobId = this.getAttribute('data-job-id');
+                        if (jobId) {
+                            setJobStatus(jobId, 'applied');
+                            hideApplied = true;
+                            localStorage.setItem('nexus_hide_applied', 'true');
+                            if (hideAppliedCheckbox) hideAppliedCheckbox.checked = true;
+                            const card = this.closest('.job-radar-card');
+                            if (card && currentFilter !== 'saved') {
+                                card.style.transition = 'all 0.25s ease-out';
+                                card.style.opacity = '0';
+                                card.style.transform = 'scale(0.92)';
+                                setTimeout(() => {
+                                    renderJobs();
+                                }, 250);
+                            } else {
+                                renderJobs();
+                            }
+                        }
+                    });
                 });
 
                 // Listeners para cambio de estado y copiar pitch / salario

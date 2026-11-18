@@ -310,11 +310,13 @@
         });
     </script>
 
-    <!-- Ingesta Dinámica del Feed de Vacantes -->
-    <script src="assets/data/jobs_feed.js"></script>
+    <!-- Ingesta Dinámica del Feed de Vacantes con Anti-Cache -->
+    <script>
+        document.write('<script src="assets/data/jobs_feed.js?v=' + Date.now() + '"><\/script>');
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const feed = window.NEXUS_JOB_FEED;
+            let feed = window.NEXUS_JOB_FEED;
             if (!feed || !Array.isArray(feed.jobs)) return;
 
             // Actualizar telemetría superior
@@ -345,7 +347,9 @@
             let currentFilter = 'all';
             let searchQuery = '';
             let visibleCount = 12;
-            let hideApplied = localStorage.getItem('nexus_hide_applied') === 'true';
+            // Forzar por defecto a ocultar postuladas en la página para evitar duplicados o vistas residuales
+            let hideApplied = true;
+            localStorage.setItem('nexus_hide_applied', 'true');
 
             if (hideAppliedCheckbox) {
                 hideAppliedCheckbox.checked = hideApplied;
@@ -391,29 +395,46 @@
                 localStorage.setItem('nexus_last_job_scan', Date.now().toString());
                 if (countdownTimerEl) countdownTimerEl.textContent = 'Actualizando...';
                 
-                const scriptUrl = `assets/data/jobs_feed.js?t=${Date.now()}`;
-                const newScript = document.createElement('script');
-                newScript.src = scriptUrl;
-                newScript.onload = () => {
-                    if (window.NEXUS_JOB_FEED) {
-                        const newFeed = window.NEXUS_JOB_FEED;
-                        if (elSources) elSources.textContent = newFeed.total_scanned_sources || 63;
-                        if (elTotal) elTotal.textContent = newFeed.total_active_matches ? newFeed.total_active_matches.toLocaleString() : newFeed.jobs.length;
-                        if (elHigh) elHigh.textContent = newFeed.high_priority_matches || newFeed.jobs.filter(j => j.score >= 85).length;
-                        if (elSync && newFeed.updated_at) elSync.textContent = 'Actualizado: ' + newFeed.updated_at;
-                        renderJobs();
-                    }
-                    if (forceSyncBtn) {
-                        const origText = forceSyncBtn.innerHTML;
-                        forceSyncBtn.innerHTML = '✓ Al día';
-                        setTimeout(() => { forceSyncBtn.innerHTML = origText; }, 2000);
-                    }
-                    updateDailyTimer();
-                };
-                newScript.onerror = () => {
-                    updateDailyTimer();
-                };
-                document.body.appendChild(newScript);
+                // Intento de recarga vía fetch para evitar cachés agresivas
+                fetch(`assets/data/jobs_feed.json?t=${Date.now()}`)
+                    .then(res => res.json())
+                    .then(jsonFeed => {
+                        if (jsonFeed && Array.isArray(jsonFeed.jobs)) {
+                            feed = jsonFeed;
+                            window.NEXUS_JOB_FEED = jsonFeed;
+                            if (elSources) elSources.textContent = jsonFeed.total_scanned_sources || 63;
+                            if (elTotal) elTotal.textContent = jsonFeed.total_active_matches ? jsonFeed.total_active_matches.toLocaleString() : jsonFeed.jobs.length;
+                            if (elHigh) elHigh.textContent = jsonFeed.high_priority_matches || jsonFeed.jobs.filter(j => j.score >= 85).length;
+                            if (elSync && jsonFeed.updated_at) elSync.textContent = 'Actualizado: ' + jsonFeed.updated_at;
+                            renderJobs();
+                        }
+                    })
+                    .catch(() => {
+                        // Fallback script tag
+                        const scriptUrl = `assets/data/jobs_feed.js?t=${Date.now()}`;
+                        const newScript = document.createElement('script');
+                        newScript.src = scriptUrl;
+                        newScript.onload = () => {
+                            if (window.NEXUS_JOB_FEED) {
+                                feed = window.NEXUS_JOB_FEED;
+                                const newFeed = window.NEXUS_JOB_FEED;
+                                if (elSources) elSources.textContent = newFeed.total_scanned_sources || 63;
+                                if (elTotal) elTotal.textContent = newFeed.total_active_matches ? newFeed.total_active_matches.toLocaleString() : newFeed.jobs.length;
+                                if (elHigh) elHigh.textContent = newFeed.high_priority_matches || newFeed.jobs.filter(j => j.score >= 85).length;
+                                if (elSync && newFeed.updated_at) elSync.textContent = 'Actualizado: ' + newFeed.updated_at;
+                                renderJobs();
+                            }
+                        };
+                        document.body.appendChild(newScript);
+                    })
+                    .finally(() => {
+                        if (forceSyncBtn) {
+                            const origText = forceSyncBtn.innerHTML;
+                            forceSyncBtn.innerHTML = '✓ Al día';
+                            setTimeout(() => { forceSyncBtn.innerHTML = origText; }, 2000);
+                        }
+                        updateDailyTimer();
+                    });
             }
 
             setInterval(updateDailyTimer, 1000);
@@ -536,12 +557,36 @@
                         </div>
 
                         <div class="job-actions-row">
-                            <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary">Postular ↗</a>
+                            <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary apply-link-btn" data-job-id="${job.job_id}">Postular ↗</a>
                             <a href="${cvUrl}" target="_blank" download class="job-btn">📄 CV ATS Adaptado</a>
                             <button type="button" class="job-btn copy-pitch-btn" data-pitch="${encodeURIComponent(job.pitch_en || '')}">📋 Copiar Pitch</button>
                         </div>
                     `;
                     container.appendChild(card);
+                });
+
+                container.querySelectorAll('.apply-link-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const jobId = this.getAttribute('data-job-id');
+                        if (jobId) {
+                            setJobStatus(jobId, 'applied');
+                            hideApplied = true;
+                            localStorage.setItem('nexus_hide_applied', 'true');
+                            if (hideAppliedCheckbox) hideAppliedCheckbox.checked = true;
+                            // Ocultar y re-renderizar de inmediato para sustituir la vacante eliminada por la siguiente de la lista
+                            const card = this.closest('.job-radar-card');
+                            if (card && currentFilter !== 'saved') {
+                                card.style.transition = 'all 0.25s ease-out';
+                                card.style.opacity = '0';
+                                card.style.transform = 'scale(0.92)';
+                                setTimeout(() => {
+                                    renderJobs();
+                                }, 250);
+                            } else {
+                                renderJobs();
+                            }
+                        }
+                    });
                 });
 
                 container.querySelectorAll('.job-status-select').forEach(sel => {
