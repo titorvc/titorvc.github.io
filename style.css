@@ -1247,6 +1247,75 @@ body, .navbar, .footer, .skills-section, .tech-item {
     color: #0d0d0d;
 }
 
+.job-card-badges-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.job-freshness-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.74rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 30px;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.job-freshness-badge.fresh-hot {
+    background: rgba(16, 185, 129, 0.12);
+    border-color: rgba(16, 185, 129, 0.45);
+    color: #059669;
+}
+
+[data-theme="dark"] .job-freshness-badge.fresh-hot {
+    background: rgba(16, 185, 129, 0.16);
+    border-color: rgba(16, 185, 129, 0.45);
+    color: #34d399;
+}
+
+.job-freshness-badge.fresh-week {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: rgba(59, 130, 246, 0.35);
+    color: #2563eb;
+}
+
+[data-theme="dark"] .job-freshness-badge.fresh-week {
+    background: rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.4);
+    color: #60a5fa;
+}
+
+.radar-sub-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.radar-recency-select {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.radar-recency-select:hover,
+.radar-recency-select:focus {
+    border-color: var(--text-primary);
+}
+
 .job-archetype-tag {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.72rem;

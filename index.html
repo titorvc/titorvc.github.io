@@ -497,12 +497,19 @@
             </div>
         </div>
 
-        <!-- Controles Secundarios: Checkbox Postuladas & Timer Autónomo Diario -->
+        <!-- Controles Secundarios: Checkbox Postuladas, Filtro de Antigüedad & Timer Autónomo Diario -->
         <div class="radar-sub-controls animate-on-scroll">
-            <label class="radar-checkbox-label" for="radar-hide-applied">
-                <input type="checkbox" id="radar-hide-applied" />
-                <span>Ocultar vacantes a las que ya apliqué</span>
-            </label>
+            <div class="radar-sub-left">
+                <label class="radar-checkbox-label" for="radar-hide-applied">
+                    <input type="checkbox" id="radar-hide-applied" />
+                    <span>Ocultar vacantes a las que ya apliqué</span>
+                </label>
+                <select id="radar-recency-filter" class="radar-recency-select" aria-label="Filtrar por antigüedad">
+                    <option value="21" selected>⚡ Recientes (&le; 21 días • Prioridad Frescura)</option>
+                    <option value="7">🔥 Últimos 7 días (Esta semana)</option>
+                    <option value="3">🚀 Últimas 72 horas (Ultra recientes)</option>
+                </select>
+            </div>
             <div class="radar-timer-pill">
                 <span class="radar-timer-dot" title="Daemon Activo"></span>
                 <span>Búsqueda diaria activa: <strong id="radar-countdown-timer">24:00:00</strong></span>
@@ -666,11 +673,13 @@
             const filterBtns = document.querySelectorAll('#radar-filters .radar-filter-btn');
             const loadMoreBtn = document.getElementById('radar-load-more');
             const hideAppliedCheckbox = document.getElementById('radar-hide-applied');
+            const recencyFilterSelect = document.getElementById('radar-recency-filter');
             const countdownTimerEl = document.getElementById('radar-countdown-timer');
             const forceSyncBtn = document.getElementById('radar-force-sync-btn');
 
             let currentFilter = 'all';
             let searchQuery = '';
+            let maxAgeDaysFilter = 21;
             let visibleCount = 9;
             // Forzar por defecto a ocultar postuladas en la página para evitar duplicados o vistas residuales
             let hideApplied = true;
@@ -684,6 +693,34 @@
                     visibleCount = 9;
                     renderJobs();
                 });
+            }
+
+            if (recencyFilterSelect) {
+                recencyFilterSelect.addEventListener('change', function() {
+                    maxAgeDaysFilter = parseInt(this.value, 10) || 21;
+                    visibleCount = 9;
+                    renderJobs();
+                });
+            }
+
+            function computeJobAgeDays(job) {
+                if (typeof job.age_days === 'number' && !isNaN(job.age_days)) {
+                    return Math.max(0, job.age_days);
+                }
+                if (job.published_at) {
+                    const parsed = Date.parse(job.published_at);
+                    if (!isNaN(parsed)) {
+                        return Math.max(0, Math.round((Date.now() - parsed) / 86400000));
+                    }
+                }
+                return 0;
+            }
+
+            function getFreshnessInfo(job) {
+                const age = computeJobAgeDays(job);
+                const label = job.freshness_label || (age <= 0 ? '🔥 Publicada hoy' : age === 1 ? '🔥 Ayer (hace 1 día)' : age <= 3 ? `⚡ Hace ${age} días` : age <= 7 ? `🟢 Hace ${age} días` : `📅 Hace ${age} días`);
+                const badgeClass = age <= 3 ? 'fresh-hot' : age <= 7 ? 'fresh-week' : '';
+                return { age, label, badgeClass };
             }
 
             // Sistema de Temporizador Diario & Auto-Scan
@@ -789,6 +826,12 @@
 
                 const filtered = feed.jobs.filter(job => {
                     const st = statuses[job.job_id] || 'new';
+                    const ageDays = computeJobAgeDays(job);
+
+                    // Filtrar por tope de antigüedad seleccionado (por defecto <= 21 días)
+                    if (ageDays > maxAgeDaysFilter) {
+                        return false;
+                    }
 
                     // Si está activo el check de ocultar aplicadas, ignorar vacantes postuladas o en entrevista
                     if (hideApplied && (st === 'applied' || st === 'interview')) {
@@ -808,11 +851,22 @@
                     return true;
                 });
 
+                // Ordenar priorizando vacantes recientes dentro de High-Match (>=85%)
+                filtered.sort((a, b) => {
+                    const tierA = a.score >= 85 ? 1 : 0;
+                    const tierB = b.score >= 85 ? 1 : 0;
+                    if (tierA !== tierB) return tierB - tierA;
+                    const ageA = computeJobAgeDays(a);
+                    const ageB = computeJobAgeDays(b);
+                    if (ageA !== ageB) return ageA - ageB;
+                    return (b.score || 0) - (a.score || 0);
+                });
+
                 const slice = filtered.slice(0, visibleCount);
                 container.innerHTML = '';
 
                 if (slice.length === 0) {
-                    container.innerHTML = '<div class="job-radar-card" style="grid-column: 1 / -1; text-align: center;"><p style="color: var(--text-secondary);">No se encontraron vacantes con ese filtro. Prueba con otro criterio.</p></div>';
+                    container.innerHTML = '<div class="job-radar-card" style="grid-column: 1 / -1; text-align: center;"><p style="color: var(--text-secondary);">No se encontraron vacantes recientes con ese filtro. Prueba ampliando el filtro de días o búsqueda.</p></div>';
                     if (loadMoreBtn) loadMoreBtn.style.display = 'none';
                     return;
                 }
@@ -822,13 +876,17 @@
                     const cvUrl = job.cv_pdf_url || archetypeCvs[job.archetype] || 'assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf';
                     const skillsHtml = (job.matched_skills || []).slice(0, 6).map(s => `<span class="job-skill-chip">${s}</span>`).join('');
                     const nodesHtml = (job.matched_projects || []).map(pid => projNodeNames[pid] || pid).join(' • ');
+                    const fresh = getFreshnessInfo(job);
 
                     const card = document.createElement('article');
                     card.className = 'job-radar-card';
                     card.innerHTML = `
                         <div>
                             <div class="job-card-top">
-                                <span class="job-score-badge ${job.score >= 85 ? 'high-match' : ''}">${job.score}% MATCH</span>
+                                <div class="job-card-badges-left">
+                                    <span class="job-score-badge ${job.score >= 85 ? 'high-match' : ''}">${job.score}% MATCH</span>
+                                    <span class="job-freshness-badge ${fresh.badgeClass}" title="Fecha de publicación: ${job.published_at || 'Reciente'}">${fresh.label}</span>
+                                </div>
                                 <select class="job-status-select" data-job-id="${job.job_id}" aria-label="Estado de postulación">
                                     <option value="new" ${st === 'new' ? 'selected' : ''}>🟢 Nueva</option>
                                     <option value="saved" ${st === 'saved' ? 'selected' : ''}>⭐ Guardada</option>
@@ -838,7 +896,7 @@
                             </div>
                             <div style="margin-top: 14px;">
                                 <h3 class="job-title">${job.title}</h3>
-                                <p class="job-company-meta"><strong>${job.company}</strong> • ${job.location} • <span style="opacity:0.75">${job.source}</span></p>
+                                <p class="job-company-meta"><strong>${job.company}</strong> • ${job.location} • <span style="opacity:0.75">${job.source} • ${job.published_at || ''}</span></p>
                             </div>
                         </div>
 
