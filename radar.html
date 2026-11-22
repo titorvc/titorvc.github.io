@@ -181,19 +181,19 @@
                     <span>1 Página • Minimalismo Editorial 2027 • Tipografía Serif Ligera y Aireada en Blanco y Negro</span>
                 </div>
                 <div class="archetype-pills">
-                    <a href="assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf" target="_blank" class="archetype-dl-btn">
+                    <a href="assets/cvs/Roberto_Vargas_CV_ai_ml_engineer.pdf" download="Roberto_Vargas_CV_ai_ml_engineer.pdf" class="archetype-dl-btn cv-download-btn">
                         ⚡ AI / ML &amp; LLM Engineer (PDF)
                     </a>
-                    <a href="assets/cvs/Roberto_Vargas_CV_data_engineer.pdf" target="_blank" class="archetype-dl-btn">
+                    <a href="assets/cvs/Roberto_Vargas_CV_data_engineer.pdf" download="Roberto_Vargas_CV_data_engineer.pdf" class="archetype-dl-btn cv-download-btn">
                         🗄️ Data &amp; ETL Engineer (PDF)
                     </a>
-                    <a href="assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf" target="_blank" class="archetype-dl-btn">
+                    <a href="assets/cvs/Roberto_Vargas_CV_python_backend_automation.pdf" download="Roberto_Vargas_CV_python_backend_automation.pdf" class="archetype-dl-btn cv-download-btn">
                         🐍 Python Backend &amp; Automation (PDF)
                     </a>
-                    <a href="assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf" target="_blank" class="archetype-dl-btn">
+                    <a href="assets/cvs/Roberto_Vargas_CV_data_analyst_bi.pdf" download="Roberto_Vargas_CV_data_analyst_bi.pdf" class="archetype-dl-btn cv-download-btn">
                         📊 Data Analyst &amp; BI (PDF)
                     </a>
-                    <a href="assets/cvs/Roberto_Vargas_CV_music_audio_tech.pdf" target="_blank" class="archetype-dl-btn">
+                    <a href="assets/cvs/Roberto_Vargas_CV_music_audio_tech.pdf" download="Roberto_Vargas_CV_music_audio_tech.pdf" class="archetype-dl-btn cv-download-btn">
                         🎧 Music, Audio &amp; Media Tech (PDF)
                     </a>
                 </div>
@@ -511,6 +511,71 @@
 
             const archetypeCvs = (feed.knowledge_graph_summary && feed.knowledge_graph_summary.archetype_cvs) || {};
 
+            async function forceDownloadCv(url, filename, triggerEl) {
+                const origText = triggerEl ? triggerEl.textContent : '';
+                if (triggerEl) {
+                    triggerEl.style.pointerEvents = 'none';
+                    triggerEl.textContent = '⬇️ Guardando...';
+                }
+                try {
+                    if (window.location.protocol !== 'file:') {
+                        const res = await fetch(url, { cache: 'no-store' });
+                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                        const rawBlob = await res.blob();
+                        const dlBlob = new Blob([rawBlob], { type: 'application/octet-stream' });
+                        const blobUrl = URL.createObjectURL(dlBlob);
+                        const a = document.createElement('a');
+                        a.href = blobUrl;
+                        a.download = filename;
+                        a.style.display = 'none';
+                        document.body.appendChild(a);
+                        a.click();
+                        setTimeout(() => {
+                            URL.revokeObjectURL(blobUrl);
+                            a.remove();
+                        }, 1500);
+                    } else {
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = filename;
+                        a.style.display = 'none';
+                        document.body.appendChild(a);
+                        a.click();
+                        setTimeout(() => a.remove(), 500);
+                    }
+                    if (triggerEl) {
+                        triggerEl.textContent = '✓ CV Guardado';
+                        setTimeout(() => {
+                            triggerEl.textContent = origText;
+                            triggerEl.style.pointerEvents = '';
+                        }, 1800);
+                    }
+                } catch (err) {
+                    console.error('Error descargando CV:', err);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    if (triggerEl) {
+                        triggerEl.textContent = origText;
+                        triggerEl.style.pointerEvents = '';
+                    }
+                }
+            }
+
+            document.querySelectorAll('.archetype-dl-btn.cv-download-btn').forEach(btn => {
+                if (btn.dataset.dlBound) return;
+                btn.dataset.dlBound = '1';
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const url = this.getAttribute('href');
+                    const filename = this.getAttribute('download') || (url ? url.split('/').pop() : 'Roberto_Vargas_CV.pdf');
+                    forceDownloadCv(url, filename, this);
+                });
+            });
+
             function renderJobs() {
                 if (!container) return;
                 const statuses = getSavedStatuses();
@@ -616,11 +681,20 @@
 
                         <div class="job-actions-row">
                             <a href="${job.url}" target="_blank" rel="noopener" class="job-btn primary apply-link-btn" data-job-id="${job.job_id}">Postular ↗</a>
-                            <a href="${cvUrl}" target="_blank" download class="job-btn">📄 CV ATS Adaptado</a>
+                            <a href="${cvUrl}" download="${cvUrl.split('/').pop()}" class="job-btn cv-download-btn" data-cv-url="${cvUrl}" data-cv-filename="${cvUrl.split('/').pop()}">📄 CV ATS Adaptado</a>
                             <button type="button" class="job-btn copy-pitch-btn" data-pitch="${encodeURIComponent(job.pitch_en || '')}">📋 Copiar Pitch</button>
                         </div>
                     `;
                     container.appendChild(card);
+                });
+
+                container.querySelectorAll('.cv-download-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const url = this.getAttribute('data-cv-url') || this.getAttribute('href');
+                        const filename = this.getAttribute('data-cv-filename') || this.getAttribute('download') || 'Roberto_Vargas_CV.pdf';
+                        forceDownloadCv(url, filename, this);
+                    });
                 });
 
                 container.querySelectorAll('.apply-link-btn').forEach(btn => {
