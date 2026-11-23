@@ -1197,7 +1197,7 @@ body, .navbar, .footer, .skills-section, .tech-item {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
     gap: 28px;
 }
 
@@ -1595,6 +1595,343 @@ body, .navbar, .footer, .skills-section, .tech-item {
     .hero-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .experience-item { padding: 22px 20px; }
 }
+
+/* ==========================================================================
+   MOBILE QUICK-APPLY KIT & MOBILE-FIRST RADAR RESPONSIVENESS
+   ========================================================================== */
+.mobile-apply-kit {
+    max-width: 1200px;
+    margin: 0 auto 28px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 28px;
+    padding: 18px 24px;
+    transition: border-color 0.25s ease;
+}
+
+.mobile-apply-kit[open] {
+    border-color: var(--text-primary);
+}
+
+.mobile-apply-kit summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    cursor: pointer;
+    list-style: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    user-select: none;
+}
+
+.mobile-apply-kit summary::-webkit-details-marker {
+    display: none;
+}
+
+.mobile-apply-kit-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.74rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.quick-copy-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-color);
+}
+
+.quick-copy-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 15px;
+    border-radius: 24px;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.86rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-height: 40px;
+}
+
+.quick-copy-pill:hover,
+.quick-copy-pill:active {
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    border-color: var(--text-primary);
+}
+
+.quick-copy-pill.sync-pill {
+    border-style: dashed;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+}
+
+.radar-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%) translateY(20px);
+    background-color: var(--text-primary);
+    color: var(--surface-color);
+    padding: 12px 20px;
+    border-radius: 999px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    z-index: 9999;
+    max-width: calc(100vw - 32px);
+    text-align: center;
+}
+
+.radar-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 768px) {
+    .radar-section {
+        margin: 24px 0 0;
+        padding: 28px 16px;
+        border-radius: 28px;
+        overflow-x: hidden;
+    }
+
+    .radar-telemetry-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-bottom: 24px;
+    }
+
+    .telemetry-pill {
+        padding: 14px 16px;
+        border-radius: 18px;
+        gap: 4px;
+    }
+
+    .telemetry-label {
+        font-size: 0.66rem;
+    }
+
+    .telemetry-value {
+        font-size: 1.45rem;
+    }
+
+    .telemetry-sub {
+        font-size: 0.74rem;
+        line-height: 1.3;
+    }
+
+    .archetype-bar {
+        padding: 18px 16px;
+        border-radius: 22px;
+        margin-bottom: 20px;
+    }
+
+    .archetype-bar-header {
+        gap: 6px;
+        margin-bottom: 14px;
+    }
+
+    .archetype-bar-header h3 {
+        font-size: 1.05rem;
+    }
+
+    .archetype-pills {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 6px;
+        gap: 8px;
+        scrollbar-width: none;
+    }
+
+    .archetype-pills::-webkit-scrollbar {
+        display: none;
+    }
+
+    .archetype-dl-btn {
+        flex: 0 0 auto;
+        padding: 10px 16px;
+        font-size: 0.84rem;
+        min-height: 42px;
+    }
+
+    .mobile-apply-kit {
+        padding: 14px 16px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-apply-kit summary {
+        font-size: 0.92rem;
+        flex-wrap: wrap;
+    }
+
+    .quick-copy-pill {
+        flex: 1 1 calc(50% - 6px);
+        justify-content: center;
+        padding: 10px 10px;
+        font-size: 0.82rem;
+    }
+
+    .radar-controls {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .radar-search-input {
+        flex: 1 1 100%;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+    .radar-filter-group {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        padding-bottom: 4px;
+        gap: 8px;
+        scrollbar-width: none;
+    }
+
+    .radar-filter-group::-webkit-scrollbar {
+        display: none;
+    }
+
+    .radar-filter-btn {
+        flex: 0 0 auto;
+        padding: 9px 15px;
+        font-size: 0.84rem;
+        min-height: 40px;
+    }
+
+    .radar-sub-controls {
+        margin: 0 auto 24px;
+        padding: 14px;
+        border-radius: 20px;
+        gap: 12px;
+    }
+
+    .radar-sub-left {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .radar-recency-select {
+        width: 100%;
+        font-size: 15px;
+        min-height: 42px;
+        padding: 8px 14px;
+    }
+
+    .radar-timer-pill {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 0.76rem;
+    }
+
+    .radar-jobs-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .job-radar-card {
+        padding: 20px 18px;
+        border-radius: 24px;
+        gap: 14px;
+    }
+
+    .job-card-top {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .job-title {
+        font-size: 1.2rem;
+    }
+
+    .job-company-meta {
+        font-size: 0.86rem;
+        line-height: 1.45;
+    }
+
+    .job-reason-box {
+        padding: 13px 14px;
+        font-size: 0.88rem;
+        border-radius: 16px;
+    }
+
+    .job-salary-box {
+        padding: 12px 14px;
+        border-radius: 16px;
+    }
+
+    .job-salary-header {
+        flex-wrap: wrap;
+    }
+
+    .job-salary-amount {
+        font-size: 1.1rem;
+    }
+
+    .job-actions-row {
+        gap: 8px;
+    }
+
+    .job-btn.primary {
+        flex: 1 1 100%;
+        padding: 13px 16px;
+        font-size: 0.96rem;
+        font-weight: 600;
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .job-btn:not(.primary) {
+        flex: 1 1 calc(50% - 6px);
+        padding: 11px 10px;
+        font-size: 0.83rem;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dj-spotlight-card {
+        padding: 24px 20px;
+        border-radius: 24px;
+        margin-top: 36px;
+    }
+
+    .dj-spotlight-card h3 {
+        font-size: 1.45rem;
+    }
+
+    .dj-spotlight-card p {
+        font-size: 0.98rem;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
 }

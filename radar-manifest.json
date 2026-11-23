@@ -1,0 +1,20 @@
+{
+  "name": "Job Hunter Radar — Roberto Vargas",
+  "short_name": "Job Hunter",
+  "description": "Radar autónomo de empleo con CVs ATS adaptados, expectativa salarial y kit rápido de postulación móvil.",
+  "start_url": "/radar.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
